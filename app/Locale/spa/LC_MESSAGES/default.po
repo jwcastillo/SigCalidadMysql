@@ -1,0 +1,4237 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-10-29 13:51-0700\n"
+"PO-Revision-Date: 2014-10-29 16:49-0430\n"
+"Last-Translator: Jose W Castillo <jwcastillo@gmail.com>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.2\n"
+
+#: Controller/AbsenceTypesController.php:38;73;100;101
+msgid "Invalid absence type"
+msgstr "Tipo de ausencia no válida"
+
+#: Controller/AbsenceTypesController.php:55;79
+msgid "The absence type has been saved."
+msgstr "El tipo de ausencia ha sido guardada."
+
+#: Controller/AbsenceTypesController.php:58;82
+msgid "The absence type could not be saved. Please, try again."
+msgstr "El tipo de ausencia no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Controller/AbsenceTypesController.php:107
+msgid "The absence type has been deleted."
+msgstr "El tipo de ausencia ha sido eliminada."
+
+#: Controller/AbsenceTypesController.php:109
+msgid "The absence type could not be deleted. Please, try again."
+msgstr ""
+"El tipo de ausencia no pudo ser eliminada. Por favor, intente de nuevo."
+
+#: Controller/AbsencesController.php:62;102;132;133
+msgid "Invalid absence"
+msgstr "Ausencia inválida"
+
+#: Controller/AbsencesController.php:81;108
+msgid "The absence has been saved."
+msgstr "La ausencia ha sido guardada."
+
+#: Controller/AbsencesController.php:84;111
+msgid "The absence could not be saved. Please, try again."
+msgstr "La ausencia no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Controller/AbsencesController.php:139
+msgid "The absence has been deleted."
+msgstr "La ausencia ha sido eliminada."
+
+#: Controller/AbsencesController.php:141
+msgid "The absence could not be deleted. Please, try again."
+msgstr "La ausencia no pudo ser eliminada. Por favor, intente de nuevo."
+
+#: Controller/AppController.php:87
+msgid "You are not authorized to access that location."
+msgstr "Usted no esta autorizado para acceder a la aplicación."
+
+#: Controller/AppController.php:204
+msgid "Main"
+msgstr "Principal"
+
+#: Controller/AppController.php:208 View/Layouts/charisma.ctp:97
+msgid "Dashboard"
+msgstr "Inicio"
+
+#: Controller/AppController.php:215 View/Elements/manager_menu.ctp:20
+msgid "Manager Menu"
+msgstr "Menú de Gerente"
+
+#: Controller/AppController.php:220 View/Rfcs/add.ctp:9
+msgid "Add Rfc"
+msgstr "Agregar RFC"
+
+#: Controller/AppController.php:226 View/Assignments/add.ctp:9
+msgid "Add Assignment"
+msgstr "Agregar Asignación"
+
+#: Controller/AppController.php:232
+msgid "Assignments About to Expire"
+msgstr "Asignaciones por Expirar"
+
+#: Controller/AppController.php:238
+msgid "Expired Assignments"
+msgstr "Asignaciones Expiradas"
+
+#: Controller/AppController.php:246
+msgid "Reports"
+msgstr "Reportes"
+
+#: Controller/AppController.php:251
+#: Controller/ChartsController.php:253;321;369;457;795
+#: View/Elements/home/up.ctp:6;33 View/Observations/view.ctp:16
+#: View/Packages/evaluation.ctp:7 View/Packages/index.ctp:9
+#: View/Packages/index2.ctp:7 View/Packages/index3.ctp:7
+msgid "Packages"
+msgstr "Paquetes"
+
+#: Controller/AppController.php:257 Controller/ChartsController.php:282
+#: Controller/PackagesController.php:103 View/Charts/packages.ctp:19
+#: View/Packages/charts2Home.ctp:19
+msgid "Certified Packages"
+msgstr "Paquetes Certificados"
+
+#: Controller/AppController.php:263 View/Packages/reports.ctp:17
+#: View/Rfcs/add.ctp:42 View/Rfcs/edit.ctp:43 View/Rfcs/highimpact.ctp:14
+#: View/Rfcs/index.ctp:14 View/Rfcs/view.ctp:101
+msgid "High Impact"
+msgstr "Alto Impacto"
+
+#: Controller/AppController.php:271 View/Evaluations/index.ctp:6
+#: View/Evaluations/index2.ctp:5
+msgid "Evaluations"
+msgstr "Evaluaciones"
+
+#: Controller/AppController.php:275
+msgid "Monthly Evaluation"
+msgstr "Evaluación Mensual"
+
+#: Controller/AppController.php:281
+msgid "Yearly Evaluation"
+msgstr "Evaluación Anual"
+
+#: Controller/AppController.php:287 View/Charts/multiple.ctp:29
+msgid "Charts"
+msgstr "Gráficos"
+
+#: Controller/AppController.php:292 View/Packages/view.ctp:144
+msgid "Methodology"
+msgstr "Metodología"
+
+#: Controller/AppController.php:300
+msgid "Security"
+msgstr "Seguridad"
+
+#: Controller/AppController.php:305 View/Elements/admin_menu.ctp:4
+#: View/Elements/manager_menu.ctp:50 View/Groups/add.ctp:41
+#: View/Groups/edit.ctp:42 View/Groups/view.ctp:44 View/Users/add.ctp:53
+#: View/Users/edit.ctp:54 View/Users/import.ctp:54 View/Users/index.ctp:83
+#: View/Users/view.ctp:70
+msgid "List Groups"
+msgstr "Lista de Grupos"
+
+#: Controller/AppController.php:311 View/Elements/admin_menu.ctp:10
+#: View/Elements/manager_menu.ctp:94 View/Groups/add.ctp:48
+#: View/Groups/edit.ctp:49 View/Groups/index.ctp:77 View/Groups/view.ctp:55
+#: View/Users/add.ctp:46 View/Users/edit.ctp:47 View/Users/view.ctp:59
+msgid "List Users"
+msgstr "Lista de Usuarios"
+
+#: Controller/AppController.php:317 Plugin/AclManager/View/Acl/index.ctp:10
+#: Plugin/AclManager/View/Acl/permissions.ctp:71
+#: View/Elements/admin_menu.ctp:16 View/Plugin/AclManager/Acl/index.ctp:20
+#: View/Plugin/AclManager/Acl/permissions.ctp:127
+msgid "Manage permissions"
+msgstr "Administrar Permisos"
+
+#: Controller/AppController.php:323 View/Elements/admin_menu.ctp:22
+#: View/Options/add.ctp:42 View/Options/edit.ctp:43 View/Options/view.ctp:42
+msgid "List Options"
+msgstr "Lista de Opciones"
+
+#: Controller/AppController.php:331 View/Elements/user_menu.ctp:1
+msgid "User Menu"
+msgstr "Menú Usuario"
+
+#: Controller/AppController.php:335 View/Assignments/add.ctp:69
+#: View/Assignments/edit.ctp:70 View/Assignments/view.ctp:65
+msgid "List Assignments"
+msgstr "Lista de Asignaciones"
+
+#: Controller/AppController.php:341 View/Assignments/add.ctp:76
+#: View/Assignments/edit.ctp:77 View/Assignments/index.ctp:67
+#: View/Assignments/view.ctp:76 View/Complexities/add.ctp:47
+#: View/Complexities/edit.ctp:48 View/Complexities/index.ctp:75
+#: View/Complexities/view.ctp:52 View/DevelopmentManagers/add.ctp:47
+#: View/DevelopmentManagers/edit.ctp:48 View/DevelopmentManagers/index.ctp:75
+#: View/DevelopmentManagers/view.ctp:52 View/Elements/manager_menu.ctp:82
+#: View/Elements/user_menu.ctp:28 View/Evaluations/complete_package.ctp:89
+#: View/PackageClasses/add.ctp:47 View/PackageClasses/edit.ctp:48
+#: View/PackageClasses/index.ctp:75 View/PackageClasses/view.ctp:52
+#: View/Packages/add.ctp:118 View/Packages/change_status.ctp:142
+#: View/Packages/edit.ctp:119 View/Packages/evaluation.ctp:85
+#: View/Packages/index.ctp:91 View/Packages/index2.ctp:157
+#: View/Packages/index3.ctp:81 View/Packages/replan.ctp:138
+#: View/Packages/set_especialist.ctp:154 View/Packages/set_management.ctp:123
+#: View/Packages/set_quality_values.ctp:154 View/Packages/suspend.ctp:142
+#: View/Packages/view.ctp:218 View/PlanningManagers/add.ctp:47
+#: View/PlanningManagers/edit.ctp:48 View/PlanningManagers/index.ctp:75
+#: View/PlanningManagers/view.ctp:52 View/ProjectClasses/add.ctp:47
+#: View/ProjectClasses/edit.ctp:48 View/ProjectClasses/index.ctp:75
+#: View/ProjectClasses/view.ctp:52 View/ProjectManagers/add.ctp:47
+#: View/ProjectManagers/edit.ctp:48 View/ProjectManagers/index.ctp:75
+#: View/ProjectManagers/view.ctp:52 View/Rfcs/add.ctp:67 View/Rfcs/edit.ctp:66
+#: View/Rfcs/summary.ctp:213 View/Rfcs/view.ctp:160
+msgid "List Rfcs"
+msgstr "Listar RFC"
+
+#: Controller/AppController.php:346 View/Areas/add.ctp:58
+#: View/Areas/edit.ctp:59 View/Areas/index.ctp:90 View/Areas/view.ctp:61
+#: View/Elements/manager_menu.ctp:55 View/Evaluations/complete_package.ctp:59
+#: View/Modules/add.ctp:41 View/Modules/edit.ctp:42 View/Modules/view.ctp:44
+#: View/Packages/add.ctp:88 View/Packages/change_status.ctp:112
+#: View/Packages/edit.ctp:89 View/Packages/evaluation.ctp:55
+#: View/Packages/index.ctp:61 View/Packages/index2.ctp:127
+#: View/Packages/index3.ctp:51 View/Packages/replan.ctp:108
+#: View/Packages/set_especialist.ctp:124 View/Packages/set_management.ctp:93
+#: View/Packages/set_quality_values.ctp:124 View/Packages/suspend.ctp:112
+#: View/Packages/view.ctp:200
+msgid "List Modules"
+msgstr "Listar Módulos"
+
+#: Controller/AppController.php:351 View/Assignments/edit.ctp:54
+#: View/Assignments/view.ctp:45
+msgid "Schedule"
+msgstr "Planificación"
+
+#: Controller/AppController.php:356 View/AbsenceTypes/add.ctp:47
+#: View/AbsenceTypes/edit.ctp:48 View/AbsenceTypes/index.ctp:75
+#: View/AbsenceTypes/view.ctp:52 View/Absences/add.ctp:44
+#: View/Absences/edit.ctp:45 View/Absences/view.ctp:53
+#: View/Charts/workload.ctp:69 View/Elements/manager_menu.ctp:21
+#: View/Elements/user_menu.ctp:4 View/Employees/add.ctp:84
+#: View/Employees/edit.ctp:85 View/Employees/image.ctp:73
+#: View/Employees/index.ctp:61 View/Employees/index2.ctp:113
+#: View/Employees/schedule.ctp:54 View/Employees/view.ctp:142
+msgid "List Absences"
+msgstr "Lista de Ausencias"
+
+#: Controller/AppController.php:361 View/Elements/user_menu.ctp:16
+#: View/Holidays/add.ctp:41 View/Holidays/edit.ctp:42
+#: View/Holidays/view.ctp:38
+msgid "List Holidays"
+msgstr "Lista de feriados"
+
+#: Controller/AreasController.php:38;75;104;105
+msgid "Invalid area"
+msgstr "Área no válida"
+
+#: Controller/AreasController.php:55;81
+msgid "The area has been saved."
+msgstr "El área ha sido guardada"
+
+#: Controller/AreasController.php:58;84
+msgid "The area could not be saved. Please, try again."
+msgstr "El área no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Controller/AreasController.php:111
+msgid "The area has been deleted."
+msgstr "El área ha sido eliminada."
+
+#: Controller/AreasController.php:113
+msgid "The area could not be deleted. Please, try again."
+msgstr "El área no pudo ser eliminada. Por favor, intente de nuevo."
+
+#: Controller/AssignmentsController.php:88;132;166;167
+msgid "Invalid assignment"
+msgstr "Asignación no válida"
+
+#: Controller/AssignmentsController.php:110;141
+msgid "The assignment has been saved."
+msgstr "La adignación ha sido guardada."
+
+#: Controller/AssignmentsController.php:113;144
+msgid "The assignment could not be saved. Please, try again."
+msgstr "La asignación no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Controller/AssignmentsController.php:173
+msgid "The assignment has been deleted."
+msgstr "La asignación ha sido eliminada."
+
+#: Controller/AssignmentsController.php:175
+msgid "The assignment could not be deleted. Please, try again."
+msgstr "La asignación no pudo ser eliminada. Por favor, intente de nuevo."
+
+#: Controller/ChartsController.php:251 View/Charts/packages.ctp:9
+#: View/Packages/charts2Home.ctp:9
+msgid "News and Certified"
+msgstr "Nuevos y Certificados"
+
+#: Controller/ChartsController.php:281
+msgid "New Pakages"
+msgstr "Nuevos Paquetes"
+
+#: Controller/ChartsController.php:296
+#: Controller/PackagesController.php:465;626 View/Packages/evaluation.ctp:16
+#: View/Packages/index.ctp:20
+msgid "Certified"
+msgstr "Certificado"
+
+#: Controller/ChartsController.php:306
+msgid "Pending"
+msgstr "Pendientes "
+
+#: Controller/ChartsController.php:312
+msgid "Entries"
+msgstr "Entradas"
+
+#: Controller/ChartsController.php:319;470 View/Charts/packages.ctp:85
+msgid "Trial Days Average"
+msgstr "Promedio de días para el inicio de atención"
+
+#: Controller/ChartsController.php:367
+msgid "Certified Packages per Employee"
+msgstr "Paquetes Certificados por Especialista"
+
+#: Controller/ChartsController.php:433 View/Charts/packages.ctp:71
+msgid "Current Workload"
+msgstr "Carga de Trabajo Actual"
+
+#: Controller/ChartsController.php:435
+msgid "Completated Workload"
+msgstr "Carga de trabajo completada"
+
+#: Controller/ChartsController.php:437 View/Charts/workload.ctp:10
+#: View/Packages/set_especialist.ctp:99
+msgid "Workload"
+msgstr "Carga de Trabajo"
+
+#: Controller/ChartsController.php:453
+#: Controller/EvaluationsController.php:547 View/Charts/workload.ctp:10
+#: View/Complexities/view.ctp:85 View/DevelopmentManagers/view.ctp:85
+#: View/Emails/html/assignment.ctp:24 View/Evaluations/complete_data.ctp:30
+#: View/Evaluations/on_demand_eval.ctp:30 View/Evaluations/preview.ctp:30;83
+#: View/PackageClasses/view.ctp:85 View/Packages/change_status.ctp:61
+#: View/Packages/replan.ctp:64 View/Packages/set_especialist.ctp:99
+#: View/Packages/set_quality_values.ctp:59 View/Packages/suspend.ctp:61
+#: View/Packages/view.ctp:77 View/PlanningManagers/view.ctp:85
+#: View/ProjectClasses/view.ctp:85 View/ProjectManagers/view.ctp:85
+#: View/Rfcs/highimpact.ctp:14 View/Rfcs/index.ctp:14
+#: View/Rfcs/summary.ctp:84;159 View/Rfcs/view.ctp:93
+msgid "Weighting"
+msgstr "Ponderación"
+
+#: Controller/ChartsController.php:472;553;625
+msgid "Days"
+msgstr "Días"
+
+#: Controller/ChartsController.php:551
+msgid "Certification Days Average"
+msgstr "Promedio de Días de Certificación"
+
+#: Controller/ChartsController.php:623 View/Charts/multiple.ctp:41
+msgid "TTC vs TTP"
+msgstr "TTC vs TTP"
+
+#: Controller/ChartsController.php:773
+msgid "Pending Packages per Management"
+msgstr "Paquetes Pendientes por Gerencia"
+
+#: Controller/ComplexitiesController.php:38;73;100;101
+msgid "Invalid complexity"
+msgstr "Complejidad no válida"
+
+#: Controller/ComplexitiesController.php:55;79
+msgid "The complexity has been saved."
+msgstr "La complejidad ha sido guardada."
+
+#: Controller/ComplexitiesController.php:58;82
+msgid "The complexity could not be saved. Please, try again."
+msgstr "La complejidad no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Controller/ComplexitiesController.php:107
+msgid "The complexity has been deleted."
+msgstr "La complejidad ha sido eliminada."
+
+#: Controller/ComplexitiesController.php:109
+msgid "The complexity could not be deleted. Please, try again."
+msgstr "La complejidad no pudo ser eliminada. Por favor, intente de nuevo."
+
+#: Controller/DevelopmentManagersController.php:38;73;100;101
+msgid "Invalid development manager"
+msgstr "Gerente de desarrollo inválido"
+
+#: Controller/DevelopmentManagersController.php:55;79
+msgid "The development manager has been saved."
+msgstr "El gerente de desarrollo ha sido guardado"
+
+#: Controller/DevelopmentManagersController.php:58;82
+msgid "The development manager could not be saved. Please, try again."
+msgstr ""
+"El gerente de desarrollo no pudo ser guardado. Por favor, intente de nuevo."
+
+#: Controller/DevelopmentManagersController.php:107
+msgid "The development manager has been deleted."
+msgstr "El gerente de desarrollo ha sido eliminado."
+
+#: Controller/DevelopmentManagersController.php:109
+msgid "The development manager could not be deleted. Please, try again."
+msgstr ""
+"El gerente de desarrollo no pudo ser eliminado. Por favor, intente de nuevo."
+
+#: Controller/EmployeesController.php:72;127;158;159;182;227
+msgid "Invalid employee"
+msgstr "Empleado no válido"
+
+#: Controller/EmployeesController.php:106;134;195;238
+msgid "The employee has been saved."
+msgstr "El empleado ha sido guardado."
+
+#: Controller/EmployeesController.php:109;137;198;241
+msgid "The employee could not be saved. Please, try again."
+msgstr "El empleado no pudo ser guardado. Por favor, intente de nuevo."
+
+#: Controller/EmployeesController.php:165
+msgid "The employee has been deleted."
+msgstr "El empleado ha sido eliminado."
+
+#: Controller/EmployeesController.php:167
+msgid "The employee could not be deleted. Please, try again."
+msgstr "El empleado no pudo ser eliminado. Por favor, intente de nuevo."
+
+#: Controller/EmployeesController.php:300;509 View/Assignments/view.ctp:5
+msgid "Assignment"
+msgstr "Asignación"
+
+#: Controller/EmployeesController.php:364;488 View/Absences/view.ctp:5
+msgid "Absence"
+msgstr "Ausencia"
+
+#: Controller/EvaluationStatesController.php:38;82;109;110
+msgid "Invalid evaluation state"
+msgstr "Invalido Estado de Evaluación"
+
+#: Controller/EvaluationStatesController.php:64;88
+msgid "The evaluation state has been saved."
+msgstr "El Estado de Evaluación ha sido guardado."
+
+#: Controller/EvaluationStatesController.php:67;91
+msgid "The evaluation state could not be saved. Please, try again."
+msgstr ""
+"El Estado de Evaluación no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Controller/EvaluationStatesController.php:116
+msgid "The evaluation state has been deleted."
+msgstr "El Estado de Evaluación ha sido eliminado."
+
+#: Controller/EvaluationStatesController.php:118
+msgid "The evaluation state could not be deleted. Please, try again."
+msgstr ""
+"El Estado de Evaluación no pudo ser eliminado. Por favor, intente de nuevo."
+
+#: Controller/EvaluationsController.php:135;173;203;204
+msgid "Invalid evaluation"
+msgstr "Evaluación inválida"
+
+#: Controller/EvaluationsController.php:152;179
+msgid "The evaluation has been saved."
+msgstr "La evaluación ha sido guardada."
+
+#: Controller/EvaluationsController.php:155;182
+msgid "The evaluation could not be saved. Please, try again."
+msgstr "La evaluación no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Controller/EvaluationsController.php:210
+msgid "The evaluation has been deleted."
+msgstr "La evaluación ha sido eliminada."
+
+#: Controller/EvaluationsController.php:212
+msgid "The evaluation could not be deleted. Please, try again."
+msgstr "La evaluación no pudo ser eliminada. Por favor, intente de nuevo."
+
+#: Controller/EvaluationsController.php:232
+msgid "The evaluation has been computed."
+msgstr "La evaluación ha sido calculada."
+
+#: Controller/EvaluationsController.php:237
+msgid "That evaluation was already computed."
+msgstr "La evaluación ya ha sido calculada."
+
+#: Controller/EvaluationsController.php:242
+msgid "The evaluation could not be computed. Please, try again."
+msgstr "La evaluación no pudo ser calculada. Por favor, intente de nuevo."
+
+#: Controller/EvaluationsController.php:288
+#: Controller/Component/CommonComponent.php:442
+#: View/Helper/CharismaHelper.php:159
+msgid "January"
+msgstr "Enero"
+
+#: Controller/EvaluationsController.php:289
+#: Controller/Component/CommonComponent.php:443
+#: View/Helper/CharismaHelper.php:160
+msgid "February"
+msgstr "Febrero"
+
+#: Controller/EvaluationsController.php:290
+#: Controller/Component/CommonComponent.php:444
+#: View/Helper/CharismaHelper.php:161
+msgid "March"
+msgstr "Marzo"
+
+#: Controller/EvaluationsController.php:291
+#: Controller/Component/CommonComponent.php:445
+#: View/Helper/CharismaHelper.php:162
+msgid "April"
+msgstr "Abril"
+
+#: Controller/EvaluationsController.php:292
+#: Controller/Component/CommonComponent.php:446
+#: View/Helper/CharismaHelper.php:163
+msgid "May"
+msgstr "Mayo"
+
+#: Controller/EvaluationsController.php:293
+#: Controller/Component/CommonComponent.php:447
+#: View/Helper/CharismaHelper.php:164
+msgid "June"
+msgstr "Junio"
+
+#: Controller/EvaluationsController.php:294
+#: Controller/Component/CommonComponent.php:448
+#: View/Helper/CharismaHelper.php:165
+msgid "July"
+msgstr "Julio"
+
+#: Controller/EvaluationsController.php:295
+#: Controller/Component/CommonComponent.php:449
+#: View/Helper/CharismaHelper.php:166
+msgid "August"
+msgstr "Agosto"
+
+#: Controller/EvaluationsController.php:296
+#: Controller/Component/CommonComponent.php:450
+#: View/Helper/CharismaHelper.php:167
+msgid "September"
+msgstr "Septiembre"
+
+#: Controller/EvaluationsController.php:297
+#: Controller/Component/CommonComponent.php:451
+#: View/Helper/CharismaHelper.php:168
+msgid "October"
+msgstr "Octubre"
+
+#: Controller/EvaluationsController.php:298
+#: Controller/Component/CommonComponent.php:452
+#: View/Helper/CharismaHelper.php:169
+msgid "November"
+msgstr "Noviembre"
+
+#: Controller/EvaluationsController.php:299
+#: Controller/Component/CommonComponent.php:453
+#: View/Helper/CharismaHelper.php:170
+msgid "December"
+msgstr "Diciembre"
+
+#: Controller/EvaluationsController.php:370
+msgid "The evaluation could not be retrieved. Please, try again."
+msgstr "La evaluación no pudo ser encontrada. Por favor, intente de nuevo."
+
+#: Controller/EvaluationsController.php:415
+#: Controller/PackagesController.php:243;293;331;332
+msgid "Invalid package"
+msgstr "Paquete Inválido"
+
+#: Controller/EvaluationsController.php:508
+msgid ""
+"The packages need some data to be computed. Please, complete it and try "
+"again."
+msgstr ""
+"Los paquetes necesitan datos para ser calculados. Por favor, completarlos e "
+"intentar nuevamente."
+
+#: Controller/EvaluationsController.php:550 View/Employees/view.ctp:290
+#: View/EvaluationStates/view.ctp:83 View/Evaluations/on_demand_eval.ctp:79
+#: View/FinalStatuses/view.ctp:83 View/Modules/view.ctp:92
+#: View/PackageStatuses/view.ctp:83 View/Packages/reports.ctp:16
+#: View/Packages/set_quality_values.ctp:50 View/Packages/view.ctp:62
+#: View/Respondents/view.ctp:83 View/Rfcs/summary.ctp:115
+#: View/Rfcs/view.ctp:238 View/UnsatisfactoryStatuses/view.ctp:86
+msgid "Certified Date"
+msgstr "Fecha de Certificación"
+
+#: Controller/EvaluationsController.php:553 View/Emails/html/assignment.ctp:6
+#: View/Employees/view.ctp:288 View/EvaluationStates/view.ctp:81
+#: View/Evaluations/on_demand_eval.ctp:77 View/FinalStatuses/view.ctp:81
+#: View/Modules/view.ctp:90 View/PackageStatuses/view.ctp:81
+#: View/Packages/change_status.ctp:52 View/Packages/replan.ctp:55
+#: View/Packages/set_quality_values.ctp:41 View/Packages/suspend.ctp:52
+#: View/Packages/view.ctp:53 View/Respondents/view.ctp:81 View/Rfcs/add.ctp:28
+#: View/Rfcs/edit.ctp:28 View/Rfcs/summary.ctp:109 View/Rfcs/view.ctp:53;236
+#: View/UnsatisfactoryStatuses/view.ctp:84
+msgid "Start Date"
+msgstr "Fecha Inicio"
+
+#: Controller/EvaluationsController.php:556 View/Emails/html/assignment.ctp:8
+#: View/Employees/view.ctp:289 View/EvaluationStates/view.ctp:82
+#: View/Evaluations/on_demand_eval.ctp:78 View/FinalStatuses/view.ctp:82
+#: View/Modules/view.ctp:91 View/PackageStatuses/view.ctp:82
+#: View/Packages/change_status.ctp:55 View/Packages/replan.ctp:58
+#: View/Packages/set_quality_values.ctp:44 View/Packages/suspend.ctp:55
+#: View/Packages/view.ctp:56 View/Respondents/view.ctp:82 View/Rfcs/add.ctp:29
+#: View/Rfcs/edit.ctp:29 View/Rfcs/summary.ctp:112 View/Rfcs/view.ctp:56;237
+#: View/UnsatisfactoryStatuses/view.ctp:85
+msgid "End Date"
+msgstr "Fecha Fin"
+
+#: Controller/EvaluationsController.php:559
+#: View/Packages/set_quality_values.ctp:38 View/Packages/view.ctp:35
+msgid "Assignment Date"
+msgstr "Fecha de Asignación"
+
+#: Controller/EvaluationsController.php:563
+#: View/Packages/set_quality_values.ctp:47 View/Packages/view.ctp:59
+msgid "Replanning Date"
+msgstr "Fecha de Replanificación"
+
+#: Controller/EvaluationsController.php:582
+#: Controller/PackagesController.php:264;299;821;903;1010;1118;1292
+msgid "The package has been saved."
+msgstr "El paquete ha sido guardado."
+
+#: Controller/EvaluationsController.php:585
+#: Controller/PackagesController.php:267;302;824;907;1013;1122;1297
+msgid "The package could not be saved. Please, try again."
+msgstr "El paquete no pudo ser guardado. Por favor, inténtelo de nuevo."
+
+#: Controller/FinalStatusesController.php:38;82;109;110
+msgid "Invalid final status"
+msgstr "Estatus final inválido"
+
+#: Controller/FinalStatusesController.php:64;88
+msgid "The final status has been saved."
+msgstr "El estatus final ha sido guardado."
+
+#: Controller/FinalStatusesController.php:67;91
+msgid "The final status could not be saved. Please, try again."
+msgstr "El estatus final no pudo ser guardado. Por favor, intente de nuevo."
+
+#: Controller/FinalStatusesController.php:116
+msgid "The final status has been deleted."
+msgstr "El estatus final ha sido eliminado."
+
+#: Controller/FinalStatusesController.php:118
+msgid "The final status could not be deleted. Please, try again."
+msgstr "El estatus final no pudo ser eliminado. Por favor, intente de nuevo."
+
+#: Controller/GroupsController.php:37;69;94
+msgid "Invalid group"
+msgstr "Grupo inválido"
+
+#: Controller/GroupsController.php:52;73
+msgid "The group has been saved."
+msgstr "El grupo ha sido guardado"
+
+#: Controller/GroupsController.php:55;76
+msgid "The group could not be saved. Please, try again."
+msgstr "El grupo no pudo ser guardado. Por favor, intente de nuevo."
+
+#: Controller/GroupsController.php:98
+msgid "The group has been deleted."
+msgstr "El grupo ha sido eliminado."
+
+#: Controller/GroupsController.php:100
+msgid "The group could not be deleted. Please, try again."
+msgstr "El grupo no pudo ser eliminado. Por favor, intente de nuevo."
+
+#: Controller/HistoriesController.php:44;81;108;109
+msgid "Invalid history"
+msgstr "Historial inválido"
+
+#: Controller/HistoriesController.php:63;87
+msgid "The history has been saved."
+msgstr "El historial ha sido guardado."
+
+#: Controller/HistoriesController.php:66;90
+msgid "The history could not be saved. Please, try again."
+msgstr "El historial no pudo ser guardado. Por favor, intente de nuevo."
+
+#: Controller/HistoriesController.php:115
+msgid "The history has been deleted."
+msgstr "El historial ha sido eliminado."
+
+#: Controller/HistoriesController.php:117
+msgid "The history could not be deleted. Please, try again."
+msgstr "El historial no pudo ser eliminado. Por favor, intente de nuevo."
+
+#: Controller/HolidaysController.php:38;73;100;101
+msgid "Invalid holiday"
+msgstr "Feriado no válido"
+
+#: Controller/HolidaysController.php:55;79
+msgid "The holiday has been saved."
+msgstr "El feriado ha sido guardado."
+
+#: Controller/HolidaysController.php:58;82
+msgid "The holiday could not be saved. Please, try again."
+msgstr "El feriado no pudo ser guardado. Por favor, intente de nuevo."
+
+#: Controller/HolidaysController.php:107
+msgid "The holiday has been deleted."
+msgstr "El feriado ha sido eliminado."
+
+#: Controller/HolidaysController.php:109
+msgid "The holiday could not be deleted. Please, try again."
+msgstr "El feriado no pudo ser eliminado. Por favor, intente de nuevo."
+
+#: Controller/ManagementsController.php:38;76;106;107
+msgid "Invalid management"
+msgstr "Gerencia no válida"
+
+#: Controller/ManagementsController.php:58;82
+msgid "The management has been saved."
+msgstr "La dirección ha sido guardada."
+
+#: Controller/ManagementsController.php:61;85
+msgid "The management could not be saved. Please, try again."
+msgstr "La dirección no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Controller/ManagementsController.php:113
+msgid "The management has been deleted."
+msgstr "La dirección ha sido eliminada."
+
+#: Controller/ManagementsController.php:115
+msgid "The management could not be deleted. Please, try again."
+msgstr "La dirección no pudo ser eliminada. Por favor, intente de nuevo."
+
+#: Controller/ModulesController.php:38;86;115;116
+msgid "Invalid module"
+msgstr "Módulo no válido"
+
+#: Controller/ModulesController.php:66;92
+msgid "The module has been saved."
+msgstr "El módulo ha sido guardado"
+
+#: Controller/ModulesController.php:69;95
+msgid "The module could not be saved. Please, try again."
+msgstr "El módulo no pudo ser guardado. Por favor, intente de nuevo."
+
+#: Controller/ModulesController.php:122
+msgid "The module has been deleted."
+msgstr "El módulo ha sido eliminado."
+
+#: Controller/ModulesController.php:124
+msgid "The module could not be deleted. Please, try again."
+msgstr "El módulo no pudo ser eliminado. Por favor, intente de nuevo."
+
+#: Controller/ObservationsController.php:47;89;119;120
+msgid "Invalid observation"
+msgstr "Observación inválida"
+
+#: Controller/ObservationsController.php:68;96
+msgid "The observation has been saved."
+msgstr "La observación ha sido guardada."
+
+#: Controller/ObservationsController.php:72;99
+msgid "The observation could not be saved. Please, try again."
+msgstr "La observación no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Controller/ObservationsController.php:126
+msgid "The observation has been deleted."
+msgstr "La observación ha sido eliminada."
+
+#: Controller/ObservationsController.php:128
+msgid "The observation could not be deleted. Please, try again."
+msgstr "La observación no pudo ser eliminada. Por favor, intente de nuevo."
+
+#: Controller/OptionsController.php:49;86;113;114
+msgid "Invalid option"
+msgstr "Opción no válida"
+
+#: Controller/OptionsController.php:68;92
+msgid "The option has been saved."
+msgstr "La opción ha sido guardada."
+
+#: Controller/OptionsController.php:71;95
+msgid "The option could not be saved. Please, try again."
+msgstr "La opción no puede ser guardada. Por favor, inténtelo de nuevo."
+
+#: Controller/OptionsController.php:120
+msgid "The option has been deleted."
+msgstr "La opción ha sido eliminada."
+
+#: Controller/OptionsController.php:122
+msgid "The option could not be deleted. Please, try again."
+msgstr "La opción no pudo ser eliminada. Por favor, inténtelo de nuevo."
+
+#: Controller/PackageClassesController.php:38;73;100;101
+msgid "Invalid package class"
+msgstr "Clase de paquete no válido"
+
+#: Controller/PackageClassesController.php:55;79
+msgid "The package class has been saved."
+msgstr "El tipo de paquete ha sido guardado."
+
+#: Controller/PackageClassesController.php:58;82
+msgid "The package class could not be saved. Please, try again."
+msgstr ""
+"El tipo de paquete no pudo ser guardado. Por favor, inténtelo de nuevo."
+
+#: Controller/PackageClassesController.php:107
+msgid "The package class has been deleted."
+msgstr "El tipo de paquete ha sido eliminado."
+
+#: Controller/PackageClassesController.php:109
+msgid "The package class could not be deleted. Please, try again."
+msgstr ""
+"El tipo de paquete no pudo ser eliminado. Por favor, inténtelo de nuevo."
+
+#: Controller/PackageStatusesController.php:38;82;109;110
+msgid "Invalid package status"
+msgstr "Estado del paquete no válido"
+
+#: Controller/PackageStatusesController.php:64;88
+msgid "The package status has been saved."
+msgstr "El estado de paquete ha sido guardado."
+
+#: Controller/PackageStatusesController.php:67;91
+msgid "The package status could not be saved. Please, try again."
+msgstr ""
+"El estado de paquete no se pudo guardar. Por favor, inténtelo de nuevo."
+
+#: Controller/PackageStatusesController.php:116
+msgid "The package status has been deleted."
+msgstr "El estado de paquete ha sido eliminado."
+
+#: Controller/PackageStatusesController.php:118
+msgid "The package status could not be deleted. Please, try again."
+msgstr ""
+"El estado de paquete no pudo ser eliminado. Por favor, inténtelo de nuevo."
+
+#: Controller/PackagesController.php:106
+msgid "Packages in Progress"
+msgstr "Paquetes en Progreso"
+
+#: Controller/PackagesController.php:156 View/Assignments/add.ctp:143
+#: View/Assignments/edit.ctp:144 View/Elements/form_scripts.ctp:48
+#: View/Employees/view.ctp:64 View/Evaluations/preview.ctp:40
+#: View/Packages/set_especialist.ctp:293 View/Rfcs/summary.ctp:94
+#: View/Rfcs/view.ctp:38;66;75;84;105;114
+msgid "Yes"
+msgstr "Si"
+
+#: Controller/PackagesController.php:156 View/Assignments/add.ctp:144
+#: View/Assignments/edit.ctp:145 View/Elements/form_scripts.ctp:49
+#: View/Employees/view.ctp:66 View/Evaluations/preview.ctp:42
+#: View/Packages/set_especialist.ctp:294 View/Rfcs/summary.ctp:96
+#: View/Rfcs/view.ctp:43;68;77;86;107;116
+msgid "No"
+msgstr "No"
+
+#: Controller/PackagesController.php:338
+msgid "The package has been deleted."
+msgstr "El paquete ha sido eliminado."
+
+#: Controller/PackagesController.php:340
+msgid "The package could not be deleted. Please, try again."
+msgstr "El paquete no pudo ser eliminado. Por favor, inténtelo de nuevo."
+
+#: Controller/PackagesController.php:462;623;657
+#: View/AbsenceTypes/view.ctp:10;76 View/Absences/index.ctp:11
+#: View/Absences/view.ctp:10 View/Areas/view.ctp:10;85
+#: View/Assignments/index.ctp:11 View/Assignments/view.ctp:10
+#: View/Complexities/view.ctp:10;76 View/DevelopmentManagers/view.ctp:10;76
+#: View/Employees/index.ctp:11 View/Employees/view.ctp:17;195;238;283;337;375
+#: View/EvaluationStates/view.ctp:10;76
+#: View/Evaluations/complete_data.ctp:10;69 View/Evaluations/index.ctp:14
+#: View/Evaluations/on_demand_eval.ctp:10;72
+#: View/Evaluations/preview.ctp:10;77 View/Evaluations/view.ctp:10
+#: View/FinalStatuses/view.ctp:10;76 View/Groups/view.ctp:10;79
+#: View/Histories/view.ctp:10 View/Holidays/view.ctp:10
+#: View/Managements/view.ctp:10;94;142;202 View/Modules/view.ctp:10;85
+#: View/Observations/view.ctp:10 View/Options/index.ctp:11
+#: View/Options/view.ctp:10 View/PackageClasses/view.ctp:10;76
+#: View/PackageStatuses/view.ctp:10;76 View/Packages/evaluation.ctp:13
+#: View/Packages/index.ctp:17 View/Packages/reports.ctp:15
+#: View/Packages/view.ctp:10 View/PlanningManagers/view.ctp:10;76
+#: View/Positions/view.ctp:10;79 View/ProjectClasses/view.ctp:10;76
+#: View/ProjectManagers/view.ctp:10;76 View/QualityManagers/view.ctp:10;91
+#: View/Respondents/view.ctp:10;76 View/Rfcs/highimpact.ctp:11
+#: View/Rfcs/index.ctp:11 View/Rfcs/summary.ctp:51;152
+#: View/Rfcs/view.ctp:10;231 View/UnsatisfactoryStatuses/view.ctp:10;79
+#: View/Users/view.ctp:10 View/Vehicles/view.ctp:10
+msgid "Id"
+msgstr "Id"
+
+#: Controller/PackagesController.php:462;623;657
+#: View/Packages/evaluation.ctp:13 View/Packages/index.ctp:17
+#: View/Packages/index2.ctp:13 View/Packages/reports.ctp:15
+msgid "Number"
+msgstr "Número"
+
+#: Controller/PackagesController.php:462;623;657 View/Employees/view.ctp:285
+#: View/EvaluationStates/view.ctp:78 View/Evaluations/complete_data.ctp:71
+#: View/Evaluations/on_demand_eval.ctp:74 View/Evaluations/preview.ctp:79
+#: View/FinalStatuses/view.ctp:78 View/Modules/view.ctp:5;87
+#: View/PackageStatuses/view.ctp:78 View/Packages/change_status.ctp:16
+#: View/Packages/evaluation.ctp:13 View/Packages/index.ctp:17
+#: View/Packages/replan.ctp:16 View/Packages/reports.ctp:15
+#: View/Packages/set_especialist.ctp:15 View/Packages/set_management.ctp:39
+#: View/Packages/set_quality_values.ctp:16 View/Packages/suspend.ctp:16
+#: View/Packages/view.ctp:17 View/Respondents/view.ctp:78
+#: View/Rfcs/summary.ctp:154 View/Rfcs/view.ctp:233
+#: View/UnsatisfactoryStatuses/view.ctp:81
+msgid "Module"
+msgstr "Módulo"
+
+#: Controller/PackagesController.php:463;624;658 View/Assignments/index.ctp:11
+#: View/Evaluations/complete_data.ctp:72 View/Evaluations/index.ctp:15
+#: View/Evaluations/on_demand_eval.ctp:75 View/Evaluations/preview.ctp:80
+#: View/Evaluations/summary.ctp:16 View/Evaluations/view.ctp:25
+#: View/Evaluations/yearly_evaluation.ctp:47 View/Packages/add.ctp:19
+#: View/Packages/edit.ctp:20 View/Packages/evaluation.ctp:14
+#: View/Packages/index.ctp:18 View/Packages/replan.ctp:43
+#: View/Packages/reports.ctp:16 View/Packages/set_especialist.ctp:59
+#: View/Packages/set_quality_values.ctp:20 View/Packages/view.ctp:20
+#: View/Rfcs/summary.ctp:155 View/Rfcs/view.ctp:234
+msgid "QA Lead"
+msgstr "Líder de Calidad"
+
+#: Controller/PackagesController.php:463;624;658
+#: View/Elements/packages/actions.ctp:63;72
+#: View/Elements/packages/packages_ajax.ctp:20 View/Packages/evaluation.ctp:14
+#: View/Packages/index.ctp:18 View/Packages/index2.ctp:16
+#: View/Packages/reports.ctp:15 View/QualityManagers/view.ctp:96
+msgid "Status"
+msgstr "Estado"
+
+#: Controller/PackagesController.php:464;625;659 View/Assignments/index.ctp:11
+#: View/Assignments/view.ctp:13 View/Emails/html/assignment.ctp:12
+#: View/Employees/view.ctp:286 View/EvaluationStates/view.ctp:79
+#: View/Evaluations/complete_data.ctp:5 View/Evaluations/on_demand_eval.ctp:5
+#: View/Evaluations/preview.ctp:5 View/FinalStatuses/view.ctp:79
+#: View/Modules/view.ctp:88 View/PackageStatuses/view.ctp:79
+#: View/Packages/change_status.ctp:43 View/Packages/evaluation.ctp:15
+#: View/Packages/index.ctp:19 View/Packages/replan.ctp:46
+#: View/Packages/reports.ctp:15 View/Packages/set_quality_values.ctp:28
+#: View/Packages/suspend.ctp:43 View/Packages/view.ctp:26
+#: View/Respondents/view.ctp:79 View/Rfcs/summary.ctp:46 View/Rfcs/view.ctp:5
+#: View/UnsatisfactoryStatuses/view.ctp:82
+msgid "Rfc"
+msgstr "RFC"
+
+#: Controller/PackagesController.php:464;625;659
+#: View/Packages/evaluation.ctp:15 View/Packages/index.ctp:19
+msgid "Income"
+msgstr "Ingreso"
+
+#: Controller/PackagesController.php:464;625;659
+#: View/Emails/html/assignment.ctp:14 View/Employees/index.ctp:17
+#: View/Employees/view.ctp:57 View/Managements/view.ctp:146
+#: View/Packages/change_status.ctp:49 View/Packages/evaluation.ctp:15
+#: View/Packages/index.ctp:19 View/Packages/replan.ctp:52
+#: View/Packages/reports.ctp:15 View/Packages/set_management.ctp:50
+#: View/Packages/suspend.ctp:49 View/Packages/view.ctp:38;356
+#: View/Positions/view.ctp:83 View/UnsatisfactoryStatuses/view.ctp:13
+msgid "Type"
+msgstr "Tipo"
+
+#: Controller/PackagesController.php:465;626;660 View/Assignments/index.ctp:12
+#: View/Assignments/view.ctp:25 View/Packages/evaluation.ctp:16
+#: View/Packages/index.ctp:20 View/Packages/index2.ctp:20
+msgid "Start"
+msgstr "Inicio"
+
+#: Controller/PackagesController.php:465;626;660 View/Assignments/index.ctp:12
+#: View/Assignments/view.ctp:27 View/Packages/evaluation.ctp:16
+#: View/Packages/index.ctp:20 View/Packages/index2.ctp:21
+msgid "End"
+msgstr "Fin"
+
+#: Controller/PackagesController.php:465;626;660
+#: View/Packages/evaluation.ctp:16 View/Packages/index.ctp:20
+#: View/Packages/index2.ctp:22;76 View/Packages/replan.ctp:8
+#: View/Packages/view.ctp:89
+msgid "Replanning"
+msgstr "Replanificación"
+
+#: Controller/PackagesController.php:626
+#: View/Evaluations/on_demand_eval.ctp:80 View/Evaluations/view.ctp:5
+#: View/Packages/index2.ctp:23
+msgid "Evaluation"
+msgstr "Evaluación"
+
+#: Controller/PackagesController.php:794;841;960;1044;1160;1242
+msgid "The package could not be found."
+msgstr "El paquete no pudo ser encontrado"
+
+#: Controller/PackagesController.php:918
+msgid "A Management must be setted first."
+msgstr "La Gerencia debe ser asignada primero."
+
+#: Controller/PackagesController.php:1023
+msgid "A Employee must be assigned first."
+msgstr "Un especialista debe ser asignado previamente."
+
+#: Controller/PackagesController.php:1083
+msgid "The package has been eliminated."
+msgstr "El paquete ha sido eliminado."
+
+#: Controller/PackagesController.php:1089;1191
+msgid "The package has been suspend."
+msgstr "El paquete ha sido suspendido."
+
+#: Controller/PackagesController.php:1093;1196
+msgid "You not have permissions for suspend or eliminate packages."
+msgstr "Usted no tiene permisos para suspender o eliminar paquetes."
+
+#: Controller/PackagesController.php:1148
+msgid "You are not authorized to change this package."
+msgstr "Usted no esta autorizado paracambiar este paquete."
+
+#: Controller/PackagesController.php:1296
+msgid "Not Applicable"
+msgstr "No Aplicable"
+
+#: Controller/PackagesController.php:1296
+msgid "Production"
+msgstr "Producción"
+
+#: Controller/PackagesController.php:1296
+#: View/Elements/packages/actions.ctp:48
+msgid "Quality"
+msgstr "Calidad"
+
+#: Controller/PlanningManagersController.php:38;73;100;101
+msgid "Invalid planning manager"
+msgstr "Gerente de Planificación no válido"
+
+#: Controller/PlanningManagersController.php:55;79
+msgid "The planning manager has been saved."
+msgstr "El Gerente de Planificación ha sido guardado."
+
+#: Controller/PlanningManagersController.php:58;82
+msgid "The planning manager could not be saved. Please, try again."
+msgstr ""
+"El Gerente de Planificación no pudo ser guardado. Por favor, inténtelo de "
+"nuevo."
+
+#: Controller/PlanningManagersController.php:107
+msgid "The planning manager has been deleted."
+msgstr "El Gerente de Planificación ha sido eliminado."
+
+#: Controller/PlanningManagersController.php:109
+msgid "The planning manager could not be deleted. Please, try again."
+msgstr ""
+"El Gerente de Planificación no pudo ser eliminado. Por favor, inténtelo de "
+"nuevo."
+
+#: Controller/PositionsController.php:38;73;100;101
+msgid "Invalid position"
+msgstr "Cargo no válido"
+
+#: Controller/PositionsController.php:55;79
+msgid "The position has been saved."
+msgstr "El cargo ha sido guardado."
+
+#: Controller/PositionsController.php:58;82
+msgid "The position could not be saved. Please, try again."
+msgstr "El cargo no puede ser guardado. Por favor, inténtelo de nuevo."
+
+#: Controller/PositionsController.php:107
+msgid "The position has been deleted."
+msgstr "El cargo ha sido eliminado."
+
+#: Controller/PositionsController.php:109
+msgid "The position could not be deleted. Please, try again."
+msgstr "El cargo no pudo ser eliminado. Por favor, inténtelo de nuevo."
+
+#: Controller/ProjectClassesController.php:38;73;100;101
+msgid "Invalid project class"
+msgstr "Clase de Proyecto no válido"
+
+#: Controller/ProjectClassesController.php:55;79
+msgid "The project class has been saved."
+msgstr "El Clase de Proyecto ha sido guardado"
+
+#: Controller/ProjectClassesController.php:58;82
+msgid "The project class could not be saved. Please, try again."
+msgstr ""
+"El Clase de Proyecto no pudo ser guardado. Por favor, inténtelo de nuevo."
+
+#: Controller/ProjectClassesController.php:107
+msgid "The project class has been deleted."
+msgstr "El Clase de Proyecto ha sido eliminado."
+
+#: Controller/ProjectClassesController.php:109
+msgid "The project class could not be deleted. Please, try again."
+msgstr ""
+"El Clase de Proyecto no pudo ser eliminado. Por favor, inténtelo de nuevo."
+
+#: Controller/ProjectManagersController.php:38;73;100;101
+msgid "Invalid project manager"
+msgstr "Gerente de Proyecto no válido"
+
+#: Controller/ProjectManagersController.php:55;79
+msgid "The project manager has been saved."
+msgstr "El Gerente de Proyecto ha sido guardado."
+
+#: Controller/ProjectManagersController.php:58;82
+msgid "The project manager could not be saved. Please, try again."
+msgstr ""
+"El Gerente de Proyecto no pudo ser guardado. Por favor, inténtelo de nuevo."
+
+#: Controller/ProjectManagersController.php:107
+msgid "The project manager has been deleted."
+msgstr "El Gerente de Proyecto ha sido eliminado."
+
+#: Controller/ProjectManagersController.php:109
+msgid "The project manager could not be deleted. Please, try again."
+msgstr ""
+"El Gerente de Proyecto no pudo ser eliminado. Por favor, inténtelo de nuevo."
+
+#: Controller/QualityManagersController.php:38;77;107;108
+msgid "Invalid quality manager"
+msgstr "Gerente de Calidad no válido"
+
+#: Controller/QualityManagersController.php:56;83
+msgid "The quality manager has been saved."
+msgstr "El Gerente de Calidad ha sido guardado."
+
+#: Controller/QualityManagersController.php:59;86
+msgid "The quality manager could not be saved. Please, try again."
+msgstr ""
+"El Gerente de Calidadn no pudo ser guardado. Por favor, inténtelo de nuevo."
+
+#: Controller/QualityManagersController.php:114
+msgid "The quality manager has been deleted."
+msgstr "El Gerente de Calidad ha sido eliminado."
+
+#: Controller/QualityManagersController.php:116
+msgid "The quality manager could not be deleted. Please, try again."
+msgstr ""
+"El Gerente de Calidad no pudo ser eliminado. Por favor, inténtelo de nuevo."
+
+#: Controller/RespondentsController.php:38;82;109;110
+msgid "Invalid respondent"
+msgstr "Área responsable no válida"
+
+#: Controller/RespondentsController.php:64;88
+msgid "The respondent has been saved."
+msgstr "El área responsable ha sido guardada."
+
+#: Controller/RespondentsController.php:67;91
+msgid "The respondent could not be saved. Please, try again."
+msgstr ""
+"El área responsable no pudo ser guardada. Por favor, inténtelo de nuevo."
+
+#: Controller/RespondentsController.php:116
+msgid "The respondent has been deleted."
+msgstr "El área responsable ha sido eliminada."
+
+#: Controller/RespondentsController.php:118
+msgid "The respondent could not be deleted. Please, try again."
+msgstr ""
+"El área responsable no pudo ser eliminada. Por favor, inténtelo de nuevo."
+
+#: Controller/RfcsController.php:153;273;359
+msgid "Invalid rfc"
+msgstr "RFC no válido"
+
+#: Controller/RfcsController.php:204;285
+msgid "The rfc has been saved."
+msgstr "El RFC ha sido guardado."
+
+#: Controller/RfcsController.php:213;293
+msgid "The rfc could not be saved. Please, try again."
+msgstr "El RFC no pudo ser guardado. Por favor, inténtelo de nuevo."
+
+#: Controller/RfcsController.php:369
+msgid "The rfc has been deleted."
+msgstr "El RFC ha sido eliminado."
+
+#: Controller/RfcsController.php:376
+msgid "The rfc could not be deleted. Please, try again."
+msgstr "El RFC no pudo ser eliminado. Por favor, inténtelo de nuevo."
+
+#: Controller/RfcsController.php:409
+msgid "The packages weight has been computed."
+msgstr "La ponderación de los paquetes ha sido calculada."
+
+#: Controller/RfcsController.php:413
+msgid "The packages weight could not be computed."
+msgstr "La ponderación de los paquetes no pudo ser calculada."
+
+#: Controller/RfcsController.php:416
+msgid "The packages weight were computed already."
+msgstr "La ponderación de los paquetes ya ha sido calculada."
+
+#: Controller/UnsatisfactoryStatusesController.php:38;84;113;114
+msgid "Invalid unsatisfactory status"
+msgstr "Estatus no satisfactorio inválido"
+
+#: Controller/UnsatisfactoryStatusesController.php:64;90
+msgid "The unsatisfactory status has been saved."
+msgstr "El estatus no satisfactorio ha sido guardado."
+
+#: Controller/UnsatisfactoryStatusesController.php:67;93
+msgid "The unsatisfactory status could not be saved. Please, try again."
+msgstr ""
+"El estatus no satisfactorio no pudo ser guardado. Por favor, inténtelo de "
+"nuevo."
+
+#: Controller/UnsatisfactoryStatusesController.php:120
+msgid "The unsatisfactory status has been deleted."
+msgstr "El estatus no satisfactorio ha sido eliminado"
+
+#: Controller/UnsatisfactoryStatusesController.php:122
+msgid "The unsatisfactory status could not be deleted. Please, try again."
+msgstr ""
+"El estado no satisfactorio no pudo ser eliminado. Por favor, inténtelo "
+"nuevamente."
+
+#: Controller/UsersController.php:44;78;105;308
+msgid "Invalid user"
+msgstr "Usuario no válido"
+
+#: Controller/UsersController.php:59;82
+msgid "The user has been saved."
+msgstr "El usuario ha sido guardado."
+
+#: Controller/UsersController.php:62;85
+msgid "The user could not be saved. Please, try again."
+msgstr "El usuario no pudo ser guardado. Por favor, inténtelo de nuevo."
+
+#: Controller/UsersController.php:109
+msgid "The user has been deleted."
+msgstr "El usuario ha sido eliminado."
+
+#: Controller/UsersController.php:111
+msgid "The user could not be deleted. Please, try again."
+msgstr "El usuario no pudo ser eliminado. Por favor, inténtelo de nuevo."
+
+#: Controller/UsersController.php:138
+msgid "Your username or password was incorrect."
+msgstr "Su usuario o contraseña son incorrectos."
+
+#: Controller/UsersController.php:142
+msgid "You are logged in!"
+msgstr "¡Ya ha iniciado sesión!"
+
+#: Controller/UsersController.php:154
+msgid "Good-bye"
+msgstr "Hasta luego"
+
+#: Controller/UsersController.php:227
+msgid "Import successful. %s users were added and %s users were updated."
+msgstr ""
+"Importación satisfactoria. %s usuarios agregados y %s usuarios actualizados."
+
+#: Controller/UsersController.php:230
+msgid "Users could not be imported, check the group name and try again."
+msgstr ""
+"Los usuarios no pudieron ser importados, verifique el nombre del grupo e "
+"inténtelo de nuevo."
+
+#: Controller/UsersController.php:235
+msgid "No users were found, check the group name and try again."
+msgstr ""
+"No se encontraron usuarios, compruebe el nombre del grupo e inténtelo de "
+"nuevo."
+
+#: Controller/UsersController.php:406
+msgid "The permisions have been setted"
+msgstr "Los permisos han sido establecidos"
+
+#: Controller/UsersController.php:409
+msgid "The permissions could not be setted."
+msgstr "Los permisos no han podido ser establecidos"
+
+#: Controller/VehiclesController.php:38;75;104;105
+msgid "Invalid vehicle"
+msgstr "Vehículo no válido"
+
+#: Controller/VehiclesController.php:55;81
+msgid "The vehicle has been saved."
+msgstr "El vehículo ha sido guardado."
+
+#: Controller/VehiclesController.php:58;84
+msgid "The vehicle could not be saved. Please, try again."
+msgstr "El vehículoa no pudo ser guardado. Por favor, intente de nuevo."
+
+#: Controller/VehiclesController.php:111
+msgid "The vehicle has been deleted."
+msgstr "El vehículo ha sido eliminado."
+
+#: Controller/VehiclesController.php:113
+msgid "The vehicle could not be deleted. Please, try again."
+msgstr "El vehiculo no pudo ser eliminado. Por favor, intente de nuevo."
+
+#: Model/Datasource/ArraySource.php:121
+#, fuzzy
+msgid "No records found in model."
+msgstr "Módelo"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:80
+msgid "Plugin to process"
+msgstr "Plugin a procesar"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:83
+#, fuzzy
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr "Gestionar por"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:88
+#, fuzzy
+msgid ""
+"Add new ACOs for new controllers and actions. Does not remove nodes from the "
+"ACO table."
+msgstr " Mis Contenedores"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:93
+#, fuzzy
+msgid ""
+"Perform a full sync on the ACO table.Will create new ACOs or missing "
+"controllers and actions.Will also remove orphaned entries that no longer "
+"have a matching controller/action"
+msgstr "Acción"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:97
+#, fuzzy
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr " Su correo"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:102
+#, fuzzy
+msgid "The type of tree to verify"
+msgstr "Tipo"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:108
+msgid "Recover a corrupted Tree"
+msgstr ""
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:113
+#, fuzzy
+msgid "The type of tree to recover"
+msgstr "Tipo"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:123
+#, fuzzy
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr " Error"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:136
+#, fuzzy
+msgid "<success>Aco Update Complete</success>"
+msgstr " Actualización de contenedores"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:181
+msgid "Deleted %s and all children"
+msgstr "Eliminados %s todos los hijos"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:222
+#, fuzzy
+msgid "Created Aco node: <success>%s</success>"
+msgstr " Creado"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:275
+#, fuzzy
+msgid "Unable to get methods for \"%s\""
+msgstr " No se puede actualizar el contenedor."
+
+#: Plugin/AclExtras/Lib/AclExtras.php:296
+#, fuzzy
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr "Eliminados %s todos los niños"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:315
+#, fuzzy
+msgid "<success>Tree is valid and strong</success>"
+msgstr " Debe ser una cuenta de correo válida"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:333
+#, fuzzy
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr " El usuario ha sido guardado"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:335
+#, fuzzy
+msgid "<error>Tree recovery failed.</error>"
+msgstr " Error"
+
+#: Plugin/AclManager/Controller/AclController.php:56
+#, fuzzy
+msgid "Both ACOs and AROs have been dropped"
+msgstr "%d AROs ha sido creado"
+
+#: Plugin/AclManager/Controller/AclController.php:65
+msgid "Permissions dropped"
+msgstr "Permisos descartados"
+
+#: Plugin/AclManager/Controller/AclController.php:67
+msgid "Error while trying to drop permissions"
+msgstr "Error al descartar los permisos"
+
+#: Plugin/AclManager/Controller/AclController.php:296
+msgid "%d ACOs have been created/updated"
+msgstr "%d ACOs ha sido creado/actualizado"
+
+#: Plugin/AclManager/Controller/AclController.php:370
+msgid "%d AROs have been created"
+msgstr "%d AROs ha sido creado"
+
+#: Plugin/AclManager/Controller/AclController.php:474
+msgid "ActionAuthorizer could not be found"
+msgstr "ActionAuthorizer no pudo ser encontrado "
+
+#: Plugin/AclManager/View/Acl/index.ctp:2
+#: View/Plugin/AclManager/Acl/index.ctp:6
+#, fuzzy
+msgid "Acl Manager %s"
+msgstr "Gerente"
+
+#: Plugin/AclManager/View/Acl/index.ctp:8
+#: Plugin/AclManager/View/Acl/permissions.ctp:68 View/AbsenceTypes/add.ctp:32
+#: View/AbsenceTypes/edit.ctp:33 View/AbsenceTypes/index.ctp:15;66
+#: View/AbsenceTypes/view.ctp:29;84 View/Absences/add.ctp:36
+#: View/Absences/edit.ctp:37 View/Absences/index.ctp:28
+#: View/Absences/view.ctp:41 View/Areas/add.ctp:33 View/Areas/edit.ctp:34
+#: View/Areas/index.ctp:16;71 View/Areas/view.ctp:32;90
+#: View/Assignments/add.ctp:61 View/Assignments/edit.ctp:62
+#: View/Assignments/index.ctp:58 View/Assignments/view.ctp:53
+#: View/Charts/packages.ctp:124 View/Charts/workload.ctp:40
+#: View/Complexities/add.ctp:32 View/Complexities/edit.ctp:33
+#: View/Complexities/index.ctp:15;66 View/Complexities/view.ctp:29;90
+#: View/DevelopmentManagers/add.ctp:32 View/DevelopmentManagers/edit.ctp:33
+#: View/DevelopmentManagers/index.ctp:15;66
+#: View/DevelopmentManagers/view.ctp:29;90 View/Employees/add.ctp:49
+#: View/Employees/edit.ctp:50 View/Employees/image.ctp:38
+#: View/Employees/index.ctp:32 View/Employees/index2.ctp:21;84
+#: View/Employees/schedule.ctp:25 View/Employees/view.ctp:107;243;339
+#: View/EvaluationStates/add.ctp:32 View/EvaluationStates/edit.ctp:33
+#: View/EvaluationStates/index.ctp:15;66 View/EvaluationStates/view.ctp:29
+#: View/Evaluations/add.ctp:37 View/Evaluations/complete_package.ctp:44
+#: View/Evaluations/compute.ctp:40 View/Evaluations/edit.ctp:38
+#: View/Evaluations/index.ctp:45 View/Evaluations/index2.ctp:18;78
+#: View/Evaluations/summary.ctp:76 View/Evaluations/view.ctp:44
+#: View/Evaluations/yearly_evaluation.ctp:101 View/FinalStatuses/add.ctp:32
+#: View/FinalStatuses/edit.ctp:33 View/FinalStatuses/index.ctp:15;66
+#: View/FinalStatuses/view.ctp:29 View/Groups/add.ctp:33
+#: View/Groups/edit.ctp:34 View/Groups/index.ctp:16;68
+#: View/Groups/view.ctp:32;89 View/Histories/add.ctp:36
+#: View/Histories/edit.ctp:37 View/Histories/index.ctp:19;76
+#: View/Histories/view.ctp:42 View/Holidays/add.ctp:33
+#: View/Holidays/edit.ctp:34 View/Holidays/index.ctp:14;64
+#: View/Holidays/view.ctp:26 View/Managements/add.ctp:32
+#: View/Managements/edit.ctp:33 View/Managements/index.ctp:15;66
+#: View/Managements/view.ctp:29;97;151;205 View/Modules/add.ctp:33
+#: View/Modules/edit.ctp:34 View/Modules/index.ctp:16;71
+#: View/Modules/view.ctp:32 View/Observations/add.ctp:36
+#: View/Observations/edit.ctp:37 View/Observations/index.ctp:19;93
+#: View/Observations/view.ctp:45 View/Options/add.ctp:34
+#: View/Options/edit.ctp:35 View/Options/index.ctp:28 View/Options/view.ctp:30
+#: View/PackageClasses/add.ctp:32 View/PackageClasses/edit.ctp:33
+#: View/PackageClasses/index.ctp:15;66 View/PackageClasses/view.ctp:29;90
+#: View/PackageStatuses/add.ctp:32 View/PackageStatuses/edit.ctp:33
+#: View/PackageStatuses/index.ctp:15;66 View/PackageStatuses/view.ctp:29
+#: View/Packages/add.ctp:73 View/Packages/change_status.ctp:97
+#: View/Packages/charts2Home.ctp:108 View/Packages/edit.ctp:74
+#: View/Packages/evaluation.ctp:46 View/Packages/index.ctp:52
+#: View/Packages/index2.ctp:26;118 View/Packages/index3.ctp:42
+#: View/Packages/replan.ctp:93 View/Packages/set_especialist.ctp:109
+#: View/Packages/set_management.ctp:78
+#: View/Packages/set_quality_values.ctp:109 View/Packages/suspend.ctp:97
+#: View/Packages/view.ctp:177 View/PlanningManagers/add.ctp:32
+#: View/PlanningManagers/edit.ctp:33 View/PlanningManagers/index.ctp:15;66
+#: View/PlanningManagers/view.ctp:29;90
+#: View/Plugin/AclManager/Acl/index.ctp:17
+#: View/Plugin/AclManager/Acl/permissions.ctp:124 View/Positions/add.ctp:33
+#: View/Positions/edit.ctp:34 View/Positions/index.ctp:16;68
+#: View/Positions/view.ctp:32;88 View/ProjectClasses/add.ctp:32
+#: View/ProjectClasses/edit.ctp:33 View/ProjectClasses/index.ctp:15;66
+#: View/ProjectClasses/view.ctp:29;90 View/ProjectManagers/add.ctp:32
+#: View/ProjectManagers/edit.ctp:33 View/ProjectManagers/index.ctp:15;66
+#: View/ProjectManagers/view.ctp:29;90 View/QualityManagers/add.ctp:33
+#: View/QualityManagers/edit.ctp:34 View/QualityManagers/index.ctp:16;74
+#: View/QualityManagers/view.ctp:32;100 View/Respondents/add.ctp:32
+#: View/Respondents/edit.ctp:33 View/Respondents/index.ctp:15;66
+#: View/Respondents/view.ctp:29 View/Rfcs/add.ctp:59 View/Rfcs/edit.ctp:58
+#: View/Rfcs/highimpact.ctp:46 View/Rfcs/index.ctp:46
+#: View/Rfcs/index2.ctp:22;97 View/Rfcs/summary.ctp:201 View/Rfcs/view.ctp:148
+#: View/UnsatisfactoryStatuses/add.ctp:34
+#: View/UnsatisfactoryStatuses/edit.ctp:35
+#: View/UnsatisfactoryStatuses/index.ctp:16;68
+#: View/UnsatisfactoryStatuses/view.ctp:32 View/Users/add.ctp:38
+#: View/Users/edit.ctp:39 View/Users/import.ctp:45 View/Users/index.ctp:19;74
+#: View/Users/view.ctp:47 View/Vehicles/add.ctp:35 View/Vehicles/edit.ctp:36
+#: View/Vehicles/index.ctp:18;75 View/Vehicles/view.ctp:38
+msgid "Actions"
+msgstr "Acciones"
+
+#: Plugin/AclManager/View/Acl/index.ctp:11
+#: Plugin/AclManager/View/Acl/permissions.ctp:72
+#: View/Plugin/AclManager/Acl/index.ctp:26
+#: View/Plugin/AclManager/Acl/permissions.ctp:133
+msgid "Update ACOs"
+msgstr "Actualizar ACOs"
+
+#: Plugin/AclManager/View/Acl/index.ctp:12
+#: Plugin/AclManager/View/Acl/permissions.ctp:73
+#: View/Plugin/AclManager/Acl/index.ctp:32
+#: View/Plugin/AclManager/Acl/permissions.ctp:139
+msgid "Update AROs"
+msgstr "Actualizar AROs"
+
+#: Plugin/AclManager/View/Acl/index.ctp:13
+#: Plugin/AclManager/View/Acl/permissions.ctp:74
+#: View/Plugin/AclManager/Acl/index.ctp:38
+#: View/Plugin/AclManager/Acl/permissions.ctp:145
+msgid "Drop ACOs/AROs"
+msgstr "Descartar ACOs/AROs"
+
+#: Plugin/AclManager/View/Acl/index.ctp:13
+#: Plugin/AclManager/View/Acl/permissions.ctp:74
+msgid "Do you want to drop all ACOs and AROs?"
+msgstr "¿Desea descartar todos los ACOs y AROs?"
+
+#: Plugin/AclManager/View/Acl/index.ctp:14
+#: Plugin/AclManager/View/Acl/permissions.ctp:75
+#: View/Plugin/AclManager/Acl/index.ctp:44
+#: View/Plugin/AclManager/Acl/permissions.ctp:151
+msgid "Drop permissions"
+msgstr "Descartar permisos"
+
+#: Plugin/AclManager/View/Acl/index.ctp:14
+#: Plugin/AclManager/View/Acl/permissions.ctp:75
+msgid "Do you want to drop all the permissions?"
+msgstr "¿Desea descartar todos los permisos?"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:2
+#: View/Plugin/AclManager/Acl/permissions.ctp:6
+msgid "%s permissions"
+msgstr "%s permisos"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:3;51
+#, fuzzy
+msgid ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
+msgstr ""
+"Pagina {:page} de {:pages}, mostrando {:current} registros de un total de {:"
+"count}, a partir del registro {:start}, hasta {:end}"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:5;53
+msgid "previous"
+msgstr "anterior"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:7;55
+#: View/Elements/home/central/ause.ctp:135
+msgid "next"
+msgstr "siguiente"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:39
+#: View/Plugin/AclManager/Acl/permissions.ctp:74
+msgid "Inherit"
+msgstr "Heredar"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:39
+#: View/Plugin/AclManager/Acl/permissions.ctp:74
+msgid "Allow"
+msgstr "Permitir"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:39
+#: View/Plugin/AclManager/Acl/permissions.ctp:74
+msgid "Deny"
+msgstr "Denegar"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:39
+#: View/Plugin/AclManager/Acl/permissions.ctp:75
+msgid "No change"
+msgstr "Sin Cambios"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:49 View/AbsenceTypes/add.ctp:20
+#: View/AbsenceTypes/edit.ctp:21 View/Absences/add.ctp:24
+#: View/Absences/edit.ctp:25 View/Areas/add.ctp:21 View/Areas/edit.ctp:22
+#: View/Assignments/add.ctp:39 View/Assignments/edit.ctp:41
+#: View/Complexities/add.ctp:20 View/Complexities/edit.ctp:21
+#: View/DevelopmentManagers/add.ctp:20 View/DevelopmentManagers/edit.ctp:21
+#: View/Employees/add.ctp:37 View/Employees/edit.ctp:38
+#: View/Employees/image.ctp:26 View/EvaluationStates/add.ctp:20
+#: View/EvaluationStates/edit.ctp:21 View/Evaluations/add.ctp:25
+#: View/Evaluations/complete_package.ctp:33 View/Evaluations/edit.ctp:26
+#: View/FinalStatuses/add.ctp:20 View/FinalStatuses/edit.ctp:21
+#: View/Groups/add.ctp:21 View/Groups/edit.ctp:22 View/Histories/add.ctp:24
+#: View/Histories/edit.ctp:25 View/Holidays/add.ctp:21
+#: View/Holidays/edit.ctp:22 View/Managements/add.ctp:20
+#: View/Managements/edit.ctp:21 View/Modules/add.ctp:21
+#: View/Modules/edit.ctp:22 View/Observations/add.ctp:24
+#: View/Observations/edit.ctp:25 View/Options/add.ctp:22
+#: View/Options/edit.ctp:23 View/PackageClasses/add.ctp:20
+#: View/PackageClasses/edit.ctp:21 View/PackageStatuses/add.ctp:20
+#: View/PackageStatuses/edit.ctp:21 View/Packages/add.ctp:61
+#: View/Packages/change_status.ctp:85 View/Packages/edit.ctp:62
+#: View/Packages/replan.ctp:82 View/Packages/set_especialist.ctp:89
+#: View/Packages/set_management.ctp:21 View/Packages/set_quality_values.ctp:96
+#: View/Packages/suspend.ctp:85 View/PlanningManagers/add.ctp:20
+#: View/PlanningManagers/edit.ctp:21
+#: View/Plugin/AclManager/Acl/permissions.ctp:84 View/Positions/add.ctp:21
+#: View/Positions/edit.ctp:22 View/ProjectClasses/add.ctp:20
+#: View/ProjectClasses/edit.ctp:21 View/ProjectManagers/add.ctp:20
+#: View/ProjectManagers/edit.ctp:21 View/QualityManagers/add.ctp:21
+#: View/QualityManagers/edit.ctp:22 View/Respondents/add.ctp:20
+#: View/Respondents/edit.ctp:21 View/Rfcs/add.ctp:48 View/Rfcs/edit.ctp:46
+#: View/UnsatisfactoryStatuses/add.ctp:22
+#: View/UnsatisfactoryStatuses/edit.ctp:23 View/Users/add.ctp:26
+#: View/Users/edit.ctp:27 View/Vehicles/add.ctp:23 View/Vehicles/edit.ctp:24
+msgid "Save"
+msgstr "Guardar"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:59
+msgid "Manage for"
+msgstr "Gestionar por"
+
+#: Plugin/AclManager/View/Acl/permissions.ctp:70
+msgid "< Back"
+msgstr "< Volver"
+
+#: Plugin/HighCharts/Controller/Component/HighChartsComponent.php:96
+#, fuzzy
+msgid "Please provide a type for chart %s!"
+msgstr "El tipo de ausencia no pudo ser guardada. Por favor, intente de nuevo."
+
+#: Plugin/HighCharts/View/Helper/HighChartsHelper.php:99
+#, fuzzy
+msgid ""
+"Chart: \"%s\" could not be found. Ensure that Chart Name is the same string "
+"that is passed to $this->HighCharts->render() in your view."
+msgstr "%s no se pudo encontrar."
+
+#: Plugin/HighCharts/View/Layouts/chart.demo.ctp:20
+#, fuzzy
+msgid "CakePHP HighCharts plugin demos / tests"
+msgstr "Plugin a procesar"
+
+#: Plugin/HighCharts/View/Layouts/chart.demo.ctp:36
+#, fuzzy
+msgid "HighCharts Plugin Demos / Tests"
+msgstr "Plugin a procesar"
+
+#: Plugin/HighCharts/View/Layouts/chart.demo.ctp:62
+#, fuzzy
+msgid "CakePHP: the rapid development php framework"
+msgstr "Gerentes de Desarrollo"
+
+#: Plugin/Upload/Model/Behavior/UploadBehavior.php:1078
+#, fuzzy
+msgid "No filename after parsing. Function %s returned an invalid filename"
+msgstr "Registro no válido "
+
+#: View/AbsenceTypes/add.ctp:9
+msgid "Add Absence Type"
+msgstr "Agregar Tipo de Ausencia"
+
+#: View/AbsenceTypes/add.ctp:21 View/AbsenceTypes/edit.ctp:22
+#: View/Absences/add.ctp:25 View/Absences/edit.ctp:26 View/Areas/add.ctp:22
+#: View/Areas/edit.ctp:23 View/Assignments/add.ctp:40
+#: View/Assignments/edit.ctp:42 View/Complexities/add.ctp:21
+#: View/Complexities/edit.ctp:22 View/DevelopmentManagers/add.ctp:21
+#: View/DevelopmentManagers/edit.ctp:22 View/Employees/add.ctp:38
+#: View/Employees/edit.ctp:39 View/Employees/image.ctp:27
+#: View/EvaluationStates/add.ctp:21 View/EvaluationStates/edit.ctp:22
+#: View/Evaluations/add.ctp:26 View/Evaluations/complete_package.ctp:34
+#: View/Evaluations/compute.ctp:29 View/Evaluations/edit.ctp:27
+#: View/Evaluations/yearly_evaluation.ctp:37 View/FinalStatuses/add.ctp:21
+#: View/FinalStatuses/edit.ctp:22 View/Groups/add.ctp:22
+#: View/Groups/edit.ctp:23 View/Histories/add.ctp:25
+#: View/Histories/edit.ctp:26 View/Holidays/add.ctp:22
+#: View/Holidays/edit.ctp:23 View/Managements/add.ctp:21
+#: View/Managements/edit.ctp:22 View/Modules/add.ctp:22
+#: View/Modules/edit.ctp:23 View/Observations/add.ctp:25
+#: View/Observations/edit.ctp:26 View/Options/add.ctp:23
+#: View/Options/edit.ctp:24 View/PackageClasses/add.ctp:21
+#: View/PackageClasses/edit.ctp:22 View/PackageStatuses/add.ctp:21
+#: View/PackageStatuses/edit.ctp:22 View/Packages/add.ctp:62
+#: View/Packages/change_status.ctp:86 View/Packages/edit.ctp:63
+#: View/Packages/replan.ctp:83 View/Packages/set_especialist.ctp:90
+#: View/Packages/set_management.ctp:22 View/Packages/set_quality_values.ctp:97
+#: View/Packages/suspend.ctp:86 View/PlanningManagers/add.ctp:21
+#: View/PlanningManagers/edit.ctp:22 View/Positions/add.ctp:22
+#: View/Positions/edit.ctp:23 View/ProjectClasses/add.ctp:21
+#: View/ProjectClasses/edit.ctp:22 View/ProjectManagers/add.ctp:21
+#: View/ProjectManagers/edit.ctp:22 View/QualityManagers/add.ctp:22
+#: View/QualityManagers/edit.ctp:23 View/Respondents/add.ctp:21
+#: View/Respondents/edit.ctp:22 View/Rfcs/add.ctp:49 View/Rfcs/edit.ctp:47
+#: View/UnsatisfactoryStatuses/add.ctp:23
+#: View/UnsatisfactoryStatuses/edit.ctp:24 View/Users/add.ctp:27
+#: View/Users/edit.ctp:28 View/Users/import.ctp:25 View/Vehicles/add.ctp:24
+#: View/Vehicles/edit.ctp:25
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: View/AbsenceTypes/add.ctp:34 View/AbsenceTypes/edit.ctp:35
+#: View/AbsenceTypes/index.ctp:32 View/AbsenceTypes/view.ctp:107
+#: View/Absences/add.ctp:38 View/Absences/edit.ctp:39 View/Areas/add.ctp:35
+#: View/Areas/edit.ctp:36 View/Areas/index.ctp:37 View/Areas/view.ctp:110
+#: View/Assignments/add.ctp:63 View/Assignments/edit.ctp:64
+#: View/Complexities/add.ctp:34 View/Complexities/edit.ctp:35
+#: View/Complexities/index.ctp:32 View/Complexities/view.ctp:119
+#: View/DevelopmentManagers/add.ctp:34 View/DevelopmentManagers/edit.ctp:35
+#: View/DevelopmentManagers/index.ctp:32 View/DevelopmentManagers/view.ctp:119
+#: View/Employees/add.ctp:51 View/Employees/edit.ctp:52
+#: View/Employees/image.ctp:40 View/Employees/index2.ctp:50
+#: View/EvaluationStates/add.ctp:34 View/EvaluationStates/edit.ctp:35
+#: View/EvaluationStates/index.ctp:32 View/Evaluations/add.ctp:39
+#: View/Evaluations/complete_package.ctp:46 View/Evaluations/edit.ctp:40
+#: View/Evaluations/index2.ctp:44 View/Evaluations/summary.ctp:78
+#: View/Evaluations/yearly_evaluation.ctp:103 View/FinalStatuses/add.ctp:34
+#: View/FinalStatuses/edit.ctp:35 View/FinalStatuses/index.ctp:32
+#: View/Groups/add.ctp:35 View/Groups/edit.ctp:36 View/Groups/index.ctp:34
+#: View/Groups/view.ctp:114 View/Histories/add.ctp:38
+#: View/Histories/edit.ctp:39 View/Histories/index.ctp:42
+#: View/Holidays/add.ctp:35 View/Holidays/edit.ctp:36
+#: View/Holidays/index.ctp:30 View/Managements/add.ctp:34
+#: View/Managements/edit.ctp:35 View/Managements/index.ctp:32
+#: View/Managements/view.ctp:115;175;223 View/Modules/add.ctp:35
+#: View/Modules/edit.ctp:36 View/Modules/index.ctp:37
+#: View/Observations/add.ctp:38 View/Observations/edit.ctp:39
+#: View/Observations/index.ctp:59 View/Options/add.ctp:36
+#: View/Options/edit.ctp:37 View/PackageClasses/add.ctp:34
+#: View/PackageClasses/edit.ctp:35 View/PackageClasses/index.ctp:32
+#: View/PackageClasses/view.ctp:119 View/PackageStatuses/add.ctp:34
+#: View/PackageStatuses/edit.ctp:35 View/PackageStatuses/index.ctp:32
+#: View/Packages/add.ctp:75 View/Packages/change_status.ctp:99
+#: View/Packages/edit.ctp:76 View/Packages/replan.ctp:95
+#: View/Packages/set_especialist.ctp:111 View/Packages/set_management.ctp:80
+#: View/Packages/set_quality_values.ctp:111 View/Packages/suspend.ctp:99
+#: View/PlanningManagers/add.ctp:34 View/PlanningManagers/edit.ctp:35
+#: View/PlanningManagers/index.ctp:32 View/PlanningManagers/view.ctp:119
+#: View/Positions/add.ctp:35 View/Positions/edit.ctp:36
+#: View/Positions/index.ctp:34 View/Positions/view.ctp:112
+#: View/ProjectClasses/add.ctp:34 View/ProjectClasses/edit.ctp:35
+#: View/ProjectClasses/index.ctp:32 View/ProjectClasses/view.ctp:119
+#: View/ProjectManagers/add.ctp:34 View/ProjectManagers/edit.ctp:35
+#: View/ProjectManagers/index.ctp:32 View/ProjectManagers/view.ctp:119
+#: View/QualityManagers/add.ctp:35 View/QualityManagers/edit.ctp:36
+#: View/QualityManagers/index.ctp:40 View/QualityManagers/view.ctp:124
+#: View/Respondents/add.ctp:34 View/Respondents/edit.ctp:35
+#: View/Respondents/index.ctp:32 View/Rfcs/add.ctp:61 View/Rfcs/edit.ctp:60
+#: View/Rfcs/index2.ctp:63 View/UnsatisfactoryStatuses/add.ctp:36
+#: View/UnsatisfactoryStatuses/edit.ctp:37
+#: View/UnsatisfactoryStatuses/index.ctp:34 View/Users/add.ctp:40
+#: View/Users/edit.ctp:41 View/Users/index.ctp:41 View/Vehicles/add.ctp:37
+#: View/Vehicles/edit.ctp:38 View/Vehicles/index.ctp:41
+msgid "Delete"
+msgstr "Eliminar"
+
+#: View/AbsenceTypes/add.ctp:40 View/AbsenceTypes/edit.ctp:41
+#: View/AbsenceTypes/view.ctp:41 View/Absences/add.ctp:61
+#: View/Absences/edit.ctp:62 View/Absences/index.ctp:47
+#: View/Absences/view.ctp:70 View/Elements/manager_menu.ctp:24
+msgid "List Absence Types"
+msgstr "Lista de Tipo de Ausencias"
+
+#: View/AbsenceTypes/add.ctp:45 View/AbsenceTypes/edit.ctp:46
+#: View/AbsenceTypes/index.ctp:73 View/AbsenceTypes/view.ctp:51
+#: View/Absences/add.ctp:49 View/Absences/edit.ctp:50
+#: View/Absences/index.ctp:35 View/Absences/view.ctp:63 View/Areas/add.ctp:46
+#: View/Areas/edit.ctp:47 View/Areas/index.ctp:78 View/Areas/view.ctp:54
+#: View/Assignments/add.ctp:74 View/Assignments/edit.ctp:75
+#: View/Assignments/index.ctp:65 View/Assignments/view.ctp:75
+#: View/Charts/packages.ctp:131 View/Charts/workload.ctp:47
+#: View/Complexities/add.ctp:45 View/Complexities/edit.ctp:46
+#: View/Complexities/index.ctp:73 View/Complexities/view.ctp:51
+#: View/DevelopmentManagers/add.ctp:45 View/DevelopmentManagers/edit.ctp:46
+#: View/DevelopmentManagers/index.ctp:73 View/DevelopmentManagers/view.ctp:51
+#: View/Employees/add.ctp:62 View/Employees/edit.ctp:63
+#: View/Employees/image.ctp:51 View/Employees/index.ctp:39
+#: View/Employees/index2.ctp:91 View/Employees/schedule.ctp:32
+#: View/Employees/view.ctp:129 View/EvaluationStates/add.ctp:45
+#: View/EvaluationStates/edit.ctp:46 View/EvaluationStates/index.ctp:73
+#: View/EvaluationStates/view.ctp:51 View/Evaluations/add.ctp:50
+#: View/Evaluations/complete_package.ctp:57 View/Evaluations/edit.ctp:51
+#: View/Evaluations/index.ctp:52 View/Evaluations/index2.ctp:85
+#: View/Evaluations/summary.ctp:89 View/Evaluations/view.ctp:66
+#: View/Evaluations/yearly_evaluation.ctp:114 View/FinalStatuses/add.ctp:45
+#: View/FinalStatuses/edit.ctp:46 View/FinalStatuses/index.ctp:73
+#: View/FinalStatuses/view.ctp:51 View/Groups/add.ctp:46
+#: View/Groups/edit.ctp:47 View/Groups/index.ctp:75 View/Groups/view.ctp:54
+#: View/Histories/add.ctp:49 View/Histories/edit.ctp:50
+#: View/Histories/index.ctp:83 View/Histories/view.ctp:64
+#: View/Holidays/add.ctp:46 View/Holidays/edit.ctp:47
+#: View/Holidays/index.ctp:71 View/Holidays/view.ctp:48
+#: View/Managements/add.ctp:45 View/Managements/edit.ctp:46
+#: View/Managements/index.ctp:73 View/Managements/view.ctp:51
+#: View/Modules/add.ctp:46 View/Modules/edit.ctp:47 View/Modules/index.ctp:78
+#: View/Modules/view.ctp:54 View/Observations/add.ctp:49
+#: View/Observations/edit.ctp:50 View/Observations/index.ctp:100
+#: View/Observations/view.ctp:67 View/Options/add.ctp:47
+#: View/Options/edit.ctp:48 View/Options/view.ctp:52
+#: View/PackageClasses/add.ctp:45 View/PackageClasses/edit.ctp:46
+#: View/PackageClasses/index.ctp:73 View/PackageClasses/view.ctp:51
+#: View/PackageStatuses/add.ctp:45 View/PackageStatuses/edit.ctp:46
+#: View/PackageStatuses/index.ctp:73 View/PackageStatuses/view.ctp:51
+#: View/Packages/add.ctp:86 View/Packages/change_status.ctp:110
+#: View/Packages/charts2Home.ctp:115 View/Packages/edit.ctp:87
+#: View/Packages/evaluation.ctp:53 View/Packages/index.ctp:59
+#: View/Packages/index2.ctp:125 View/Packages/index3.ctp:49
+#: View/Packages/replan.ctp:106 View/Packages/set_especialist.ctp:122
+#: View/Packages/set_management.ctp:91
+#: View/Packages/set_quality_values.ctp:122 View/Packages/suspend.ctp:110
+#: View/Packages/view.ctp:199 View/PlanningManagers/add.ctp:45
+#: View/PlanningManagers/edit.ctp:46 View/PlanningManagers/index.ctp:73
+#: View/PlanningManagers/view.ctp:51 View/Positions/add.ctp:46
+#: View/Positions/edit.ctp:47 View/Positions/index.ctp:75
+#: View/Positions/view.ctp:54 View/ProjectClasses/add.ctp:45
+#: View/ProjectClasses/edit.ctp:46 View/ProjectClasses/index.ctp:73
+#: View/ProjectClasses/view.ctp:51 View/ProjectManagers/add.ctp:45
+#: View/ProjectManagers/edit.ctp:46 View/ProjectManagers/index.ctp:73
+#: View/ProjectManagers/view.ctp:51 View/QualityManagers/add.ctp:46
+#: View/QualityManagers/edit.ctp:47 View/QualityManagers/index.ctp:81
+#: View/QualityManagers/view.ctp:54 View/Respondents/add.ctp:45
+#: View/Respondents/edit.ctp:46 View/Respondents/index.ctp:73
+#: View/Respondents/view.ctp:51 View/Rfcs/add.ctp:72 View/Rfcs/edit.ctp:71
+#: View/Rfcs/highimpact.ctp:53 View/Rfcs/index.ctp:53 View/Rfcs/index2.ctp:104
+#: View/Rfcs/summary.ctp:223 View/Rfcs/view.ctp:170
+#: View/UnsatisfactoryStatuses/add.ctp:47
+#: View/UnsatisfactoryStatuses/edit.ctp:48
+#: View/UnsatisfactoryStatuses/index.ctp:75
+#: View/UnsatisfactoryStatuses/view.ctp:54 View/Users/add.ctp:51
+#: View/Users/edit.ctp:52 View/Users/import.ctp:52 View/Users/index.ctp:81
+#: View/Users/view.ctp:69 View/Vehicles/add.ctp:48 View/Vehicles/edit.ctp:49
+#: View/Vehicles/index.ctp:82 View/Vehicles/view.ctp:60
+msgid "Related"
+msgstr "Relacionados"
+
+#: View/AbsenceTypes/add.ctp:52 View/AbsenceTypes/edit.ctp:53
+#: View/AbsenceTypes/index.ctp:80 View/AbsenceTypes/view.ctp:56
+#: View/Absences/index.ctp:30 View/Absences/view.ctp:58
+#: View/Charts/workload.ctp:74 View/Employees/add.ctp:89
+#: View/Employees/edit.ctp:90 View/Employees/image.ctp:78
+#: View/Employees/index.ctp:66 View/Employees/index2.ctp:118
+#: View/Employees/schedule.ctp:59 View/Employees/view.ctp:146
+msgid "New Absence"
+msgstr "Nueva Ausencia"
+
+#: View/AbsenceTypes/edit.ctp:9 View/AbsenceTypes/view.ctp:31
+msgid "Edit Absence Type"
+msgstr "Editar Tipo de Ausencia"
+
+#: View/AbsenceTypes/index.ctp:5
+msgid "Absence Types"
+msgstr "Tipos de Ausencia"
+
+#: View/AbsenceTypes/index.ctp:26 View/AbsenceTypes/view.ctp:99
+#: View/Areas/index.ctp:31 View/Areas/view.ctp:102
+#: View/Complexities/index.ctp:26 View/Complexities/view.ctp:111
+#: View/DevelopmentManagers/index.ctp:26 View/DevelopmentManagers/view.ctp:111
+#: View/Employees/index2.ctp:44 View/Employees/view.ctp:255;348
+#: View/EvaluationStates/index.ctp:26 View/Evaluations/index2.ctp:38
+#: View/Evaluations/yearly_evaluation.ctp:36 View/FinalStatuses/index.ctp:26
+#: View/Groups/index.ctp:28 View/Groups/view.ctp:106
+#: View/Histories/index.ctp:36 View/Holidays/index.ctp:24
+#: View/Managements/index.ctp:26 View/Managements/view.ctp:107;167;215
+#: View/Modules/index.ctp:31 View/Observations/index.ctp:53
+#: View/PackageClasses/index.ctp:26 View/PackageClasses/view.ctp:111
+#: View/PackageStatuses/index.ctp:26 View/PlanningManagers/index.ctp:26
+#: View/PlanningManagers/view.ctp:111 View/Positions/index.ctp:28
+#: View/Positions/view.ctp:104 View/ProjectClasses/index.ctp:26
+#: View/ProjectClasses/view.ctp:111 View/ProjectManagers/index.ctp:26
+#: View/ProjectManagers/view.ctp:111 View/QualityManagers/index.ctp:34
+#: View/QualityManagers/view.ctp:116 View/Respondents/index.ctp:26
+#: View/Rfcs/index2.ctp:57 View/UnsatisfactoryStatuses/index.ctp:28
+#: View/Users/index.ctp:35 View/Vehicles/index.ctp:35
+msgid "View"
+msgstr "Ver"
+
+#: View/AbsenceTypes/index.ctp:29 View/AbsenceTypes/view.ctp:103
+#: View/Areas/index.ctp:34 View/Areas/view.ctp:106
+#: View/Complexities/index.ctp:29 View/Complexities/view.ctp:115
+#: View/DevelopmentManagers/index.ctp:29 View/DevelopmentManagers/view.ctp:115
+#: View/Employees/index2.ctp:47 View/EvaluationStates/index.ctp:29
+#: View/Evaluations/index2.ctp:41 View/FinalStatuses/index.ctp:29
+#: View/Groups/index.ctp:31 View/Groups/view.ctp:110
+#: View/Histories/index.ctp:39 View/Holidays/index.ctp:27
+#: View/Managements/index.ctp:29 View/Managements/view.ctp:111;171;219
+#: View/Modules/index.ctp:34 View/Observations/index.ctp:56
+#: View/PackageClasses/index.ctp:29 View/PackageClasses/view.ctp:115
+#: View/PackageStatuses/index.ctp:29 View/PlanningManagers/index.ctp:29
+#: View/PlanningManagers/view.ctp:115 View/Positions/index.ctp:31
+#: View/Positions/view.ctp:108 View/ProjectClasses/index.ctp:29
+#: View/ProjectClasses/view.ctp:115 View/ProjectManagers/index.ctp:29
+#: View/ProjectManagers/view.ctp:115 View/QualityManagers/index.ctp:37
+#: View/QualityManagers/view.ctp:120 View/Respondents/index.ctp:29
+#: View/Rfcs/index2.ctp:60 View/UnsatisfactoryStatuses/index.ctp:31
+#: View/Users/index.ctp:38 View/Vehicles/index.ctp:38
+msgid "Edit"
+msgstr "Editar"
+
+#: View/AbsenceTypes/index.ctp:43 View/Areas/index.ctp:48
+#: View/Complexities/index.ctp:43 View/DevelopmentManagers/index.ctp:43
+#: View/Employees/index2.ctp:61 View/EvaluationStates/index.ctp:43
+#: View/Evaluations/index2.ctp:55 View/FinalStatuses/index.ctp:43
+#: View/Groups/index.ctp:45 View/Histories/index.ctp:53
+#: View/Holidays/index.ctp:41 View/Managements/index.ctp:43
+#: View/Modules/index.ctp:48 View/Observations/index.ctp:70
+#: View/PackageClasses/index.ctp:43 View/PackageStatuses/index.ctp:43
+#: View/Packages/index2.ctp:95 View/PlanningManagers/index.ctp:43
+#: View/Plugin/AclManager/Acl/permissions.ctp:21;97
+#: View/Positions/index.ctp:45 View/ProjectClasses/index.ctp:43
+#: View/ProjectManagers/index.ctp:43 View/QualityManagers/index.ctp:51
+#: View/Respondents/index.ctp:43 View/Rfcs/index2.ctp:74
+#: View/UnsatisfactoryStatuses/index.ctp:45 View/Users/index.ctp:52
+#: View/Vehicles/index.ctp:52
+msgid "Prev"
+msgstr "Anterior"
+
+#: View/AbsenceTypes/index.ctp:47 View/Areas/index.ctp:52
+#: View/Complexities/index.ctp:47 View/DevelopmentManagers/index.ctp:47
+#: View/Employees/index2.ctp:65 View/EvaluationStates/index.ctp:47
+#: View/Evaluations/index2.ctp:59 View/FinalStatuses/index.ctp:47
+#: View/Groups/index.ctp:49 View/Histories/index.ctp:57
+#: View/Holidays/index.ctp:45 View/Managements/index.ctp:47
+#: View/Modules/index.ctp:52 View/Observations/index.ctp:74
+#: View/PackageClasses/index.ctp:47 View/PackageStatuses/index.ctp:47
+#: View/Packages/index2.ctp:99 View/PlanningManagers/index.ctp:47
+#: View/Plugin/AclManager/Acl/permissions.ctp:24;100
+#: View/Positions/index.ctp:49 View/ProjectClasses/index.ctp:47
+#: View/ProjectManagers/index.ctp:47 View/QualityManagers/index.ctp:55
+#: View/Respondents/index.ctp:47 View/Rfcs/index2.ctp:78
+#: View/UnsatisfactoryStatuses/index.ctp:49 View/Users/index.ctp:56
+#: View/Vehicles/index.ctp:56
+msgid "Next"
+msgstr "Siguiente"
+
+#: View/AbsenceTypes/index.ctp:54 View/Areas/index.ctp:59
+#: View/Complexities/index.ctp:54 View/DevelopmentManagers/index.ctp:54
+#: View/Employees/index2.ctp:72 View/EvaluationStates/index.ctp:54
+#: View/Evaluations/index2.ctp:66 View/FinalStatuses/index.ctp:54
+#: View/Groups/index.ctp:56 View/Histories/index.ctp:64
+#: View/Holidays/index.ctp:52 View/Managements/index.ctp:54
+#: View/Modules/index.ctp:59 View/Observations/index.ctp:81
+#: View/PackageClasses/index.ctp:54 View/PackageStatuses/index.ctp:54
+#: View/Packages/index2.ctp:106 View/PlanningManagers/index.ctp:54
+#: View/Positions/index.ctp:56 View/ProjectClasses/index.ctp:54
+#: View/ProjectManagers/index.ctp:54 View/QualityManagers/index.ctp:62
+#: View/Respondents/index.ctp:54 View/Rfcs/index2.ctp:85
+#: View/UnsatisfactoryStatuses/index.ctp:56 View/Users/index.ctp:63
+#: View/Vehicles/index.ctp:63
+#, fuzzy
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of\n"
+"\t\t\t\t\t\t{:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+" Pagina {:page} de {:pages}, mostrando {:current} registros de un total de {:"
+"count}, a partir del registro {:start}, hasta {:end}"
+
+#: View/AbsenceTypes/index.ctp:68 View/AbsenceTypes/view.ctp:46
+#: View/Absences/add.ctp:66 View/Absences/edit.ctp:67
+#: View/Absences/index.ctp:52 View/Absences/view.ctp:74
+msgid "New Absence Type"
+msgstr "Nuevo Tipo de Ausencia"
+
+#: View/AbsenceTypes/view.ctp:5 View/Absences/index.ctp:13
+#: View/Absences/view.ctp:16 View/Employees/view.ctp:196
+msgid "Absence Type"
+msgstr "Tipo de Ausencia"
+
+#: View/AbsenceTypes/view.ctp:13 View/Areas/view.ctp:13;86
+#: View/Complexities/view.ctp:13;77 View/DevelopmentManagers/view.ctp:13;77
+#: View/Elements/home/central/ause.ctp:36;81;118
+#: View/Elements/home/central/holy.ctp:44;78 View/Employees/view.ctp:24
+#: View/EvaluationStates/view.ctp:13 View/Evaluations/complete_data.ctp:13
+#: View/Evaluations/on_demand_eval.ctp:13 View/Evaluations/preview.ctp:13
+#: View/FinalStatuses/view.ctp:13 View/Groups/view.ctp:13
+#: View/Holidays/view.ctp:13 View/Managements/view.ctp:13;95;144
+#: View/Modules/view.ctp:13 View/PackageClasses/view.ctp:13;77
+#: View/PackageStatuses/view.ctp:13 View/Packages/view.ctp:357
+#: View/PlanningManagers/view.ctp:13;77 View/Positions/view.ctp:13;81
+#: View/ProjectClasses/view.ctp:13;77 View/ProjectManagers/view.ctp:13;77
+#: View/Respondents/view.ctp:13 View/Rfcs/highimpact.ctp:11
+#: View/Rfcs/index.ctp:11 View/Rfcs/summary.ctp:54 View/Rfcs/view.ctp:14
+#: View/UnsatisfactoryStatuses/view.ctp:16
+msgid "Name"
+msgstr "Nombre"
+
+#: View/AbsenceTypes/view.ctp:16;82 View/Absences/view.ctp:28
+#: View/Areas/view.ctp:19;88 View/Assignments/view.ctp:30
+#: View/Complexities/view.ctp:16;88 View/DevelopmentManagers/view.ctp:16;88
+#: View/Employees/view.ctp:82 View/EvaluationStates/view.ctp:16
+#: View/Evaluations/view.ctp:31 View/FinalStatuses/view.ctp:16
+#: View/Groups/view.ctp:19;87 View/Histories/view.ctp:29
+#: View/Managements/view.ctp:16 View/Modules/view.ctp:19
+#: View/Observations/view.ctp:32 View/PackageClasses/view.ctp:16;88
+#: View/PackageStatuses/view.ctp:16 View/Packages/view.ctp:157
+#: View/PlanningManagers/view.ctp:16;88 View/Positions/view.ctp:19
+#: View/ProjectClasses/view.ctp:16;88 View/ProjectManagers/view.ctp:16;88
+#: View/QualityManagers/view.ctp:19;98 View/Respondents/view.ctp:16
+#: View/Rfcs/view.ctp:120 View/UnsatisfactoryStatuses/view.ctp:19
+#: View/Users/view.ctp:34 View/Vehicles/view.ctp:25
+msgid "Created"
+msgstr "Creado"
+
+#: View/AbsenceTypes/view.ctp:19;83 View/Absences/view.ctp:31
+#: View/Areas/view.ctp:22;89 View/Assignments/view.ctp:33
+#: View/Complexities/view.ctp:19;89 View/DevelopmentManagers/view.ctp:19;89
+#: View/Employees/view.ctp:85 View/EvaluationStates/view.ctp:19
+#: View/Evaluations/view.ctp:34 View/FinalStatuses/view.ctp:19
+#: View/Groups/view.ctp:22;88 View/Histories/view.ctp:32
+#: View/Managements/view.ctp:19 View/Modules/view.ctp:22
+#: View/Observations/view.ctp:35 View/PackageClasses/view.ctp:19;89
+#: View/PackageStatuses/view.ctp:19 View/Packages/view.ctp:160
+#: View/PlanningManagers/view.ctp:19;89 View/Positions/view.ctp:22
+#: View/ProjectClasses/view.ctp:19;89 View/ProjectManagers/view.ctp:19;89
+#: View/QualityManagers/view.ctp:22;99 View/Respondents/view.ctp:19
+#: View/Rfcs/view.ctp:123 View/UnsatisfactoryStatuses/view.ctp:22
+#: View/Users/view.ctp:37 View/Vehicles/view.ctp:28
+msgid "Modified"
+msgstr "Modificado"
+
+#: View/AbsenceTypes/view.ctp:36
+msgid "Delete Absence Type"
+msgstr "Eliminar Tipo de Ausencia"
+
+#: View/AbsenceTypes/view.ctp:68 View/Employees/view.ctp:187
+msgid "Related Absences"
+msgstr "Ausencias Rlacionadas"
+
+#: View/AbsenceTypes/view.ctp:77 View/Managements/view.ctp:203
+#: View/QualityManagers/view.ctp:92
+msgid "Employee Id"
+msgstr "Id Empleado"
+
+#: View/AbsenceTypes/view.ctp:78
+msgid "Absence Type Id"
+msgstr "Id Tipo de Asencia"
+
+#: View/AbsenceTypes/view.ctp:79 View/Absences/index.ctp:12
+#: View/Absences/view.ctp:19 View/Complexities/view.ctp:78
+#: View/DevelopmentManagers/view.ctp:78 View/Employees/view.ctp:197
+#: View/Evaluations/complete_data.ctp:16
+#: View/Evaluations/on_demand_eval.ctp:16 View/Evaluations/preview.ctp:16
+#: View/Options/index.ctp:14 View/Options/view.ctp:20
+#: View/PackageClasses/view.ctp:78 View/PlanningManagers/view.ctp:78
+#: View/ProjectClasses/view.ctp:78 View/ProjectManagers/view.ctp:78
+#: View/Rfcs/summary.ctp:57 View/Rfcs/view.ctp:17
+msgid "Description"
+msgstr "Descripción"
+
+#: View/AbsenceTypes/view.ctp:80 View/Absences/index.ctp:15
+#: View/Absences/view.ctp:22 View/Employees/view.ctp:198
+msgid "Departure Date"
+msgstr "Fecha de Salida"
+
+#: View/AbsenceTypes/view.ctp:81 View/Absences/index.ctp:16
+#: View/Absences/view.ctp:25 View/Employees/view.ctp:199
+msgid "Arrival Date"
+msgstr "Fecha de Llegada"
+
+#: View/Absences/add.ctp:9
+msgid "Add Absence"
+msgstr "Agregar Ausencia"
+
+#: View/Absences/add.ctp:51 View/Absences/edit.ctp:52
+#: View/Absences/index.ctp:37 View/Absences/view.ctp:64
+#: View/Assignments/add.ctp:86 View/Assignments/edit.ctp:87
+#: View/Assignments/index.ctp:77 View/Assignments/view.ctp:82
+#: View/Elements/manager_menu.ctp:36 View/Employees/add.ctp:57
+#: View/Employees/edit.ctp:58 View/Employees/image.ctp:46
+#: View/Employees/view.ctp:119 View/Evaluations/add.ctp:52
+#: View/Evaluations/complete_package.ctp:69 View/Evaluations/edit.ctp:53
+#: View/Evaluations/index.ctp:54 View/Evaluations/index2.ctp:87
+#: View/Evaluations/summary.ctp:91 View/Evaluations/view.ctp:67
+#: View/Evaluations/yearly_evaluation.ctp:116 View/Managements/add.ctp:57
+#: View/Managements/edit.ctp:58 View/Managements/index.ctp:85
+#: View/Managements/view.ctp:58 View/Packages/add.ctp:98
+#: View/Packages/change_status.ctp:122 View/Packages/edit.ctp:99
+#: View/Packages/evaluation.ctp:65 View/Packages/index.ctp:71
+#: View/Packages/index2.ctp:137 View/Packages/index3.ctp:61
+#: View/Packages/replan.ctp:118 View/Packages/set_especialist.ctp:134
+#: View/Packages/set_management.ctp:103
+#: View/Packages/set_quality_values.ctp:134 View/Packages/suspend.ctp:122
+#: View/Packages/view.ctp:206 View/Positions/add.ctp:48
+#: View/Positions/edit.ctp:49 View/Positions/index.ctp:77
+#: View/Positions/view.ctp:55 View/QualityManagers/add.ctp:48
+#: View/QualityManagers/edit.ctp:49 View/QualityManagers/index.ctp:83
+#: View/QualityManagers/view.ctp:55 View/Vehicles/add.ctp:50
+#: View/Vehicles/edit.ctp:51 View/Vehicles/index.ctp:84
+#: View/Vehicles/view.ctp:61
+msgid "List Employees"
+msgstr "Listar Empleados"
+
+#: View/Absences/add.ctp:56 View/Absences/edit.ctp:57
+#: View/Absences/index.ctp:42 View/Absences/view.ctp:68
+#: View/Assignments/add.ctp:91 View/Assignments/edit.ctp:92
+#: View/Assignments/index.ctp:82 View/Assignments/view.ctp:86
+#: View/Charts/workload.ctp:42 View/Employees/index.ctp:34
+#: View/Employees/index2.ctp:86 View/Employees/schedule.ctp:27
+#: View/Employees/view.ctp:124 View/Evaluations/add.ctp:57
+#: View/Evaluations/complete_package.ctp:74 View/Evaluations/edit.ctp:58
+#: View/Evaluations/index.ctp:59 View/Evaluations/index2.ctp:92
+#: View/Evaluations/summary.ctp:96 View/Evaluations/view.ctp:71
+#: View/Evaluations/yearly_evaluation.ctp:121 View/Managements/add.ctp:62
+#: View/Managements/edit.ctp:63 View/Managements/index.ctp:90
+#: View/Managements/view.ctp:62 View/Packages/add.ctp:103
+#: View/Packages/change_status.ctp:127 View/Packages/edit.ctp:104
+#: View/Packages/evaluation.ctp:70 View/Packages/index.ctp:76
+#: View/Packages/index2.ctp:142 View/Packages/index3.ctp:66
+#: View/Packages/replan.ctp:123 View/Packages/set_especialist.ctp:139
+#: View/Packages/set_management.ctp:108
+#: View/Packages/set_quality_values.ctp:139 View/Packages/suspend.ctp:127
+#: View/Packages/view.ctp:210 View/Positions/add.ctp:53
+#: View/Positions/edit.ctp:54 View/Positions/index.ctp:82
+#: View/Positions/view.ctp:59 View/QualityManagers/add.ctp:53
+#: View/QualityManagers/edit.ctp:54 View/QualityManagers/index.ctp:88
+#: View/QualityManagers/view.ctp:59 View/Vehicles/add.ctp:55
+#: View/Vehicles/edit.ctp:56 View/Vehicles/index.ctp:89
+#: View/Vehicles/view.ctp:65
+msgid "New Employee"
+msgstr "Nuevo Empleado"
+
+#: View/Absences/edit.ctp:9 View/Absences/view.ctp:43
+msgid "Edit Absence"
+msgstr "Editar Ausencia"
+
+#: View/Absences/index.ctp:5
+msgid "Absences"
+msgstr "Ausencias"
+
+#: View/Absences/index.ctp:14 View/Absences/view.ctp:13
+#: View/Assignments/view.ctp:19 View/Employees/view.ctp:5
+#: View/QualityManagers/view.ctp:13 View/Vehicles/view.ctp:22
+msgid "Employee"
+msgstr "Empleado"
+
+#: View/Absences/view.ctp:48
+msgid "Delete Absence"
+msgstr "Eliminar Ausencia"
+
+#: View/Areas/add.ctp:9
+msgid "Add Area"
+msgstr "Agregar Área"
+
+#: View/Areas/add.ctp:41 View/Areas/edit.ctp:42 View/Areas/view.ctp:44
+#: View/Elements/manager_menu.ctp:27 View/Managements/add.ctp:47
+#: View/Managements/edit.ctp:48 View/Managements/index.ctp:75
+#: View/Managements/view.ctp:52 View/Modules/add.ctp:48
+#: View/Modules/edit.ctp:49 View/Modules/index.ctp:80 View/Modules/view.ctp:55
+msgid "List Areas"
+msgstr "Listar Áreas"
+
+#: View/Areas/add.ctp:48 View/Areas/edit.ctp:49 View/Areas/index.ctp:80
+#: View/Areas/view.ctp:55 View/Assignments/add.ctp:96
+#: View/Assignments/edit.ctp:97 View/Assignments/index.ctp:87
+#: View/Assignments/view.ctp:88 View/Charts/workload.ctp:59
+#: View/Elements/manager_menu.ctp:52 View/Employees/add.ctp:74
+#: View/Employees/edit.ctp:75 View/Employees/image.ctp:63
+#: View/Employees/index.ctp:51 View/Employees/index2.ctp:103
+#: View/Employees/schedule.ctp:44 View/Employees/view.ctp:136
+#: View/Evaluations/complete_package.ctp:139 View/Evaluations/index.ctp:64
+#: View/Evaluations/index2.ctp:97 View/Managements/add.ctp:40
+#: View/Managements/edit.ctp:41 View/Managements/view.ctp:41
+#: View/Packages/add.ctp:168 View/Packages/change_status.ctp:192
+#: View/Packages/edit.ctp:159 View/Packages/evaluation.ctp:175
+#: View/Packages/index.ctp:181 View/Packages/index2.ctp:247
+#: View/Packages/index3.ctp:171 View/Packages/replan.ctp:228
+#: View/Packages/set_especialist.ctp:244 View/Packages/set_management.ctp:213
+#: View/Packages/set_quality_values.ctp:244 View/Packages/suspend.ctp:192
+#: View/Packages/view.ctp:242 View/QualityManagers/add.ctp:58
+#: View/QualityManagers/edit.ctp:59 View/QualityManagers/index.ctp:93
+#: View/QualityManagers/view.ctp:61
+msgid "List Managements"
+msgstr "Lista de Gerencias"
+
+#: View/Areas/add.ctp:53 View/Areas/edit.ctp:54 View/Areas/index.ctp:85
+#: View/Areas/view.ctp:59 View/Assignments/add.ctp:101
+#: View/Assignments/edit.ctp:102 View/Assignments/index.ctp:92
+#: View/Assignments/view.ctp:92 View/Charts/packages.ctp:126
+#: View/Charts/workload.ctp:64 View/Employees/add.ctp:79
+#: View/Employees/edit.ctp:80 View/Employees/image.ctp:68
+#: View/Employees/index.ctp:56 View/Employees/index2.ctp:108
+#: View/Employees/schedule.ctp:49 View/Employees/view.ctp:140
+#: View/Evaluations/complete_package.ctp:144 View/Evaluations/index.ctp:69
+#: View/Evaluations/index2.ctp:102 View/Managements/index.ctp:68
+#: View/Managements/view.ctp:46 View/Packages/add.ctp:173
+#: View/Packages/change_status.ctp:197 View/Packages/charts2Home.ctp:110
+#: View/Packages/edit.ctp:164 View/Packages/evaluation.ctp:180
+#: View/Packages/index.ctp:186 View/Packages/index2.ctp:252
+#: View/Packages/index3.ctp:176 View/Packages/replan.ctp:233
+#: View/Packages/set_especialist.ctp:249 View/Packages/set_management.ctp:218
+#: View/Packages/set_quality_values.ctp:249 View/Packages/suspend.ctp:197
+#: View/Packages/view.ctp:246 View/QualityManagers/add.ctp:63
+#: View/QualityManagers/edit.ctp:64 View/QualityManagers/index.ctp:98
+#: View/QualityManagers/view.ctp:65
+msgid "New Management"
+msgstr "Nueva Gerencia"
+
+#: View/Areas/add.ctp:63 View/Areas/edit.ctp:64 View/Areas/index.ctp:95
+#: View/Areas/view.ctp:65 View/Evaluations/complete_package.ctp:64
+#: View/Modules/index.ctp:73 View/Modules/view.ctp:49 View/Packages/add.ctp:93
+#: View/Packages/change_status.ctp:117 View/Packages/edit.ctp:94
+#: View/Packages/evaluation.ctp:60 View/Packages/index.ctp:66
+#: View/Packages/index2.ctp:132 View/Packages/index3.ctp:56
+#: View/Packages/replan.ctp:113 View/Packages/set_especialist.ctp:129
+#: View/Packages/set_management.ctp:98
+#: View/Packages/set_quality_values.ctp:129 View/Packages/suspend.ctp:117
+#: View/Packages/view.ctp:204
+msgid "New Module"
+msgstr "Nuevo Módulo"
+
+#: View/Areas/edit.ctp:9 View/Areas/view.ctp:34
+msgid "Edit Area"
+msgstr "Editar Área"
+
+#: View/Areas/index.ctp:5
+msgid "Areas"
+msgstr "Áreas"
+
+#: View/Areas/index.ctp:73 View/Areas/view.ctp:49 View/Managements/add.ctp:52
+#: View/Managements/edit.ctp:53 View/Managements/index.ctp:80
+#: View/Managements/view.ctp:56 View/Modules/add.ctp:53
+#: View/Modules/edit.ctp:54 View/Modules/index.ctp:85 View/Modules/view.ctp:59
+msgid "New Area"
+msgstr "Nueva Área"
+
+#: View/Areas/view.ctp:5 View/Modules/view.ctp:16
+msgid "Area"
+msgstr "Área"
+
+#: View/Areas/view.ctp:16 View/Assignments/view.ctp:16
+#: View/Elements/packages/actions.ctp:18 View/Emails/html/assignment.ctp:10
+#: View/Employees/index.ctp:16 View/Employees/view.ctp:36
+#: View/Evaluations/index.ctp:15 View/Evaluations/summary.ctp:17
+#: View/Managements/view.ctp:5 View/Packages/change_status.ctp:40
+#: View/Packages/replan.ctp:40 View/Packages/set_especialist.ctp:39
+#: View/Packages/set_quality_values.ctp:68 View/Packages/suspend.ctp:40
+#: View/Packages/view.ctp:125 View/QualityManagers/view.ctp:16
+#: View/Users/profile.ctp:44
+msgid "Management"
+msgstr "Gerencia"
+
+#: View/Areas/view.ctp:39
+msgid "Delete Area"
+msgstr "Eliminar Área"
+
+#: View/Areas/view.ctp:77
+msgid "Related Modules"
+msgstr "Módulos Relacionados"
+
+#: View/Areas/view.ctp:87
+msgid "Area Id"
+msgstr "Id Área"
+
+#: View/Assignments/add.ctp:81 View/Assignments/edit.ctp:82
+#: View/Assignments/index.ctp:72 View/Assignments/view.ctp:80
+#: View/Complexities/add.ctp:52 View/Complexities/edit.ctp:53
+#: View/Complexities/index.ctp:80 View/Complexities/view.ctp:56
+#: View/DevelopmentManagers/add.ctp:52 View/DevelopmentManagers/edit.ctp:53
+#: View/DevelopmentManagers/index.ctp:80 View/DevelopmentManagers/view.ctp:56
+#: View/Evaluations/complete_package.ctp:94 View/PackageClasses/add.ctp:52
+#: View/PackageClasses/edit.ctp:53 View/PackageClasses/index.ctp:80
+#: View/PackageClasses/view.ctp:56 View/Packages/add.ctp:123
+#: View/Packages/change_status.ctp:147 View/Packages/edit.ctp:124
+#: View/Packages/evaluation.ctp:90 View/Packages/index.ctp:96
+#: View/Packages/index2.ctp:162 View/Packages/index3.ctp:86
+#: View/Packages/replan.ctp:143 View/Packages/set_especialist.ctp:159
+#: View/Packages/set_management.ctp:128
+#: View/Packages/set_quality_values.ctp:159 View/Packages/suspend.ctp:147
+#: View/Packages/view.ctp:222 View/PlanningManagers/add.ctp:52
+#: View/PlanningManagers/edit.ctp:53 View/PlanningManagers/index.ctp:80
+#: View/PlanningManagers/view.ctp:56 View/ProjectClasses/add.ctp:52
+#: View/ProjectClasses/edit.ctp:53 View/ProjectClasses/index.ctp:80
+#: View/ProjectClasses/view.ctp:56 View/ProjectManagers/add.ctp:52
+#: View/ProjectManagers/edit.ctp:53 View/ProjectManagers/index.ctp:80
+#: View/ProjectManagers/view.ctp:56 View/Rfcs/highimpact.ctp:48
+#: View/Rfcs/index.ctp:48 View/Rfcs/index2.ctp:99 View/Rfcs/summary.ctp:218
+#: View/Rfcs/view.ctp:165
+msgid "New Rfc"
+msgstr "Nuevo RFC"
+
+#: View/Assignments/add.ctp:112 View/Assignments/edit.ctp:113
+#: View/Elements/details_ajax.ctp:6 View/Employees/schedule.ctp:119
+#: View/Packages/set_especialist.ctp:264
+msgid "Details"
+msgstr "Detalles"
+
+#: View/Assignments/add.ctp:117;440;482 View/Assignments/edit.ctp:118;441;483
+#: View/Elements/details_ajax.ctp:11;39
+#: View/Elements/packages/package_detail_ajax.ctp:11;37
+#: View/Employees/schedule.ctp:124;160
+#: View/Packages/set_especialist.ctp:269;590;632
+msgid "Close"
+msgstr "Cerrar"
+
+#: View/Assignments/add.ctp:465;477 View/Assignments/edit.ctp:466;478
+#: View/Elements/details_ajax.ctp:34 View/Elements/home/charts.ctp:15
+#: View/Elements/packages/package_detail_ajax.ctp:32
+#: View/Employees/schedule.ctp:150;155 View/Packages/charts2Home.ctp:59
+#: View/Packages/set_especialist.ctp:615;627
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: View/Assignments/edit.ctp:9 View/Assignments/view.ctp:55
+msgid "Edit Assignment"
+msgstr "Editar Asignación"
+
+#: View/Assignments/index.ctp:5
+msgid "Assignments"
+msgstr "Asignaciones"
+
+#: View/Assignments/index.ctp:60 View/Assignments/view.ctp:70
+msgid "New Assignment"
+msgstr "Nueva Asignación"
+
+#: View/Assignments/view.ctp:60
+msgid "Delete Assignment"
+msgstr "Eliminar Asignación"
+
+#: View/Charts/multiple.ctp:31
+msgid "Trial Days"
+msgstr "Días para el Inicio de Atención"
+
+#: View/Charts/multiple.ctp:36 View/Packages/view.ctp:101
+msgid "Certification Days"
+msgstr "Días de certificación"
+
+#: View/Charts/multiple.ctp:46
+#: View/Elements/packages/package_detail_ajax.ctp:6
+#: View/Packages/change_status.ctp:9 View/Packages/set_especialist.ctp:8
+#: View/Packages/set_quality_values.ctp:8 View/Packages/suspend.ctp:9
+#: View/Packages/view.ctp:5
+msgid "Package"
+msgstr "Paquete"
+
+#: View/Charts/multiple.ctp:51
+msgid "Others"
+msgstr "Otros"
+
+#: View/Charts/multiple.ctp:56 View/Employees/schedule.ctp:6
+msgid "Employees Schedule"
+msgstr "Planificación de Empleados"
+
+#: View/Charts/packages.ctp:33
+msgid "Pending Packages"
+msgstr "Paquetes Pendientes"
+
+#: View/Charts/packages.ctp:43
+msgid "Entries per Month"
+msgstr "Entradas por Mes"
+
+#: View/Charts/packages.ctp:57 View/Packages/charts2Home.ctp:35
+msgid "Certified per Employee"
+msgstr "Certificados por empleados"
+
+#: View/Charts/packages.ctp:134 View/Charts/workload.ctp:89
+#: View/Elements/manager_menu.ctp:58 View/Elements/user_menu.ctp:22
+#: View/Employees/add.ctp:104 View/Employees/edit.ctp:105
+#: View/Employees/image.ctp:93 View/Employees/index.ctp:81
+#: View/Employees/index2.ctp:133 View/Employees/schedule.ctp:74
+#: View/Employees/view.ctp:154 View/EvaluationStates/add.ctp:47
+#: View/EvaluationStates/edit.ctp:48 View/EvaluationStates/index.ctp:75
+#: View/EvaluationStates/view.ctp:52 View/Evaluations/complete_package.ctp:52
+#: View/FinalStatuses/add.ctp:47 View/FinalStatuses/edit.ctp:48
+#: View/FinalStatuses/index.ctp:75 View/FinalStatuses/view.ctp:52
+#: View/Managements/add.ctp:67 View/Managements/edit.ctp:68
+#: View/Managements/index.ctp:95 View/Managements/view.ctp:64
+#: View/Modules/add.ctp:58 View/Modules/edit.ctp:59 View/Modules/index.ctp:90
+#: View/Modules/view.ctp:61 View/PackageStatuses/add.ctp:47
+#: View/PackageStatuses/edit.ctp:48 View/PackageStatuses/index.ctp:75
+#: View/PackageStatuses/view.ctp:52 View/Packages/add.ctp:81
+#: View/Packages/change_status.ctp:105 View/Packages/charts2Home.ctp:118
+#: View/Packages/edit.ctp:82 View/Packages/replan.ctp:101
+#: View/Packages/set_especialist.ctp:117 View/Packages/set_management.ctp:86
+#: View/Packages/set_quality_values.ctp:117 View/Packages/suspend.ctp:105
+#: View/Packages/view.ctp:189 View/Respondents/add.ctp:47
+#: View/Respondents/edit.ctp:48 View/Respondents/index.ctp:75
+#: View/Respondents/view.ctp:52 View/Rfcs/add.ctp:134 View/Rfcs/edit.ctp:133
+#: View/Rfcs/highimpact.ctp:115 View/Rfcs/index.ctp:115
+#: View/Rfcs/index2.ctp:166 View/Rfcs/summary.ctp:260 View/Rfcs/view.ctp:207
+#: View/UnsatisfactoryStatuses/add.ctp:49
+#: View/UnsatisfactoryStatuses/edit.ctp:50
+#: View/UnsatisfactoryStatuses/index.ctp:77
+#: View/UnsatisfactoryStatuses/view.ctp:55
+msgid "List Packages"
+msgstr "Listar Paquetes"
+
+#: View/Charts/packages.ctp:139 View/Charts/workload.ctp:94
+#: View/Employees/add.ctp:109 View/Employees/edit.ctp:110
+#: View/Employees/image.ctp:98 View/Employees/index.ctp:86
+#: View/Employees/index2.ctp:138 View/Employees/schedule.ctp:79
+#: View/Employees/view.ctp:158 View/EvaluationStates/add.ctp:52
+#: View/EvaluationStates/edit.ctp:53 View/EvaluationStates/index.ctp:80
+#: View/EvaluationStates/view.ctp:56 View/FinalStatuses/add.ctp:52
+#: View/FinalStatuses/edit.ctp:53 View/FinalStatuses/index.ctp:80
+#: View/FinalStatuses/view.ctp:56 View/Managements/add.ctp:72
+#: View/Managements/edit.ctp:73 View/Managements/index.ctp:100
+#: View/Managements/view.ctp:68 View/Modules/add.ctp:63
+#: View/Modules/edit.ctp:64 View/Modules/index.ctp:95 View/Modules/view.ctp:65
+#: View/PackageStatuses/add.ctp:52 View/PackageStatuses/edit.ctp:53
+#: View/PackageStatuses/index.ctp:80 View/PackageStatuses/view.ctp:56
+#: View/Packages/charts2Home.ctp:123 View/Packages/evaluation.ctp:48
+#: View/Packages/index.ctp:54 View/Packages/index2.ctp:120
+#: View/Packages/index3.ctp:44 View/Packages/view.ctp:194
+#: View/Respondents/add.ctp:52 View/Respondents/edit.ctp:53
+#: View/Respondents/index.ctp:80 View/Respondents/view.ctp:56
+#: View/Rfcs/add.ctp:139 View/Rfcs/edit.ctp:138 View/Rfcs/highimpact.ctp:120
+#: View/Rfcs/index.ctp:120 View/Rfcs/index2.ctp:171 View/Rfcs/summary.ctp:264
+#: View/Rfcs/view.ctp:211 View/UnsatisfactoryStatuses/add.ctp:54
+#: View/UnsatisfactoryStatuses/edit.ctp:55
+#: View/UnsatisfactoryStatuses/index.ctp:82
+#: View/UnsatisfactoryStatuses/view.ctp:59
+msgid "New Package"
+msgstr "Nuevo Paquete"
+
+#: View/Charts/packages.ctp:144 View/Charts/workload.ctp:99
+#: View/Employees/add.ctp:114 View/Employees/edit.ctp:115
+#: View/Employees/image.ctp:103 View/Employees/index.ctp:91
+#: View/Employees/index2.ctp:143 View/Employees/schedule.ctp:84
+#: View/Employees/view.ctp:160 View/Managements/add.ctp:77
+#: View/Managements/edit.ctp:78 View/Managements/index.ctp:105
+#: View/Managements/view.ctp:70 View/Packages/charts2Home.ctp:128
+#: View/QualityManagers/add.ctp:41 View/QualityManagers/edit.ctp:42
+#: View/QualityManagers/view.ctp:44
+msgid "List Quality Managers"
+msgstr "Listar Gerentes de Calidad"
+
+#: View/Charts/packages.ctp:149 View/Charts/workload.ctp:104
+#: View/Employees/add.ctp:119 View/Employees/edit.ctp:120
+#: View/Employees/image.ctp:108 View/Employees/index.ctp:96
+#: View/Employees/index2.ctp:148 View/Employees/schedule.ctp:89
+#: View/Employees/view.ctp:164 View/Managements/add.ctp:82
+#: View/Managements/edit.ctp:83 View/Managements/index.ctp:110
+#: View/Managements/view.ctp:74 View/Packages/charts2Home.ctp:133
+#: View/QualityManagers/index.ctp:76 View/QualityManagers/view.ctp:49
+msgid "New Quality Manager"
+msgstr "Nuevo Gerente de Calidad"
+
+#: View/Charts/workload.ctp:49 View/Elements/manager_menu.ctp:70
+#: View/Employees/add.ctp:64 View/Employees/edit.ctp:65
+#: View/Employees/image.ctp:53 View/Employees/index.ctp:41
+#: View/Employees/index2.ctp:93 View/Employees/schedule.ctp:34
+#: View/Employees/view.ctp:130 View/Positions/add.ctp:41
+#: View/Positions/edit.ctp:42 View/Positions/view.ctp:44
+msgid "List Positions"
+msgstr "Listar Cargos"
+
+#: View/Charts/workload.ctp:54 View/Employees/add.ctp:69
+#: View/Employees/edit.ctp:70 View/Employees/image.ctp:58
+#: View/Employees/index.ctp:46 View/Employees/index2.ctp:98
+#: View/Employees/schedule.ctp:39 View/Employees/view.ctp:134
+#: View/Positions/index.ctp:70 View/Positions/view.ctp:49
+msgid "New Position"
+msgstr "Nuevo Cargo"
+
+#: View/Charts/workload.ctp:79 View/Elements/manager_menu.ctp:39
+#: View/Elements/user_menu.ctp:10 View/Employees/add.ctp:94
+#: View/Employees/edit.ctp:95 View/Employees/image.ctp:83
+#: View/Employees/index.ctp:71 View/Employees/index2.ctp:123
+#: View/Employees/schedule.ctp:64 View/Employees/view.ctp:148
+#: View/Evaluations/add.ctp:45 View/Evaluations/compute.ctp:43
+#: View/Evaluations/edit.ctp:46 View/Evaluations/summary.ctp:84
+#: View/Evaluations/view.ctp:56 View/Evaluations/yearly_evaluation.ctp:109
+msgid "List Evaluations"
+msgstr "Listar Evaluaciones"
+
+#: View/Charts/workload.ctp:84 View/Employees/add.ctp:99
+#: View/Employees/edit.ctp:100 View/Employees/image.ctp:88
+#: View/Employees/index.ctp:76 View/Employees/index2.ctp:128
+#: View/Employees/schedule.ctp:69 View/Employees/view.ctp:152
+#: View/Evaluations/index.ctp:47 View/Evaluations/index2.ctp:80
+#: View/Evaluations/view.ctp:61
+msgid "New Evaluation"
+msgstr "Nueva Evaluación"
+
+#: View/Charts/workload.ctp:109 View/Employees/add.ctp:124
+#: View/Employees/edit.ctp:125 View/Employees/image.ctp:113
+#: View/Employees/index.ctp:101 View/Employees/index2.ctp:153
+#: View/Employees/schedule.ctp:94 View/Employees/view.ctp:166
+#: View/QualityManagers/add.ctp:68 View/QualityManagers/edit.ctp:69
+#: View/QualityManagers/index.ctp:103 View/QualityManagers/view.ctp:67
+msgid "List Tasks"
+msgstr "Listar Actividades"
+
+#: View/Charts/workload.ctp:114 View/Employees/add.ctp:129
+#: View/Employees/edit.ctp:130 View/Employees/image.ctp:118
+#: View/Employees/index.ctp:106 View/Employees/index2.ctp:158
+#: View/Employees/schedule.ctp:99 View/Employees/view.ctp:170
+#: View/QualityManagers/add.ctp:73 View/QualityManagers/edit.ctp:74
+#: View/QualityManagers/index.ctp:108 View/QualityManagers/view.ctp:71
+msgid "New Task"
+msgstr "Nueva Actividad"
+
+#: View/Charts/workload.ctp:119 View/Elements/manager_menu.ctp:99
+#: View/Employees/add.ctp:134 View/Employees/edit.ctp:135
+#: View/Employees/image.ctp:123 View/Employees/index.ctp:111
+#: View/Employees/index2.ctp:163 View/Employees/schedule.ctp:104
+#: View/Employees/view.ctp:172 View/Vehicles/add.ctp:43
+#: View/Vehicles/edit.ctp:44 View/Vehicles/view.ctp:50
+msgid "List Vehicles"
+msgstr "Listar Vehículos"
+
+#: View/Charts/workload.ctp:124 View/Employees/add.ctp:139
+#: View/Employees/edit.ctp:140 View/Employees/image.ctp:128
+#: View/Employees/index.ctp:116 View/Employees/index2.ctp:168
+#: View/Employees/schedule.ctp:109 View/Employees/view.ctp:176
+#: View/Vehicles/index.ctp:77 View/Vehicles/view.ctp:55
+msgid "New Vehicle"
+msgstr "Nuevo Vehículo"
+
+#: View/Complexities/add.ctp:9
+msgid "Add Complexity"
+msgstr "Agregar Paquete"
+
+#: View/Complexities/add.ctp:40 View/Complexities/edit.ctp:41
+#: View/Complexities/view.ctp:41 View/Elements/manager_menu.ctp:30
+#: View/Packages/evaluation.ctp:95 View/Packages/index.ctp:101
+#: View/Packages/index2.ctp:167 View/Packages/index3.ctp:91
+#: View/Packages/replan.ctp:148 View/Packages/set_especialist.ctp:164
+#: View/Packages/set_management.ctp:133
+#: View/Packages/set_quality_values.ctp:164 View/Rfcs/add.ctp:124
+#: View/Rfcs/edit.ctp:123 View/Rfcs/highimpact.ctp:105 View/Rfcs/index.ctp:105
+#: View/Rfcs/index2.ctp:156 View/Rfcs/summary.ctp:254 View/Rfcs/view.ctp:201
+msgid "List Complexities"
+msgstr "Listar Complejidades"
+
+#: View/Complexities/edit.ctp:9 View/Complexities/view.ctp:31
+msgid "Edit Complexity"
+msgstr "Editar Complejidad"
+
+#: View/Complexities/index.ctp:5
+msgid "Complexities"
+msgstr "Complejidades"
+
+#: View/Complexities/index.ctp:68 View/Complexities/view.ctp:46
+#: View/Packages/evaluation.ctp:100 View/Packages/index.ctp:106
+#: View/Packages/index2.ctp:172 View/Packages/index3.ctp:96
+#: View/Packages/replan.ctp:153 View/Packages/set_especialist.ctp:169
+#: View/Packages/set_management.ctp:138
+#: View/Packages/set_quality_values.ctp:169 View/Rfcs/add.ctp:129
+#: View/Rfcs/edit.ctp:128 View/Rfcs/highimpact.ctp:110 View/Rfcs/index.ctp:110
+#: View/Rfcs/index2.ctp:161 View/Rfcs/summary.ctp:258 View/Rfcs/view.ctp:205
+msgid "New Complexity"
+msgstr "Nueva Complejidad"
+
+#: View/Complexities/view.ctp:5 View/Evaluations/complete_data.ctp:27
+#: View/Evaluations/on_demand_eval.ctp:27 View/Evaluations/preview.ctp:27
+#: View/Rfcs/highimpact.ctp:13 View/Rfcs/index.ctp:13 View/Rfcs/summary.ctp:80
+#: View/Rfcs/view.ctp:95
+msgid "Complexity"
+msgstr "Complejidad"
+
+#: View/Complexities/view.ctp:36
+msgid "Delete Complexity"
+msgstr "Eliminar Complejidad"
+
+#: View/Complexities/view.ctp:68 View/DevelopmentManagers/view.ctp:68
+#: View/PackageClasses/view.ctp:68 View/PlanningManagers/view.ctp:68
+#: View/ProjectClasses/view.ctp:68 View/ProjectManagers/view.ctp:68
+msgid "Related Rfcs"
+msgstr "Rfc(s) Relacionados"
+
+#: View/Complexities/view.ctp:79 View/DevelopmentManagers/view.ctp:79
+#: View/PackageClasses/view.ctp:79 View/PlanningManagers/view.ctp:79
+#: View/ProjectClasses/view.ctp:79 View/ProjectManagers/view.ctp:79
+msgid "Planning Manager Id"
+msgstr "Id Gerente de Planificación"
+
+#: View/Complexities/view.ctp:80 View/DevelopmentManagers/view.ctp:80
+#: View/PackageClasses/view.ctp:80 View/PlanningManagers/view.ctp:80
+#: View/ProjectClasses/view.ctp:80 View/ProjectManagers/view.ctp:80
+msgid "Project Manager Id"
+msgstr "Id Gerente de Proyecto"
+
+#: View/Complexities/view.ctp:81 View/DevelopmentManagers/view.ctp:81
+#: View/PackageClasses/view.ctp:81 View/PlanningManagers/view.ctp:81
+#: View/ProjectClasses/view.ctp:81 View/ProjectManagers/view.ctp:81
+msgid "Development Manager Id"
+msgstr "Id Gerente de Desarrollo"
+
+#: View/Complexities/view.ctp:82 View/DevelopmentManagers/view.ctp:82
+#: View/PackageClasses/view.ctp:82 View/PlanningManagers/view.ctp:82
+#: View/ProjectClasses/view.ctp:82 View/ProjectManagers/view.ctp:82
+msgid "Project Class Id"
+msgstr "Id Clase de Proyecto"
+
+#: View/Complexities/view.ctp:83 View/DevelopmentManagers/view.ctp:83
+#: View/PackageClasses/view.ctp:83 View/PlanningManagers/view.ctp:83
+#: View/ProjectClasses/view.ctp:83 View/ProjectManagers/view.ctp:83
+msgid "Package Class Id"
+msgstr "Id Clase de Paquete"
+
+#: View/Complexities/view.ctp:84 View/DevelopmentManagers/view.ctp:84
+#: View/PackageClasses/view.ctp:84 View/PlanningManagers/view.ctp:84
+#: View/ProjectClasses/view.ctp:84 View/ProjectManagers/view.ctp:84
+msgid "Complexity Id"
+msgstr "Id Complejidad"
+
+#: View/Complexities/view.ctp:86 View/DevelopmentManagers/view.ctp:86
+#: View/Evaluations/complete_data.ctp:33
+#: View/Evaluations/on_demand_eval.ctp:33 View/Evaluations/preview.ctp:33
+#: View/PackageClasses/view.ctp:86 View/PlanningManagers/view.ctp:86
+#: View/ProjectClasses/view.ctp:86 View/ProjectManagers/view.ctp:86
+#: View/Rfcs/summary.ctp:87 View/Rfcs/view.ctp:99
+msgid "Remaining"
+msgstr "Restante"
+
+#: View/Complexities/view.ctp:87 View/DevelopmentManagers/view.ctp:87
+#: View/Evaluations/complete_data.ctp:36
+#: View/Evaluations/on_demand_eval.ctp:36 View/Evaluations/preview.ctp:36
+#: View/PackageClasses/view.ctp:87 View/PlanningManagers/view.ctp:87
+#: View/ProjectClasses/view.ctp:87 View/ProjectManagers/view.ctp:87
+#: View/Rfcs/summary.ctp:90 View/Rfcs/view.ctp:110
+msgid "Closed"
+msgstr "Cerrado"
+
+#: View/DevelopmentManagers/add.ctp:9
+msgid "Add Development Manager"
+msgstr "Agregar Gerente de Desarrollo"
+
+#: View/DevelopmentManagers/add.ctp:40 View/DevelopmentManagers/edit.ctp:41
+#: View/DevelopmentManagers/view.ctp:41 View/Elements/manager_menu.ctp:33
+#: View/Rfcs/add.ctp:94 View/Rfcs/edit.ctp:93 View/Rfcs/highimpact.ctp:75
+#: View/Rfcs/index.ctp:75 View/Rfcs/index2.ctp:126 View/Rfcs/summary.ctp:236
+#: View/Rfcs/view.ctp:183
+msgid "List Development Managers"
+msgstr "Lista de Gerentes de Desarrollo"
+
+#: View/DevelopmentManagers/edit.ctp:9 View/DevelopmentManagers/view.ctp:31
+msgid "Edit Development Manager"
+msgstr "Editar Gerente de Desarrollo"
+
+#: View/DevelopmentManagers/index.ctp:5
+msgid "Development Managers"
+msgstr "Gerentes de Desarrollo"
+
+#: View/DevelopmentManagers/index.ctp:68 View/DevelopmentManagers/view.ctp:46
+#: View/Rfcs/add.ctp:99 View/Rfcs/edit.ctp:98 View/Rfcs/highimpact.ctp:80
+#: View/Rfcs/index.ctp:80 View/Rfcs/index2.ctp:131 View/Rfcs/summary.ctp:240
+#: View/Rfcs/view.ctp:187
+msgid "New Development Manager"
+msgstr "Nuevo Gerente de Desarrollo"
+
+#: View/DevelopmentManagers/view.ctp:5
+msgid "Development Manager"
+msgstr "Gerente de Desarrollo"
+
+#: View/DevelopmentManagers/view.ctp:36
+msgid "Delete Development Manager"
+msgstr "Eliminar Gerente de Desarrollo"
+
+#: View/Elements/admin_menu.ctp:1
+msgid "Admin"
+msgstr "Administrador"
+
+#: View/Elements/datatable.ctp:24
+msgid "Copy"
+msgstr "Copiar"
+
+#: View/Elements/datatable.ctp:25
+msgid "Copied"
+msgstr "Copiadas"
+
+#: View/Elements/datatable.ctp:29
+msgid "Generated by SIGCALIDADIT"
+msgstr "Generado por SIGCALIDADIT"
+
+#: View/Elements/datatable.ctp:30
+msgid "Print"
+msgstr "Imprimir"
+
+#: View/Elements/datatable.ctp:34
+msgid "CSV"
+msgstr "CSV"
+
+#: View/Elements/datatable.ctp:38
+msgid "Excel"
+msgstr "Excel"
+
+#: View/Elements/datatable.ctp:43
+msgid "PDF"
+msgstr "PDF"
+
+#: View/Elements/datatable.ctp:53
+msgid "Show / hide columns"
+msgstr "Mostrar / Ocultar Columnas"
+
+#: View/Elements/datatable.ctp:54
+msgid "Restore"
+msgstr "Restaurar"
+
+#: View/Elements/datatable.ctp:55
+msgid "Show all"
+msgstr "Mostrar Todas"
+
+#: View/Elements/datatable.ctp:56
+msgid "Show none"
+msgstr "No Mostrar Ninguna"
+
+#: View/Elements/form_scripts.ctp:34 View/Elements/topbar.ctp:81;84
+msgid "Search"
+msgstr "Buscar"
+
+#: View/Elements/form_scripts.ctp:35
+msgid "None"
+msgstr "Ninguno"
+
+#: View/Elements/manager_menu.ctp:5
+msgid "Report of Packages"
+msgstr "Reporte de Proyectos"
+
+#: View/Elements/manager_menu.ctp:10
+msgid "Report of Certified Packages "
+msgstr "Reporte de paquetes certificados"
+
+#: View/Elements/manager_menu.ctp:15
+msgid "Report of High Impact "
+msgstr "Reporte de Alto Impacto"
+
+#: View/Elements/manager_menu.ctp:42 View/EvaluationStates/add.ctp:40
+#: View/EvaluationStates/edit.ctp:41 View/EvaluationStates/view.ctp:41
+#: View/Evaluations/complete_package.ctp:119 View/Packages/add.ctp:148
+#: View/Packages/change_status.ctp:172 View/Packages/edit.ctp:139
+#: View/Packages/evaluation.ctp:155 View/Packages/index.ctp:161
+#: View/Packages/index2.ctp:227 View/Packages/index3.ctp:151
+#: View/Packages/replan.ctp:208 View/Packages/set_especialist.ctp:224
+#: View/Packages/set_management.ctp:193
+#: View/Packages/set_quality_values.ctp:224 View/Packages/suspend.ctp:172
+#: View/Packages/view.ctp:230
+msgid "List Evaluation States"
+msgstr "Listar Estados de Evaluación"
+
+#: View/Elements/manager_menu.ctp:45 View/Evaluations/complete_package.ctp:129
+#: View/FinalStatuses/add.ctp:40 View/FinalStatuses/edit.ctp:41
+#: View/FinalStatuses/view.ctp:41 View/Packages/add.ctp:158
+#: View/Packages/change_status.ctp:182 View/Packages/edit.ctp:149
+#: View/Packages/evaluation.ctp:165 View/Packages/index.ctp:171
+#: View/Packages/index2.ctp:237 View/Packages/index3.ctp:161
+#: View/Packages/replan.ctp:218 View/Packages/set_especialist.ctp:234
+#: View/Packages/set_management.ctp:203
+#: View/Packages/set_quality_values.ctp:234 View/Packages/suspend.ctp:182
+#: View/Packages/view.ctp:236
+msgid "List Final Statuses"
+msgstr "Listar Estatus Final"
+
+#: View/Elements/manager_menu.ctp:61 View/PackageClasses/add.ctp:40
+#: View/PackageClasses/edit.ctp:41 View/PackageClasses/view.ctp:41
+#: View/Packages/evaluation.ctp:115 View/Packages/index.ctp:121
+#: View/Packages/index2.ctp:187 View/Packages/index3.ctp:111
+#: View/Packages/replan.ctp:168 View/Packages/set_especialist.ctp:184
+#: View/Packages/set_management.ctp:153
+#: View/Packages/set_quality_values.ctp:184 View/Rfcs/add.ctp:114
+#: View/Rfcs/edit.ctp:113 View/Rfcs/highimpact.ctp:95 View/Rfcs/index.ctp:95
+#: View/Rfcs/index2.ctp:146 View/Rfcs/summary.ctp:248 View/Rfcs/view.ctp:195
+msgid "List Package Classes"
+msgstr "Listar Tipos de Paquete"
+
+#: View/Elements/manager_menu.ctp:64 View/Evaluations/complete_package.ctp:79
+#: View/Observations/add.ctp:51 View/Observations/edit.ctp:52
+#: View/Observations/index.ctp:102 View/Observations/view.ctp:68
+#: View/PackageStatuses/add.ctp:40 View/PackageStatuses/edit.ctp:41
+#: View/PackageStatuses/view.ctp:41 View/Packages/add.ctp:108
+#: View/Packages/change_status.ctp:132 View/Packages/edit.ctp:109
+#: View/Packages/evaluation.ctp:75 View/Packages/index.ctp:81
+#: View/Packages/index2.ctp:147 View/Packages/index3.ctp:71
+#: View/Packages/replan.ctp:128 View/Packages/set_especialist.ctp:144
+#: View/Packages/set_management.ctp:113
+#: View/Packages/set_quality_values.ctp:144 View/Packages/suspend.ctp:132
+#: View/Packages/view.ctp:212
+msgid "List Package Statuses"
+msgstr "Listar Estatus de Paquete"
+
+#: View/Elements/manager_menu.ctp:67 View/PlanningManagers/add.ctp:40
+#: View/PlanningManagers/edit.ctp:41 View/PlanningManagers/view.ctp:41
+#: View/Rfcs/add.ctp:74 View/Rfcs/edit.ctp:73 View/Rfcs/highimpact.ctp:55
+#: View/Rfcs/index.ctp:55 View/Rfcs/index2.ctp:106 View/Rfcs/summary.ctp:224
+#: View/Rfcs/view.ctp:171
+msgid "List Planning Managers"
+msgstr "Lista de Gerentes de Planificación"
+
+#: View/Elements/manager_menu.ctp:73 View/Packages/evaluation.ctp:105
+#: View/Packages/index.ctp:111 View/Packages/index2.ctp:177
+#: View/Packages/index3.ctp:101 View/Packages/replan.ctp:158
+#: View/Packages/set_especialist.ctp:174 View/Packages/set_management.ctp:143
+#: View/Packages/set_quality_values.ctp:174 View/ProjectClasses/add.ctp:40
+#: View/ProjectClasses/edit.ctp:41 View/ProjectClasses/view.ctp:41
+#: View/Rfcs/add.ctp:104 View/Rfcs/edit.ctp:103 View/Rfcs/highimpact.ctp:85
+#: View/Rfcs/index.ctp:85 View/Rfcs/index2.ctp:136 View/Rfcs/summary.ctp:242
+#: View/Rfcs/view.ctp:189
+msgid "List Project Classes"
+msgstr "Lista de tipos de proyecto"
+
+#: View/Elements/manager_menu.ctp:76 View/ProjectManagers/add.ctp:40
+#: View/ProjectManagers/edit.ctp:41 View/ProjectManagers/view.ctp:41
+#: View/Rfcs/add.ctp:84 View/Rfcs/edit.ctp:83 View/Rfcs/highimpact.ctp:65
+#: View/Rfcs/index.ctp:65 View/Rfcs/index2.ctp:116 View/Rfcs/summary.ctp:230
+#: View/Rfcs/view.ctp:177
+msgid "List Project Managers"
+msgstr "Lista de Gerentes de Proyecto"
+
+#: View/Elements/manager_menu.ctp:79 View/Evaluations/complete_package.ctp:109
+#: View/Packages/add.ctp:138 View/Packages/change_status.ctp:162
+#: View/Packages/edit.ctp:129 View/Packages/evaluation.ctp:145
+#: View/Packages/index.ctp:151 View/Packages/index2.ctp:217
+#: View/Packages/index3.ctp:141 View/Packages/replan.ctp:198
+#: View/Packages/set_especialist.ctp:214 View/Packages/set_management.ctp:183
+#: View/Packages/set_quality_values.ctp:214 View/Packages/suspend.ctp:162
+#: View/Packages/view.ctp:224 View/Respondents/add.ctp:40
+#: View/Respondents/edit.ctp:41 View/Respondents/view.ctp:41
+msgid "List Respondents"
+msgstr "Lista de Responsables"
+
+#: View/Elements/manager_menu.ctp:85 View/Evaluations/complete_package.ctp:99
+#: View/Packages/add.ctp:128 View/Packages/change_status.ctp:152
+#: View/Packages/evaluation.ctp:135 View/Packages/index.ctp:141
+#: View/Packages/index2.ctp:207 View/Packages/index3.ctp:131
+#: View/Packages/replan.ctp:188 View/Packages/set_especialist.ctp:204
+#: View/Packages/set_management.ctp:173
+#: View/Packages/set_quality_values.ctp:204 View/Packages/suspend.ctp:152
+msgid "List Unsatisfactory Productions"
+msgstr "Lista de No Satisfactorio Producción"
+
+#: View/Elements/manager_menu.ctp:89 View/Evaluations/complete_package.ctp:149
+#: View/Packages/add.ctp:178 View/Packages/change_status.ctp:202
+#: View/Packages/evaluation.ctp:125 View/Packages/index.ctp:131
+#: View/Packages/index2.ctp:197 View/Packages/index3.ctp:121
+#: View/Packages/replan.ctp:178 View/Packages/set_especialist.ctp:194
+#: View/Packages/set_management.ctp:163
+#: View/Packages/set_quality_values.ctp:194 View/Packages/suspend.ctp:202
+msgid "List Unsatisfactory Qualities"
+msgstr "Lista de No Satisfactorios Calidad"
+
+#: View/Elements/topbar.ctp:69
+msgid "Profile"
+msgstr "Pérfil"
+
+#: View/Elements/topbar.ctp:73
+msgid "Logout"
+msgstr "Salir"
+
+#: View/Elements/home/central/ause.ctp:4
+#, fuzzy
+msgid "Notifications"
+msgstr "Días de certificación"
+
+#: View/Elements/home/central/ause.ctp:11
+msgid "Departure"
+msgstr "Salida"
+
+#: View/Elements/home/central/ause.ctp:14
+msgid "Arrival"
+msgstr "Llegada"
+
+#: View/Elements/home/central/ause.ctp:17
+msgid "Guards"
+msgstr "Guardias"
+
+#: View/Elements/home/central/ause.ctp:46;90
+#: View/Elements/home/central/holy.ctp:53;87;105 View/Holidays/view.ctp:16
+#: View/Packages/view.ctp:288;323
+msgid "Date"
+msgstr "Fecha"
+
+#: View/Elements/home/central/ause.ctp:128 View/Employees/view.ctp:51
+msgid "Cell Phone"
+msgstr "Célular"
+
+#: View/Elements/home/central/ause.ctp:133
+#, fuzzy
+msgid "progress"
+msgstr "En progreso"
+
+#: View/Elements/home/central/week.ctp:4 View/Observations/view.ctp:13
+#: View/PackageStatuses/view.ctp:5 View/Packages/change_status.ctp:19;46
+#: View/Packages/replan.ctp:19;49 View/Packages/set_especialist.ctp:18
+#: View/Packages/set_management.ctp:43 View/Packages/set_quality_values.ctp:24
+#: View/Packages/suspend.ctp:19;46 View/Packages/view.ctp:23
+msgid "Package Status"
+msgstr "Estatus de Paquete"
+
+#: View/Elements/home/central/week/pre.ctp:9
+#, fuzzy
+msgid "RFC preassigned"
+msgstr "RFC"
+
+#: View/Elements/home/up/pa.ctp:6
+msgid "Unassigned"
+msgstr "Sin Asignar"
+
+#: View/Elements/home/up/pc.ctp:9;26
+msgid "Certificated"
+msgstr "Certificados"
+
+#: View/Elements/home/up/pp.ctp:6
+msgid "Promoted"
+msgstr "Promovidos"
+
+#: View/Elements/home/up/ppo.ctp:8;21
+msgid "In progress"
+msgstr "En progreso"
+
+#: View/Elements/home/up/pv.ctp:9;40
+msgid "About to Expire / Expired"
+msgstr "Por Vencer"
+
+#: View/Elements/packages/actions.ctp:23
+msgid "Especialist"
+msgstr "Especialista"
+
+#: View/Elements/packages/actions.ctp:31
+msgid "Replan"
+msgstr "Replanificar"
+
+#: View/Elements/packages/actions.ctp:40
+msgid "Evaluate"
+msgstr "Evaluar"
+
+#: View/Elements/packages/actions.ctp:56 View/Packages/suspend.ctp:72
+msgid "Suspend"
+msgstr "Suspender"
+
+#: View/Emails/html/assignment.ctp:3
+msgid "This package has been assigned to: "
+msgstr "El paquete ha sido asignado a:"
+
+#: View/Emails/html/assignment.ctp:16 View/Packages/add.ctp:26
+#: View/Packages/change_status.ctp:25 View/Packages/edit.ctp:27
+#: View/Packages/replan.ctp:25 View/Packages/reports.ctp:16
+#: View/Packages/set_especialist.ctp:24 View/Packages/set_management.ctp:53
+#: View/Packages/suspend.ctp:25 View/Packages/view.ctp:41
+msgid "Technical Lead"
+msgstr "Líder Técnico"
+
+#: View/Emails/html/assignment.ctp:18 View/Packages/change_status.ctp:28
+#: View/Packages/replan.ctp:28 View/Packages/reports.ctp:16
+#: View/Packages/set_especialist.ctp:27 View/Packages/set_management.ctp:56
+#: View/Packages/suspend.ctp:28 View/Packages/view.ctp:44
+msgid "Applicant"
+msgstr "Solicitante"
+
+#: View/Emails/html/assignment.ctp:20 View/Packages/change_status.ctp:31
+#: View/Packages/replan.ctp:31 View/Packages/set_especialist.ctp:30
+#: View/Packages/set_management.ctp:59 View/Packages/set_quality_values.ctp:53
+#: View/Packages/suspend.ctp:31 View/Packages/view.ctp:47
+msgid "Components"
+msgstr "Componentes"
+
+#: View/Emails/html/assignment.ctp:22 View/Packages/change_status.ctp:34
+#: View/Packages/replan.ctp:34 View/Packages/reports.ctp:18
+#: View/Packages/set_especialist.ctp:33 View/Packages/set_management.ctp:62
+#: View/Packages/set_quality_values.ctp:56 View/Packages/suspend.ctp:34
+#: View/Packages/view.ctp:50 View/Rfcs/summary.ctp:106;156
+msgid "Components Amount"
+msgstr "Cantidad de componentes"
+
+#: View/Emails/html/assignment.ctp:28
+msgid "To learn more about this package click %s"
+msgstr "Para conocer más acerca de este paquete haga click %s"
+
+#: View/Emails/html/assignment.ctp:29
+msgid "here"
+msgstr "aquí"
+
+#: View/Employees/add.ctp:9
+msgid "Add Employee"
+msgstr "Agregar Empleado"
+
+#: View/Employees/edit.ctp:9 View/Employees/image.ctp:9
+#: View/Employees/view.ctp:109
+msgid "Edit Employee"
+msgstr "Editar Empleado"
+
+#: View/Employees/index.ctp:5 View/Employees/index2.ctp:5
+msgid "Employees"
+msgstr "Empleados"
+
+#: View/Employees/index.ctp:12 View/Employees/view.ctp:21
+#: View/Histories/view.ctp:23 View/Managements/view.ctp:143
+#: View/Observations/view.ctp:24 View/Positions/view.ctp:80
+msgid "Bc"
+msgstr "BC"
+
+#: View/Employees/index.ctp:13
+msgid "fullname"
+msgstr "Nombre"
+
+#: View/Employees/index.ctp:14 View/Employees/view.ctp:30
+#: View/Positions/view.ctp:5 View/Users/profile.ctp:40
+msgid "Position"
+msgstr "Cargo"
+
+#: View/Employees/index.ctp:15 View/Employees/view.ctp:33
+msgid "Ci"
+msgstr "Cédula"
+
+#: View/Employees/index.ctp:18 View/Employees/view.ctp:70
+#: View/Managements/view.ctp:148 View/Positions/view.ctp:85
+msgid "Company"
+msgstr "Compañia"
+
+#: View/Employees/index.ctp:19 View/Employees/view.ctp:73
+#: View/Groups/view.ctp:83 View/Managements/view.ctp:149
+#: View/Positions/view.ctp:86 View/Users/profile.ctp:28;50
+#: View/Users/view.ctp:22
+msgid "Email"
+msgstr "Correo"
+
+#: View/Employees/index.ctp:20 View/Employees/view.ctp:76
+msgid "Work Email"
+msgstr "Correo de Trabajo"
+
+#: View/Employees/schedule.ctp:14
+msgid "No data was found that meets the used conditions"
+msgstr "No se encontraron datos que cumplan las condiciones seleccionadas"
+
+#: View/Employees/view.ctp:27 View/Groups/view.ctp:82
+#: View/Managements/view.ctp:145 View/Positions/view.ctp:82
+#: View/Users/profile.ctp:25 View/Users/view.ctp:19
+msgid "Lastname"
+msgstr "Apellido"
+
+#: View/Employees/view.ctp:39;287 View/EvaluationStates/view.ctp:80
+#: View/Evaluations/on_demand_eval.ctp:76 View/FinalStatuses/view.ctp:80
+#: View/Modules/view.ctp:89 View/PackageStatuses/view.ctp:80
+#: View/Packages/change_status.ctp:22 View/Packages/replan.ctp:22
+#: View/Packages/reports.ctp:16 View/Packages/set_especialist.ctp:21
+#: View/Packages/set_management.ctp:47 View/Packages/set_quality_values.ctp:32
+#: View/Packages/suspend.ctp:22 View/Packages/view.ctp:29
+#: View/Respondents/view.ctp:80 View/Rfcs/view.ctp:235
+#: View/UnsatisfactoryStatuses/view.ctp:83 View/Users/profile.ctp:47
+msgid "Entry Date"
+msgstr "Fecha de Entrada"
+
+#: View/Employees/view.ctp:42
+msgid "Birthdate"
+msgstr "Fecha de Nacimiento"
+
+#: View/Employees/view.ctp:45
+msgid "Home Phone"
+msgstr "Teléfono casa"
+
+#: View/Employees/view.ctp:48
+msgid "Work Phone"
+msgstr "Teléfono Trabajo"
+
+#: View/Employees/view.ctp:54
+msgid "Address"
+msgstr "Dirección"
+
+#: View/Employees/view.ctp:60 View/Managements/view.ctp:147
+#: View/Positions/view.ctp:84
+msgid "Active"
+msgstr "Activo"
+
+#: View/Employees/view.ctp:79
+msgid "Image"
+msgstr "Foto"
+
+#: View/Employees/view.ctp:91
+msgid "Change Image"
+msgstr "Cambiar Imagen"
+
+#: View/Employees/view.ctp:96
+msgid "(De) Activate"
+msgstr "(De) Activar"
+
+#: View/Employees/view.ctp:114
+msgid "Delete Employee"
+msgstr "Eliminar Empleado"
+
+#: View/Employees/view.ctp:230
+msgid "Related Evaluations"
+msgstr "Evaluaciones Relacionadas"
+
+#: View/Employees/view.ctp:239 View/Evaluations/index.ctp:14
+#: View/Evaluations/preview.ctp:85 View/Evaluations/summary.ctp:18;59
+#: View/Evaluations/view.ctp:13 View/Evaluations/yearly_evaluation.ctp:50;88
+#: View/Packages/view.ctp:83 View/Rfcs/summary.ctp:161
+msgid "Effectiveness Evaluation"
+msgstr "Evaluación de la efectividad"
+
+#: View/Employees/view.ctp:240 View/Evaluations/index.ctp:14
+#: View/Evaluations/summary.ctp:19;62 View/Evaluations/view.ctp:16
+#: View/Evaluations/yearly_evaluation.ctp:51;91 View/Packages/view.ctp:86
+msgid "Quality Assessment"
+msgstr "Evaluación de la calidad"
+
+#: View/Employees/view.ctp:241 View/Evaluations/index.ctp:15
+#: View/Evaluations/summary.ctp:20 View/Evaluations/view.ctp:19
+#: View/Evaluations/yearly_evaluation.ctp:52
+msgid "Month"
+msgstr "Mes"
+
+#: View/Employees/view.ctp:242 View/Evaluations/index.ctp:15
+#: View/Evaluations/summary.ctp:21 View/Evaluations/view.ctp:22
+#: View/Evaluations/yearly_evaluation.ctp:53
+msgid "Year"
+msgstr "Año"
+
+#: View/Employees/view.ctp:275 View/EvaluationStates/view.ctp:68
+#: View/FinalStatuses/view.ctp:68 View/Modules/view.ctp:77
+#: View/PackageStatuses/view.ctp:68 View/Respondents/view.ctp:68
+#: View/UnsatisfactoryStatuses/view.ctp:71
+msgid "Related Packages"
+msgstr "Paquetes relacionados"
+
+#: View/Employees/view.ctp:284 View/EvaluationStates/view.ctp:77
+#: View/Evaluations/complete_data.ctp:70
+#: View/Evaluations/on_demand_eval.ctp:73 View/Evaluations/preview.ctp:78
+#: View/FinalStatuses/view.ctp:77 View/Histories/view.ctp:13
+#: View/Modules/view.ctp:86 View/PackageStatuses/view.ctp:77
+#: View/Packages/change_status.ctp:13 View/Packages/replan.ctp:13
+#: View/Packages/set_especialist.ctp:12 View/Packages/set_management.ctp:36
+#: View/Packages/set_quality_values.ctp:13 View/Packages/suspend.ctp:13
+#: View/Packages/view.ctp:14 View/Respondents/view.ctp:77
+#: View/Rfcs/summary.ctp:153 View/Rfcs/view.ctp:232
+#: View/UnsatisfactoryStatuses/view.ctp:80
+msgid "Number Package"
+msgstr "Número de paquete"
+
+#: View/Employees/view.ctp:329 View/Managements/view.ctp:194
+msgid "Related Quality Managers"
+msgstr "Gerentes de Calidad Relacionados"
+
+#: View/Employees/view.ctp:338 View/Evaluations/view.ctp:28
+#: View/Managements/view.ctp:96;204
+msgid "Management Id"
+msgstr "Id Gerencia"
+
+#: View/Employees/view.ctp:367
+msgid "Related Vehicles"
+msgstr "Vehículos Relacionados"
+
+#: View/Employees/view.ctp:376 View/Vehicles/view.ctp:13
+msgid "Model"
+msgstr "Módelo"
+
+#: View/Employees/view.ctp:377 View/Vehicles/view.ctp:16
+msgid "Color"
+msgstr "Color"
+
+#: View/Employees/view.ctp:378 View/Vehicles/view.ctp:19
+msgid "Plate"
+msgstr "Placa"
+
+#: View/EvaluationStates/add.ctp:9
+msgid "Add Evaluation State"
+msgstr "Agregar Estado de Evaluación"
+
+#: View/EvaluationStates/edit.ctp:9 View/EvaluationStates/view.ctp:31
+msgid "Edit Evaluation State"
+msgstr "Editar Estado de Evaluación"
+
+#: View/EvaluationStates/index.ctp:5
+msgid "Evaluation States"
+msgstr "Estados de Evaluación"
+
+#: View/EvaluationStates/index.ctp:68 View/EvaluationStates/view.ctp:46
+#: View/Evaluations/complete_package.ctp:124 View/Packages/add.ctp:153
+#: View/Packages/change_status.ctp:177 View/Packages/edit.ctp:144
+#: View/Packages/evaluation.ctp:160 View/Packages/index.ctp:166
+#: View/Packages/index2.ctp:232 View/Packages/index3.ctp:156
+#: View/Packages/replan.ctp:213 View/Packages/set_especialist.ctp:229
+#: View/Packages/set_management.ctp:198
+#: View/Packages/set_quality_values.ctp:229 View/Packages/suspend.ctp:177
+#: View/Packages/view.ctp:234
+msgid "New Evaluation State"
+msgstr "Nuevo Estado de Evaluación"
+
+#: View/EvaluationStates/view.ctp:5 View/Packages/view.ctp:116
+msgid "Evaluation State"
+msgstr "Estado de Evaluación"
+
+#: View/EvaluationStates/view.ctp:36
+msgid "Delete Evaluation State"
+msgstr "Eliminar Estado de Evaluación"
+
+#: View/Evaluations/add.ctp:9
+msgid "Add Evaluation"
+msgstr "Agregar evaluación"
+
+#: View/Evaluations/complete_data.ctp:19
+#: View/Evaluations/on_demand_eval.ctp:19 View/Evaluations/preview.ctp:19
+#: View/ProjectClasses/view.ctp:5 View/Rfcs/highimpact.ctp:13
+#: View/Rfcs/index.ctp:13 View/Rfcs/summary.ctp:72 View/Rfcs/view.ctp:29
+msgid "Project Class"
+msgstr "Clase de Proyecto"
+
+#: View/Evaluations/complete_data.ctp:22
+#: View/Evaluations/on_demand_eval.ctp:22 View/Evaluations/preview.ctp:22
+#: View/PackageClasses/view.ctp:5 View/Rfcs/highimpact.ctp:13
+#: View/Rfcs/index.ctp:13 View/Rfcs/summary.ctp:76 View/Rfcs/view.ctp:49
+msgid "Package Class"
+msgstr "Tipo de Paquete"
+
+#: View/Evaluations/complete_data.ctp:45
+#: View/Evaluations/on_demand_eval.ctp:45
+msgid "Continue"
+msgstr "Continuar"
+
+#: View/Evaluations/complete_data.ctp:62
+msgid "Packages with incomplete data"
+msgstr "Paquetes con datos incompletos"
+
+#: View/Evaluations/complete_data.ctp:73
+msgid "Errors"
+msgstr "Errores"
+
+#: View/Evaluations/complete_package.ctp:9 View/Packages/edit.ctp:9
+#: View/Packages/view.ctp:179
+msgid "Edit Package"
+msgstr "Editar Paquete"
+
+#: View/Evaluations/complete_package.ctp:84 View/Observations/add.ctp:56
+#: View/Observations/edit.ctp:57 View/Observations/index.ctp:107
+#: View/Observations/view.ctp:72 View/PackageStatuses/index.ctp:68
+#: View/PackageStatuses/view.ctp:46 View/Packages/add.ctp:113
+#: View/Packages/change_status.ctp:137 View/Packages/edit.ctp:114
+#: View/Packages/evaluation.ctp:80 View/Packages/index.ctp:86
+#: View/Packages/index2.ctp:152 View/Packages/index3.ctp:76
+#: View/Packages/replan.ctp:133 View/Packages/set_especialist.ctp:149
+#: View/Packages/set_management.ctp:118
+#: View/Packages/set_quality_values.ctp:149 View/Packages/suspend.ctp:137
+#: View/Packages/view.ctp:216
+msgid "New Package Status"
+msgstr "Nuevo Estatus del Paquete"
+
+#: View/Evaluations/complete_package.ctp:104 View/Packages/add.ctp:133
+#: View/Packages/change_status.ctp:157 View/Packages/evaluation.ctp:140
+#: View/Packages/index.ctp:146 View/Packages/index2.ctp:212
+#: View/Packages/index3.ctp:136 View/Packages/replan.ctp:193
+#: View/Packages/set_especialist.ctp:209 View/Packages/set_management.ctp:178
+#: View/Packages/set_quality_values.ctp:209 View/Packages/suspend.ctp:157
+msgid "New Unsatisfactory Production"
+msgstr "Nuevo No Satisfactorio Producción"
+
+#: View/Evaluations/complete_package.ctp:114 View/Packages/add.ctp:143
+#: View/Packages/change_status.ctp:167 View/Packages/edit.ctp:134
+#: View/Packages/evaluation.ctp:150 View/Packages/index.ctp:156
+#: View/Packages/index2.ctp:222 View/Packages/index3.ctp:146
+#: View/Packages/replan.ctp:203 View/Packages/set_especialist.ctp:219
+#: View/Packages/set_management.ctp:188
+#: View/Packages/set_quality_values.ctp:219 View/Packages/suspend.ctp:167
+#: View/Packages/view.ctp:228 View/Respondents/index.ctp:68
+#: View/Respondents/view.ctp:46
+msgid "New Respondent"
+msgstr "Nuevo Responsable"
+
+#: View/Evaluations/complete_package.ctp:134 View/FinalStatuses/index.ctp:68
+#: View/FinalStatuses/view.ctp:46 View/Packages/add.ctp:163
+#: View/Packages/change_status.ctp:187 View/Packages/edit.ctp:154
+#: View/Packages/evaluation.ctp:170 View/Packages/index.ctp:176
+#: View/Packages/index2.ctp:242 View/Packages/index3.ctp:166
+#: View/Packages/replan.ctp:223 View/Packages/set_especialist.ctp:239
+#: View/Packages/set_management.ctp:208
+#: View/Packages/set_quality_values.ctp:239 View/Packages/suspend.ctp:187
+#: View/Packages/view.ctp:240
+msgid "New Final Status"
+msgstr "Nuevo Estatus Final"
+
+#: View/Evaluations/complete_package.ctp:154 View/Packages/add.ctp:183
+#: View/Packages/change_status.ctp:207 View/Packages/evaluation.ctp:130
+#: View/Packages/index.ctp:136 View/Packages/index2.ctp:202
+#: View/Packages/index3.ctp:126 View/Packages/replan.ctp:183
+#: View/Packages/set_especialist.ctp:199 View/Packages/set_management.ctp:168
+#: View/Packages/set_quality_values.ctp:199 View/Packages/suspend.ctp:207
+msgid "New Unsatisfactory Quality"
+msgstr "Nuevo No Satisfactorio Calidad"
+
+#: View/Evaluations/compute.ctp:9
+msgid "Compute Evaluation"
+msgstr "Calcular Evaluación"
+
+#: View/Evaluations/compute.ctp:28
+msgid "Compute"
+msgstr "Calcular"
+
+#: View/Evaluations/edit.ctp:9 View/Evaluations/view.ctp:46
+msgid "Edit Evaluation"
+msgstr "Editar evaluación"
+
+#: View/Evaluations/on_demand_eval.ctp:64 View/Evaluations/preview.ctp:69
+#: View/Rfcs/summary.ctp:144 View/Rfcs/view.ctp:223
+msgid "Packages Affected"
+msgstr "Paquetes Afectados"
+
+#: View/Evaluations/on_demand_eval.ctp:116
+msgid "Not certified"
+msgstr "No certificado"
+
+#: View/Evaluations/on_demand_eval.ctp:120
+msgid "To be evaluated"
+msgstr "A evaluar"
+
+#: View/Evaluations/on_demand_eval.ctp:122
+msgid "Already evaluated"
+msgstr "Ya evaluado"
+
+#: View/Evaluations/preview.ctp:49 View/Rfcs/summary.ctp:124
+msgid "Finish"
+msgstr "Finalizar"
+
+#: View/Evaluations/preview.ctp:81 View/Packages/view.ctp:65
+#: View/Rfcs/summary.ctp:157
+msgid "Overfulfillment Effectiveness"
+msgstr "Efectividad sobrecumplimiento"
+
+#: View/Evaluations/preview.ctp:82 View/Packages/view.ctp:68
+#: View/Rfcs/summary.ctp:158
+msgid "Deviation Effectiveness"
+msgstr "Desviación efectividad"
+
+#: View/Evaluations/preview.ctp:84 View/Packages/set_quality_values.ctp:62
+#: View/Packages/view.ctp:80 View/Rfcs/summary.ctp:160
+msgid "Final Weighting"
+msgstr "Ponderación Final"
+
+#: View/Evaluations/summary.ctp:9 View/Evaluations/yearly_evaluation.ctp:8
+msgid "Retreive Evaluation"
+msgstr "Consultar Evaluación"
+
+#: View/Evaluations/summary.ctp:66 View/Users/profile.ctp:56
+msgid "Go back"
+msgstr "Volver"
+
+#: View/Evaluations/view.ctp:51
+msgid "Delete Evaluation"
+msgstr "Eliminar evaluación"
+
+#: View/FinalStatuses/add.ctp:9
+msgid "Add Final Status"
+msgstr "Agregar Estatus Final"
+
+#: View/FinalStatuses/edit.ctp:9 View/FinalStatuses/view.ctp:31
+msgid "Edit Final Status"
+msgstr "Editar Estatus Final"
+
+#: View/FinalStatuses/index.ctp:5
+msgid "Final Statuses"
+msgstr "Estatus Final"
+
+#: View/FinalStatuses/view.ctp:5 View/Packages/view.ctp:122
+msgid "Final Status"
+msgstr "Estatus Final"
+
+#: View/FinalStatuses/view.ctp:36
+msgid "Delete Final Status"
+msgstr "Eliminar Estatus Final"
+
+#: View/Groups/add.ctp:9
+msgid "Add Group"
+msgstr "Agregar Grupo"
+
+#: View/Groups/add.ctp:53 View/Groups/edit.ctp:54 View/Groups/index.ctp:82
+#: View/Groups/view.ctp:59 View/Users/import.ctp:47 View/Users/index.ctp:76
+#: View/Users/view.ctp:64
+msgid "New User"
+msgstr "Nuevo Usuario"
+
+#: View/Groups/edit.ctp:9 View/Groups/view.ctp:34
+msgid "Edit Group"
+msgstr "Editar Grupo"
+
+#: View/Groups/index.ctp:5
+msgid "Groups"
+msgstr "Grupos"
+
+#: View/Groups/index.ctp:70 View/Groups/view.ctp:49 View/Users/add.ctp:58
+#: View/Users/edit.ctp:59 View/Users/import.ctp:59 View/Users/index.ctp:88
+#: View/Users/view.ctp:74
+msgid "New Group"
+msgstr "Nuevo Grupo"
+
+#: View/Groups/view.ctp:5 View/Users/profile.ctp:34 View/Users/view.ctp:31
+msgid "Group"
+msgstr "Grupo"
+
+#: View/Groups/view.ctp:16
+#, fuzzy
+msgid "Role"
+msgstr " Rol"
+
+#: View/Groups/view.ctp:39
+msgid "Delete Group"
+msgstr "Eliminar Grupo"
+
+#: View/Groups/view.ctp:71
+msgid "Related Users"
+msgstr "Usuarios Relacionados"
+
+#: View/Groups/view.ctp:80 View/Users/profile.ctp:19 View/Users/view.ctp:13
+msgid "Username"
+msgstr "Nombre de Usuario"
+
+#: View/Groups/view.ctp:81 View/Users/profile.ctp:22 View/Users/view.ctp:16
+msgid "Firstname"
+msgstr "Nombre"
+
+#: View/Groups/view.ctp:84 View/Users/profile.ctp:31 View/Users/view.ctp:25
+msgid "Department"
+msgstr "Departamento"
+
+#: View/Groups/view.ctp:85 View/Users/view.ctp:28
+msgid "Password"
+msgstr "Contraseña"
+
+#: View/Groups/view.ctp:86
+msgid "Group Id"
+msgstr "Id Grupo"
+
+#: View/Helper/CharismaHelper.php:87
+msgid "Are you sure you want to delete # %s?"
+msgstr "¿Esta seguro de que desea eliminar al # %s?"
+
+#: View/Helper/CharismaHelper.php:186
+msgid "Sunday"
+msgstr "Domingo"
+
+#: View/Helper/CharismaHelper.php:187
+msgid "Monday"
+msgstr "Lunes"
+
+#: View/Helper/CharismaHelper.php:188
+msgid "Tuesday"
+msgstr "Martes"
+
+#: View/Helper/CharismaHelper.php:189
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: View/Helper/CharismaHelper.php:190
+msgid "Thursday"
+msgstr "Jueves"
+
+#: View/Helper/CharismaHelper.php:191
+msgid "Friday"
+msgstr "Viernes"
+
+#: View/Helper/CharismaHelper.php:192
+msgid "Saturday"
+msgstr "Sabado"
+
+#: View/Histories/add.ctp:9
+msgid "Add History"
+msgstr "Agregar Historia"
+
+#: View/Histories/add.ctp:44 View/Histories/edit.ctp:45
+#: View/Histories/view.ctp:54 View/Packages/edit.ctp:179
+#: View/Packages/view.ctp:254
+msgid "List Histories"
+msgstr "Listar Historia"
+
+#: View/Histories/edit.ctp:9 View/Histories/view.ctp:44
+msgid "Edit History"
+msgstr "Editar Historia"
+
+#: View/Histories/index.ctp:5
+msgid "Histories"
+msgstr "Historial"
+
+#: View/Histories/index.ctp:78 View/Histories/view.ctp:59
+#: View/Packages/edit.ctp:184 View/Packages/view.ctp:258
+msgid "New History"
+msgstr "Nueva Historia"
+
+#: View/Histories/view.ctp:5 View/Packages/view.ctp:312
+msgid "History"
+msgstr "Historia"
+
+#: View/Histories/view.ctp:17
+msgid "Stage Name"
+msgstr "Nombre de Etapa"
+
+#: View/Histories/view.ctp:20
+msgid "Change Date"
+msgstr "Fecha del Cambio"
+
+#: View/Histories/view.ctp:26 View/Packages/view.ctp:320
+#: View/Plugin/AclManager/Acl/permissions.ctp:33;56
+msgid "Action"
+msgstr "Acción"
+
+#: View/Histories/view.ctp:49
+msgid "Delete History"
+msgstr "Eliminar Historia"
+
+#: View/Holidays/add.ctp:9
+msgid "Add Holiday"
+msgstr "Agregar Feriado"
+
+#: View/Holidays/edit.ctp:9 View/Holidays/view.ctp:28
+msgid "Edit Holiday"
+msgstr "Editar Feriado"
+
+#: View/Holidays/index.ctp:5
+msgid "Holidays"
+msgstr "Feriados"
+
+#: View/Holidays/index.ctp:66 View/Holidays/view.ctp:43
+msgid "New Holiday"
+msgstr "Nuevo Feriado"
+
+#: View/Holidays/view.ctp:5
+msgid "Holiday"
+msgstr "Feriado"
+
+#: View/Holidays/view.ctp:33
+msgid "Delete Holiday"
+msgstr "Eliminar Feriado"
+
+#: View/Layouts/charisma.ctp:42 View/Layouts/login.ctp:40
+msgid "SIG Calidad IT"
+msgstr "SIG Calidad IT"
+
+#: View/Managements/add.ctp:9
+msgid "Add Management"
+msgstr "Agregar Gerencia"
+
+#: View/Managements/edit.ctp:9 View/Managements/view.ctp:31
+msgid "Edit Management"
+msgstr "Editar Gerencia"
+
+#: View/Managements/index.ctp:5
+msgid "Managements"
+msgstr "Gerencias"
+
+#: View/Managements/view.ctp:36
+msgid "Delete Management"
+msgstr "Eliminar Gerencia"
+
+#: View/Managements/view.ctp:86
+msgid "Related Areas"
+msgstr "Áreas relacionadas"
+
+#: View/Managements/view.ctp:134 View/Positions/view.ctp:71
+msgid "Related Employees"
+msgstr "Empleados Relacionados"
+
+#: View/Modules/add.ctp:9
+msgid "Add Module"
+msgstr "Agregar Módulo"
+
+#: View/Modules/edit.ctp:9 View/Modules/view.ctp:34
+msgid "Edit Module"
+msgstr "Editar Módulo"
+
+#: View/Modules/index.ctp:5
+msgid "Modules"
+msgstr "Módulos"
+
+#: View/Modules/view.ctp:39
+msgid "Delete Module"
+msgstr "Eliminar Módulo"
+
+#: View/Observations/add.ctp:9
+msgid "Add Observation"
+msgstr "Agregar Observación"
+
+#: View/Observations/add.ctp:44 View/Observations/edit.ctp:45
+#: View/Observations/view.ctp:57 View/Packages/edit.ctp:169
+#: View/Packages/view.ctp:248
+msgid "List Observations"
+msgstr "Listar Observaciones"
+
+#: View/Observations/edit.ctp:9 View/Observations/view.ctp:47
+msgid "Edit Observation"
+msgstr "Editar Observación"
+
+#: View/Observations/index.ctp:5 View/Packages/change_status.ctp:58
+#: View/Packages/replan.ctp:61 View/Packages/suspend.ctp:58
+#: View/Packages/view.ctp:277
+msgid "Observations"
+msgstr "Observaciones"
+
+#: View/Observations/index.ctp:95 View/Observations/view.ctp:62
+#: View/Packages/edit.ctp:174 View/Packages/view.ctp:252
+msgid "New Observation"
+msgstr "Nueva Observación"
+
+#: View/Observations/view.ctp:5;29 View/Packages/view.ctp:287
+#: View/QualityManagers/view.ctp:97
+msgid "Observation"
+msgstr "Observación"
+
+#: View/Observations/view.ctp:21 View/Packages/view.ctp:285
+#: View/QualityManagers/view.ctp:94
+msgid "Title"
+msgstr "Título"
+
+#: View/Observations/view.ctp:52
+msgid "Delete Observation"
+msgstr "Eliminar Observación"
+
+#: View/Options/add.ctp:9
+msgid "Add Option"
+msgstr "Agregar Opción"
+
+#: View/Options/edit.ctp:9 View/Options/view.ctp:32
+msgid "Edit Option"
+msgstr "Editar Opción"
+
+#: View/Options/index.ctp:5
+msgid "Options"
+msgstr "Opciones"
+
+#: View/Options/index.ctp:12 View/Options/view.ctp:14
+msgid "Key"
+msgstr "Clave"
+
+#: View/Options/index.ctp:13 View/Options/view.ctp:17
+msgid "Value"
+msgstr "Valor"
+
+#: View/Options/index.ctp:30 View/Options/view.ctp:47
+msgid "New Option"
+msgstr "Nueva Opción"
+
+#: View/Options/view.ctp:5
+msgid "Option"
+msgstr "Opción"
+
+#: View/Options/view.ctp:37
+msgid "Delete Option"
+msgstr "Eliminar Opción"
+
+#: View/PackageClasses/add.ctp:9
+msgid "Add Package Class"
+msgstr "Agregar Tipo de Paquete"
+
+#: View/PackageClasses/edit.ctp:9 View/PackageClasses/view.ctp:31
+msgid "Edit Package Class"
+msgstr "Editar Tipo de Paquete"
+
+#: View/PackageClasses/index.ctp:5
+msgid "Package Classes"
+msgstr "Tipos de Paquete"
+
+#: View/PackageClasses/index.ctp:68 View/PackageClasses/view.ctp:46
+#: View/Packages/evaluation.ctp:120 View/Packages/index.ctp:126
+#: View/Packages/index2.ctp:192 View/Packages/index3.ctp:116
+#: View/Packages/replan.ctp:173 View/Packages/set_especialist.ctp:189
+#: View/Packages/set_management.ctp:158
+#: View/Packages/set_quality_values.ctp:189 View/Rfcs/add.ctp:119
+#: View/Rfcs/edit.ctp:118 View/Rfcs/highimpact.ctp:100 View/Rfcs/index.ctp:100
+#: View/Rfcs/index2.ctp:151 View/Rfcs/summary.ctp:252 View/Rfcs/view.ctp:199
+msgid "New Package Class"
+msgstr "Nuevo Tipo de Paquete"
+
+#: View/PackageClasses/view.ctp:36
+msgid "Delete Package Class"
+msgstr "Eliminar Tipo de Paquete"
+
+#: View/PackageStatuses/add.ctp:9
+msgid "Add Package Status"
+msgstr "Agregar Estatus de Paquete"
+
+#: View/PackageStatuses/edit.ctp:9 View/PackageStatuses/view.ctp:31
+msgid "Edit Package Status"
+msgstr "Editar Estatus de Paquete"
+
+#: View/PackageStatuses/index.ctp:5
+msgid "Package Statuses"
+msgstr "Estatus de Paquete"
+
+#: View/PackageStatuses/view.ctp:36
+msgid "Delete Package Status"
+msgstr "Eliminar Estatus del Paquete"
+
+#: View/Packages/add.ctp:9
+msgid "Add Package"
+msgstr "Agregar Paquete"
+
+#: View/Packages/change_status.ctp:37 View/Packages/replan.ctp:37
+#: View/Packages/set_especialist.ctp:36 View/Packages/set_management.ctp:65
+#: View/Packages/set_quality_values.ctp:65 View/Packages/suspend.ctp:37
+msgid "Current State"
+msgstr "Estado actual"
+
+#: View/Packages/change_status.ctp:72 View/Packages/index2.ctp:80
+msgid "Change Status"
+msgstr "Cambiar Estado"
+
+#: View/Packages/edit.ctp:189 View/Packages/view.ctp:260
+#: View/UnsatisfactoryStatuses/add.ctp:42
+#: View/UnsatisfactoryStatuses/edit.ctp:43
+#: View/UnsatisfactoryStatuses/view.ctp:44
+msgid "List Unsatisfactory Statuses"
+msgstr "Listar Estatus No Satisfactorios"
+
+#: View/Packages/edit.ctp:194 View/Packages/view.ctp:264
+#: View/UnsatisfactoryStatuses/index.ctp:70
+#: View/UnsatisfactoryStatuses/view.ctp:49
+msgid "New Unsatisfactory Status"
+msgstr "Nuevo Estatus No Satisfactorio"
+
+#: View/Packages/evaluation.ctp:110 View/Packages/index.ctp:116
+#: View/Packages/index2.ctp:182 View/Packages/index3.ctp:106
+#: View/Packages/replan.ctp:163 View/Packages/set_especialist.ctp:179
+#: View/Packages/set_management.ctp:148
+#: View/Packages/set_quality_values.ctp:179 View/ProjectClasses/index.ctp:68
+#: View/ProjectClasses/view.ctp:46 View/Rfcs/add.ctp:109
+#: View/Rfcs/edit.ctp:108 View/Rfcs/highimpact.ctp:90 View/Rfcs/index.ctp:90
+#: View/Rfcs/index2.ctp:141 View/Rfcs/summary.ctp:246 View/Rfcs/view.ctp:193
+msgid "New Project Class"
+msgstr "Nuevo Clase de Proyecto"
+
+#: View/Packages/index.ctp:2
+msgid "Process"
+msgstr "Proceso"
+
+#: View/Packages/index2.ctp:18
+msgid "Arrived"
+msgstr "Llegada"
+
+#: View/Packages/index2.ctp:24 View/Packages/view.ctp:321
+msgid "Stage"
+msgstr "Etapa"
+
+#: View/Packages/index2.ctp:68 View/Packages/set_management.ctp:9
+msgid "Set Management"
+msgstr "Asignar Gerencia"
+
+#: View/Packages/index2.ctp:72 View/Packages/set_especialist.ctp:50
+msgid "Set Especialist"
+msgstr "Asignar Especialista"
+
+#: View/Packages/index2.ctp:84 View/Packages/set_quality_values.ctp:76
+msgid "Set Quality Values"
+msgstr "Asignar Valores de Calidad"
+
+#: View/Packages/reports.ctp:17 View/Rfcs/add.ctp:20 View/Rfcs/edit.ctp:20
+#: View/Rfcs/highimpact.ctp:11 View/Rfcs/index.ctp:11 View/Rfcs/summary.ctp:60
+#: View/Rfcs/view.ctp:20
+msgid "Planning VP"
+msgstr "VP de Proyectos"
+
+#: View/Packages/reports.ctp:17 View/Rfcs/add.ctp:22 View/Rfcs/edit.ctp:22
+#: View/Rfcs/highimpact.ctp:12 View/Rfcs/index.ctp:12 View/Rfcs/summary.ctp:68
+#: View/Rfcs/view.ctp:23
+msgid "Project Management"
+msgstr "Gerencia de Proyecto"
+
+#: View/Packages/set_management.ctp:31
+msgid "Pakage"
+msgstr "Paquete"
+
+#: View/Packages/set_quality_values.ctp:35 View/Packages/view.ctp:32
+msgid "Management Entry Date"
+msgstr "Fecha Entrada Gerencia"
+
+#: View/Packages/view.ctp:71
+msgid "Overfulfillment Quality"
+msgstr "Sobrecumplimiento de Calidad"
+
+#: View/Packages/view.ctp:74
+msgid "Deviation Quality"
+msgstr "Desviación de la Calidad"
+
+#: View/Packages/view.ctp:92
+msgid "Replanning Days"
+msgstr "Días de replanificación"
+
+#: View/Packages/view.ctp:97
+msgid "Días para el inicio de certificación"
+msgstr "Días para el inicio de certificación"
+
+#: View/Packages/view.ctp:104
+msgid "Ttc"
+msgstr "Ttc"
+
+#: View/Packages/view.ctp:107
+msgid "Ttp"
+msgstr "Ttp"
+
+#: View/Packages/view.ctp:110
+msgid "Manager"
+msgstr "Gerente"
+
+#: View/Packages/view.ctp:113;286;322 View/Respondents/view.ctp:5
+msgid "Respondent"
+msgstr "Responsable"
+
+#: View/Packages/view.ctp:119
+msgid "Current Stage"
+msgstr "Etapa Actual"
+
+#: View/Packages/view.ctp:128
+msgid "Packages Postimplantation"
+msgstr "Paquetes Post-implantación"
+
+#: View/Packages/view.ctp:131
+msgid "Auto Assign"
+msgstr "Auto Asignado"
+
+#: View/Packages/view.ctp:134
+msgid "Effec Eval Date"
+msgstr "Fecha de Evaluación de Efectividad"
+
+#: View/Packages/view.ctp:137
+msgid "Qual Eval Date"
+msgstr "Fecha de Evaluación de Calidad"
+
+#: View/Packages/view.ctp:140
+msgid "Parent"
+msgstr "Padre"
+
+#: View/Packages/view.ctp:184
+msgid "Delete Package"
+msgstr "Eliminar paquete"
+
+#: View/Packages/view.ctp:348
+msgid "Related Unsatisfactory Statuses"
+msgstr "Estatus No Satisfactorios Relacionados"
+
+#: View/Pages/check.ctp:21
+msgid "Check"
+msgstr "Verificar"
+
+#: View/PlanningManagers/add.ctp:9
+msgid "Add Planning Manager"
+msgstr "Agregar Gerente de Planificación"
+
+#: View/PlanningManagers/edit.ctp:9 View/PlanningManagers/view.ctp:31
+msgid "Edit Planning Manager"
+msgstr "Editar Gerente de Planificación"
+
+#: View/PlanningManagers/index.ctp:5
+msgid "Planning Managers"
+msgstr "Gerentes de Planificación"
+
+#: View/PlanningManagers/index.ctp:68 View/PlanningManagers/view.ctp:46
+#: View/Rfcs/add.ctp:79 View/Rfcs/edit.ctp:78 View/Rfcs/highimpact.ctp:60
+#: View/Rfcs/index.ctp:60 View/Rfcs/index2.ctp:111 View/Rfcs/summary.ctp:228
+#: View/Rfcs/view.ctp:175
+msgid "New Planning Manager"
+msgstr "Nuevo Gerente de Planificación"
+
+#: View/PlanningManagers/view.ctp:5
+msgid "Planning Manager"
+msgstr "Gerente de Planificación"
+
+#: View/PlanningManagers/view.ctp:36
+msgid "Delete Planning Manager"
+msgstr "Eliminar Gerente de Planificación"
+
+#: View/Plugin/AclManager/Acl/permissions.ctp:14;90
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Página {:page} de {:pages}, mostrando {:current} registros de {:count}, "
+"desde {:start}, hasta {:end}"
+
+#: View/Plugin/AclManager/Acl/permissions.ctp:110
+msgid "Manage"
+msgstr "Administrar"
+
+#: View/Positions/add.ctp:9
+msgid "Add Position"
+msgstr "Agregar Cargo"
+
+#: View/Positions/edit.ctp:9 View/Positions/view.ctp:34
+msgid "Edit Position"
+msgstr "Editar Cargo"
+
+#: View/Positions/index.ctp:5
+msgid "Positions"
+msgstr "Cargos"
+
+#: View/Positions/view.ctp:16
+msgid "Mission"
+msgstr "Misión"
+
+#: View/Positions/view.ctp:39
+msgid "Delete Position"
+msgstr "Eliminar Cargo"
+
+#: View/ProjectClasses/add.ctp:9
+msgid "Add Project Class"
+msgstr "Agregar Clase de Proyecto"
+
+#: View/ProjectClasses/edit.ctp:9 View/ProjectClasses/view.ctp:31
+msgid "Edit Project Class"
+msgstr "Editar Clase de Proyecto"
+
+#: View/ProjectClasses/index.ctp:5
+msgid "Project Classes"
+msgstr "Listar Tipos de Proyecto"
+
+#: View/ProjectClasses/view.ctp:36
+msgid "Delete Project Class"
+msgstr "Eliminar Clase de Proyecto"
+
+#: View/ProjectManagers/add.ctp:9
+msgid "Add Project Manager"
+msgstr "Agregar Gerente de Proyecto"
+
+#: View/ProjectManagers/edit.ctp:9 View/ProjectManagers/view.ctp:31
+msgid "Edit Project Manager"
+msgstr "Editar Gerente de Proyecto"
+
+#: View/ProjectManagers/index.ctp:5
+msgid "Project Managers"
+msgstr "Gerentes de Proyecto"
+
+#: View/ProjectManagers/index.ctp:68 View/ProjectManagers/view.ctp:46
+#: View/Rfcs/add.ctp:89 View/Rfcs/edit.ctp:88 View/Rfcs/highimpact.ctp:70
+#: View/Rfcs/index.ctp:70 View/Rfcs/index2.ctp:121 View/Rfcs/summary.ctp:234
+#: View/Rfcs/view.ctp:181
+msgid "New Project Manager"
+msgstr "Nuevo Gerente de Proyecto"
+
+#: View/ProjectManagers/view.ctp:5
+msgid "Project Manager"
+msgstr "Gerente de Proyecto"
+
+#: View/ProjectManagers/view.ctp:36
+msgid "Delete Project Manager"
+msgstr "Eliminar Gerente de Proyecto"
+
+#: View/QualityManagers/add.ctp:9
+msgid "Add Quality Manager"
+msgstr "Agregar Gerente de Calidad"
+
+#: View/QualityManagers/edit.ctp:9 View/QualityManagers/view.ctp:34
+msgid "Edit Quality Manager"
+msgstr "Editar Gerente de Calidad"
+
+#: View/QualityManagers/index.ctp:5
+msgid "Quality Managers"
+msgstr "Gerentes de Calidad"
+
+#: View/QualityManagers/view.ctp:5
+msgid "Quality Manager"
+msgstr "Gerente de Calidad"
+
+#: View/QualityManagers/view.ctp:39
+msgid "Delete Quality Manager"
+msgstr "Eliminar Gerente de Calidad"
+
+#: View/QualityManagers/view.ctp:83
+msgid "Related Tasks"
+msgstr "Actividades Relacionadas"
+
+#: View/QualityManagers/view.ctp:93
+msgid "Quality Manager Id"
+msgstr "Id Gerente de Calidad"
+
+#: View/QualityManagers/view.ctp:95
+msgid "Sumary"
+msgstr "Resumen"
+
+#: View/Respondents/add.ctp:9
+msgid "Add Respondent"
+msgstr "Agregar Responsable"
+
+#: View/Respondents/edit.ctp:9 View/Respondents/view.ctp:31
+msgid "Edit Respondent"
+msgstr "Editar Responsable"
+
+#: View/Respondents/index.ctp:5
+msgid "Respondents"
+msgstr "Responsables"
+
+#: View/Respondents/view.ctp:36
+msgid "Delete Respondent"
+msgstr "Eliminar Responsable"
+
+#: View/Rfcs/add.ctp:21 View/Rfcs/edit.ctp:21 View/Rfcs/highimpact.ctp:12
+#: View/Rfcs/index.ctp:12 View/Rfcs/summary.ctp:64 View/Rfcs/view.ctp:26
+msgid "Technology VP"
+msgstr "VP de Tecnología"
+
+#: View/Rfcs/add.ctp:25 View/Rfcs/edit.ctp:25 View/Rfcs/view.ctp:33
+#, fuzzy
+msgid "Postimplantation"
+msgstr "Paquetes Postimplantación"
+
+#: View/Rfcs/add.ctp:35 View/Rfcs/edit.ctp:36 View/Rfcs/view.ctp:62
+msgid "Participation Functional"
+msgstr "Participación Funcional"
+
+#: View/Rfcs/add.ctp:36 View/Rfcs/edit.ctp:37 View/Rfcs/view.ctp:71
+msgid "Participation Accounting"
+msgstr "Participación Contable"
+
+#: View/Rfcs/add.ctp:37 View/Rfcs/edit.ctp:38 View/Rfcs/view.ctp:80
+msgid "Work Queue"
+msgstr "Cola de Trabajo"
+
+#: View/Rfcs/edit.ctp:9 View/Rfcs/summary.ctp:203 View/Rfcs/view.ctp:150
+msgid "Edit Rfc"
+msgstr "Editar RFC"
+
+#: View/Rfcs/highimpact.ctp:5 View/Rfcs/index.ctp:5 View/Rfcs/index2.ctp:5
+msgid "Rfcs"
+msgstr "RFC(s)"
+
+#: View/Rfcs/summary.ctp:100
+msgid "Packages Amount"
+msgstr "Cantidad de Paquetes"
+
+#: View/Rfcs/summary.ctp:103
+msgid "Post-implantation Packages"
+msgstr "Paquetes Postimplantación"
+
+#: View/Rfcs/summary.ctp:118
+msgid "Analysts"
+msgstr "Analistas"
+
+#: View/Rfcs/summary.ctp:208 View/Rfcs/view.ctp:155
+msgid "Delete Rfc"
+msgstr "Eliminar RFC"
+
+#: View/Rfcs/view.ctp:59
+msgid "Architecture"
+msgstr "Arquitectura"
+
+#: View/Rfcs/view.ctp:132
+msgid "Compute Weighting"
+msgstr "Calcular Ponderación"
+
+#: View/UnsatisfactoryStatuses/add.ctp:9
+msgid "Add Unsatisfactory Status"
+msgstr "Agregar Estado No Satisfactorio"
+
+#: View/UnsatisfactoryStatuses/edit.ctp:9
+#: View/UnsatisfactoryStatuses/view.ctp:34
+msgid "Edit Unsatisfactory Status"
+msgstr "Editar Estatus No Satisfactorio"
+
+#: View/UnsatisfactoryStatuses/index.ctp:5
+msgid "Unsatisfactory Statuses"
+msgstr "Estatus No Satisfactorios"
+
+#: View/UnsatisfactoryStatuses/view.ctp:5
+msgid "Unsatisfactory Status"
+msgstr "Estatus No Satisfactorio"
+
+#: View/UnsatisfactoryStatuses/view.ctp:39
+msgid "Delete Unsatisfactory Status"
+msgstr "Eliminar Estatus No Satisfactorio"
+
+#: View/Users/add.ctp:9
+msgid "Add User"
+msgstr "Agregar Usuario"
+
+#: View/Users/edit.ctp:9 View/Users/view.ctp:49
+msgid "Edit User"
+msgstr "Editar Usuario"
+
+#: View/Users/import.ctp:7
+msgid "Import users from LDAP"
+msgstr "Importar usuarios desde LDAP"
+
+#: View/Users/import.ctp:21
+msgid "Preview"
+msgstr "Previzualizar"
+
+#: View/Users/import.ctp:23
+msgid "Import"
+msgstr "Importar"
+
+#: View/Users/index.ctp:6
+msgid "Users"
+msgstr "Usuarios"
+
+#: View/Users/index.ctp:12 View/Users/profile.ctp:6 View/Users/view.ctp:5
+msgid "User"
+msgstr "Usuario"
+
+#: View/Users/login.ctp:24
+msgid "Welcome to SIG Calidad IT"
+msgstr "Bienvenido al SIG Calidad IT"
+
+#: View/Users/login.ctp:36
+msgid "Login"
+msgstr "Ingresar"
+
+#: View/Users/packages_management.ctp:30
+msgid "Packages per management"
+msgstr "Paquetes por gerencia"
+
+#: View/Users/view.ctp:54
+msgid "Delete User"
+msgstr "Eliminar Usuario"
+
+#: View/Vehicles/add.ctp:9
+msgid "Add Vehicle"
+msgstr "Agregar Vehículo"
+
+#: View/Vehicles/edit.ctp:9 View/Vehicles/view.ctp:40
+msgid "Edit Vehicle"
+msgstr "Editar Vehículo"
+
+#: View/Vehicles/index.ctp:5
+msgid "Vehicles"
+msgstr "Vehículos"
+
+#: View/Vehicles/view.ctp:5
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#: View/Vehicles/view.ctp:45
+msgid "Delete Vehicle"
+msgstr "Eliminar Vehículo"
+
+#: Model/Absence.php:validation for field employee_id;validation
+#: absence_type_id Model/Area.php:validation management_id
+#: Model/Assignment.php:validation rfc_id;validation
+#: Model/Employee.php:validation Model/Evaluation.php:validation employee_id
+#: Model/Module.php:validation area_id Model/Observation.php:validation
+#: packages Model/Option.php:validation value Model/Package.php:validation
+#: respondent_id;validation evaluation_state_id;validation final_status_id
+#: Model/PackageArray.php:validation Model/QualityManager.php:validation
+#: Model/Rfc.php:validation project_class_id;validation
+#: package_class_id;validation complexity_id Model/User.php:validation
+#: group_id Model/Vehicle.php:validation
+msgid "numeric"
+msgstr "numérico"
+
+#: Model/Absence.php:validation for field departure_date;validation
+#: arrival_date Model/Employee.php:validation entry_date
+#: Model/Holiday.php:validation date
+msgid "date"
+msgstr "fecha"
+
+#: Model/AbsenceType.php:validation for field name Model/Area.php:validation
+#: Model/Complexity.php:validation Model/DevelopmentManager.php:validation
+#: Model/Employee.php:validation bc;validation name;validation
+#: lastname;validation ci;validation birthdate;validation
+#: home_phone;validation work_phone;validation cell_phone;validation address
+#: Model/Evaluation.php:validation effectiveness_evaluation;validation
+#: quality_assessment;validation month;validation year
+#: Model/EvaluationState.php:validation Model/FinalStatus.php:validation
+#: Model/Group.php:validation Model/Holiday.php:validation
+#: Model/Management.php:validation Model/Module.php:validation
+#: Model/Option.php:validation key Model/PackageClass.php:validation
+#: Model/PackageStatus.php:validation Model/PlanningManager.php:validation
+#: Model/Position.php:validation mission Model/ProjectClass.php:validation
+#: Model/ProjectManager.php:validation Model/Respondent.php:validation
+#: Model/Rfc.php:validation Model/UnsatisfactoryStatus.php:validation
+#: type;validation Model/User.php:validation username
+#: Model/Vehicle.php:validation model;validation color;validation plate
+msgid "notEmpty"
+msgstr "notEmpty"
+
+#: Model/Rfc.php:validation for field high_impact;validation closed
+msgid "boolean"
+msgstr "boolean"
+
+#~ msgid "Departures and Arrivals"
+#~ msgstr "Salidas y Llegadas"
+
+#~ msgid "Total Requests made: :requests"
+#~ msgstr "Total requerimientos hechos: Requerimientos"
+
+#~ msgid "Total Time elapsed: :duration (seconds)"
+#~ msgstr "Tiempo total transcurrido: duración(segundos)"
+
+#~ msgid "The URL to request."
+#~ msgstr "La URL a solicitar."
+
+#~ msgid "Request History"
+#~ msgstr "Solicitando historial"
+
+#~ msgid "No previous requests logged."
+#~ msgstr "No existen solicitudes anteriores registradas."
+
+#~ msgid "previous requests available"
+#~ msgstr "Solicitudes anteriores disponibles"
+
+#~ msgid "Restore to current request"
+#~ msgstr "Restaurar la solicitud actual"
+
+#~ msgid "Included Files"
+#~ msgstr "Archivos incluidos"
+
+#~ msgid "Logs"
+#~ msgstr "Logs"
+
+#~ msgid "Time"
+#~ msgstr "Tiempo"
+
+#~ msgid "Message"
+#~ msgstr "Mensaje"
+
+#~ msgid "There were no log entries made this request"
+#~ msgstr "No hay entradas en el log para esta solicitud"
+
+#~ msgid "Request"
+#~ msgstr "Solicitud"
+
+#~ msgid "No querystring data."
+#~ msgstr "No existen datos en la consulta"
+
+#~ msgid "Session"
+#~ msgstr "Sesión"
+
+#~ msgid "Memory"
+#~ msgstr "Memoria"
+
+#~ msgid "%s (ms)"
+#~ msgstr "%s (ms)"
+
+#~ msgid "Graph"
+#~ msgstr "Gráfico"
+
+#~ msgid "Explain"
+#~ msgstr "Explicar"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "An Internal Error Has Occurred."
+#~ msgstr "Un error interno ha ocurrido."
+
+#~ msgid "Fatal Error"
+#~ msgstr "Error fatal"
+
+#~ msgid "File"
+#~ msgstr "Archivo"
+
+#~ msgid "Line"
+#~ msgstr "Línea"
+
+#~ msgid "Notice"
+#~ msgstr "Aviso"
+
+#~ msgid "%s could not be found."
+#~ msgstr "%s no se pudo encontrar."
+
+#~ msgid "The layout file %s can not be found or does not exist."
+#~ msgstr "El archivo de formato %s no puede ser encontrado o no existe."
+
+#~ msgid "Database Error"
+#~ msgstr "Error de Base de Datos"
+
+#~ msgid "Rename %s to %s"
+#~ msgstr "Renombrar %s a %s"
+
+#~ msgid "You can install it from %s"
+#~ msgstr "Tu puedes instalar este desde %s"
+
+#~ msgid "Editing this Page"
+#~ msgstr "Editando esta página"
+
+#~ msgid "Getting Started"
+#~ msgstr "Primeros Pasos"
+
+#~ msgid "New"
+#~ msgstr "Nuevo"
+
+#~ msgid "CakeFest"
+#~ msgstr "CakeFest"

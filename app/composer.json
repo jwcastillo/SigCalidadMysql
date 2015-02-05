@@ -1,0 +1,19 @@
+{
+	"name": "SIGCALIDAD",
+	"description": "Sistema de Gestión de Calidad IT",
+	"keywords": ["gestión", "cakephp", "calidad", "bancaribe"],
+	"license": "MIT",
+	"config": {
+		"vendor-dir": "vendors"
+	},
+	"require": {
+		"mjohnson/utility": "1.5.*",
+		"mjohnson/decoda": "*",
+		"titon/utility": "*",
+		"fmcorz/acl-manager": "stable", 
+		"cakephp/debug_kit": "2.2.*",
+		"josegonzalez/cakephp-upload": "1.1.1",
+		"torifat/cake-menu_builder": "2.0.3"
+	}
+	
+}

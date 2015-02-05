@@ -1,0 +1,4758 @@
+2014-12-18 11:20:26 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/622.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/622.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/622.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-18 11:20:26 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-18 11:20:26 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"622","name":"Correcci\u00f3n de un incidente en el proceso de Pago de Pensionados del IVSS","description":"Correcci\u00f3n de un incidente en el proceso de Pago de Pensionados del IVSS","username":"bc214569","ccs":"RFC 28305 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 316
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 316
+
+{"MtProyect":{"rfc":"622","name":"Correcci\u00f3n de un incidente en el proceso de Pago de Pensionados del IVSS","description":"Correcci\u00f3n de un incidente en el proceso de Pago de Pensionados del IVSS","username":"bc214569","ccs":"RFC 28305 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-18 11:20:26 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "366"
+    }
+}'
+###########################
+2014-12-19 10:26:33 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/621.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/621.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/621.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-19 10:26:33 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-19 10:26:34 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"621","name":"Agregar campo a reporte de Extra-Financiamiento en Inforcuenta","description":"Agregar campo a consulta de operaciones con cargo a TDC en Inforcuenta","username":"bc212173","ccs":"RFC 28259 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 294
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 294
+
+{"MtProyect":{"rfc":"621","name":"Agregar campo a reporte de Extra-Financiamiento en Inforcuenta","description":"Agregar campo a consulta de operaciones con cargo a TDC en Inforcuenta","username":"bc212173","ccs":"RFC 28259 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-19 10:26:34 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "367"
+    }
+}'
+###########################
+2014-12-19 10:49:26 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/623.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/623.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/623.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-19 10:49:26 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-19 10:49:26 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"623","name":"Actualizaci\u00f3n de Centralbonox con nueva versi\u00f3n","description":"Se requiere un paquete en harvest para la nueva versi\u00f3n de Centralbonox (fase II) que contempla la actualizaci\u00f3n de Swift (tesoreria)","username":"bc212173","ccs":"RFC 28302 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 363
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 363
+
+{"MtProyect":{"rfc":"623","name":"Actualizaci\u00f3n de Centralbonox con nueva versi\u00f3n","description":"Se requiere un paquete en harvest para la nueva versi\u00f3n de Centralbonox (fase II) que contempla la actualizaci\u00f3n de Swift (tesoreria)","username":"bc212173","ccs":"RFC 28302 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-19 10:49:26 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "368"
+    }
+}'
+###########################
+2014-12-19 10:53:41 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/624.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/624.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/624.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-19 10:53:41 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-19 10:53:41 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"624","name":"Actualizaci\u00f3n de Ultraflo con nueva versi\u00f3n","description":"Se requiere un paquete en harvest para la nueva versi\u00f3n de Ultraflo que contempla la actualizaci\u00f3n de Swift (tesoreria).","username":"bc212173","ccs":"RFC 28304 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 346
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 346
+
+{"MtProyect":{"rfc":"624","name":"Actualizaci\u00f3n de Ultraflo con nueva versi\u00f3n","description":"Se requiere un paquete en harvest para la nueva versi\u00f3n de Ultraflo que contempla la actualizaci\u00f3n de Swift (tesoreria).","username":"bc212173","ccs":"RFC 28304 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-19 10:53:41 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "369"
+    }
+}'
+###########################
+2014-12-22 09:12:21 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/625.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/625.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/625.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 09:12:21 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-22 09:12:21 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"625","name":"Resolucion de Conversion de Numero de Lote de Pago a Proveedores en el Procesamiento de Cobros y Pagos","description":"Corregir la conversion de varchar a entero del numero de lote en el componente que procesa los pagos de los lotes 1 a 1 en el PCP.","username":"bc212463","ccs":"RFC 28313 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 394
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 394
+
+{"MtProyect":{"rfc":"625","name":"Resolucion de Conversion de Numero de Lote de Pago a Proveedores en el Procesamiento de Cobros y Pagos","description":"Corregir la conversion de varchar a entero del numero de lote en el componente que procesa los pagos de los lotes 1 a 1 en el PCP.","username":"bc212463","ccs":"RFC 28313 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 09:12:21 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "370"
+    }
+}'
+###########################
+2014-12-22 09:14:11 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/626.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/626.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/626.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 09:14:11 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-22 09:14:12 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"626","name":"Inclusion del Estado ENV ","description":"Inclusion del Estado ENV (Enviado) para la actualizacion de estados de las transacciones Otros Bancos de los lotes en EDI","username":"bc212463","ccs":"RFC 28309 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 308
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 308
+
+{"MtProyect":{"rfc":"626","name":"Inclusion del Estado ENV ","description":"Inclusion del Estado ENV (Enviado) para la actualizacion de estados de las transacciones Otros Bancos de los lotes en EDI","username":"bc212463","ccs":"RFC 28309 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 09:14:12 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "371"
+    }
+}'
+###########################
+2014-12-22 09:20:31 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/627.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/627.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/627.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 09:20:31 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-22 09:20:31 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"627","name":"Depurar las opciones de Fideicomiso","description":"Depurar las opciones de Fideicomiso en el m\u00f3dulo de afiliaci\u00f3n de servicios, ya que estas no est\u00e1n relacionadas con dicho proceso","username":"bc214574","ccs":"RFC 28332 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 341
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 341
+
+{"MtProyect":{"rfc":"627","name":"Depurar las opciones de Fideicomiso","description":"Depurar las opciones de Fideicomiso en el m\u00f3dulo de afiliaci\u00f3n de servicios, ya que estas no est\u00e1n relacionadas con dicho proceso","username":"bc214574","ccs":"RFC 28332 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 09:20:31 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "372"
+    }
+}'
+###########################
+2014-12-22 16:05:29 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/628.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:05:29 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-22 16:05:29 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"628","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","username":"bc214569","ccs":"RFC 28143 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 232
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 232
+
+{"MtProyect":{"rfc":"628","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","username":"bc214569","ccs":"RFC 28143 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:05:29 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "373"
+    }
+}'
+###########################
+2014-12-22 16:32:29 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/628.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:32:29 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "373",
+        "mt_user_id": "2294",
+        "name": "CeCre (Piloto) - Fase II",
+        "description": "CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II",
+        "ccs": "RFC 28143 - 10",
+        "general_status": "0",
+        "rfc": "628",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214569"
+    }
+}'
+###########################
+2014-12-22 16:32:29 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/373.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'line' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 282
+',
+	'raw' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 282
+
+{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:32:29 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "373"
+    }
+}'
+###########################
+2014-12-22 16:33:11 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/628.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:33:11 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "373",
+        "mt_user_id": "2294",
+        "name": "CeCre (Piloto) - Fase II",
+        "description": "CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II",
+        "ccs": "RFC 28143 - 10,RFC 28143 - 40",
+        "general_status": "0",
+        "rfc": "628",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214569"
+    }
+}'
+###########################
+2014-12-22 16:33:11 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/373.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'line' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 297
+',
+	'raw' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 297
+
+{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:33:11 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "373"
+    }
+}'
+###########################
+2014-12-22 16:34:31 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/628.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:34:31 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "373",
+        "mt_user_id": "2294",
+        "name": "CeCre (Piloto) - Fase II",
+        "description": "CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II",
+        "ccs": "RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20",
+        "general_status": "0",
+        "rfc": "628",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214569"
+    }
+}'
+###########################
+2014-12-22 16:34:32 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/373.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20,RFC 28143 - 30","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'line' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 312
+',
+	'raw' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 312
+
+{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20,RFC 28143 - 30","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:34:32 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "373"
+    }
+}'
+###########################
+2014-12-22 16:35:24 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/628.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:35:24 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "373",
+        "mt_user_id": "2294",
+        "name": "CeCre (Piloto) - Fase II",
+        "description": "CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II",
+        "ccs": "RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20,RFC 28143 - 30",
+        "general_status": "0",
+        "rfc": "628",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214569"
+    }
+}'
+###########################
+2014-12-22 16:35:25 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/373.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20,RFC 28143 - 30,RFC 28324 - 1","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'line' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 326
+',
+	'raw' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 326
+
+{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20,RFC 28143 - 30,RFC 28324 - 1","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:35:25 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "373"
+    }
+}'
+###########################
+2014-12-22 16:35:56 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/628.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/628.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:35:56 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "373",
+        "mt_user_id": "2294",
+        "name": "CeCre (Piloto) - Fase II",
+        "description": "CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II",
+        "ccs": "RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20,RFC 28143 - 30,RFC 28324 - 1",
+        "general_status": "0",
+        "rfc": "628",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214569"
+    }
+}'
+###########################
+2014-12-22 16:35:57 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/373.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20,RFC 28143 - 30,RFC 28324 - 1","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'line' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 326
+',
+	'raw' => 'PUT /Methodology/mt_proyects/373.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 326
+
+{"MtProyect":{"id":"373","mt_user_id":"2294","name":"CeCre (Piloto) - Fase II","description":"CeCre (F\u00e1brica de Cr\u00e9ditos) Fase II","ccs":"RFC 28143 - 10,RFC 28143 - 40,RFC 28143 - 20,RFC 28143 - 30,RFC 28324 - 1","general_status":"0","rfc":"628","high_impact":false,"mt_status_proyect_id":"2","username":"bc214569"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 16:35:57 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "373"
+    }
+}'
+###########################
+2014-12-22 18:26:18 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/629.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/629.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/629.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 18:26:18 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-22 18:26:18 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"629","name":"Modificar la capacidad de caracteres","description":"Modificar la capacidad de caracteres que permite agregar Conexi\u00f3n Bancaribe para el registro de nuevos beneficiarios al realizar transferencias clientes juridicos","username":"bc214574","ccs":"RFC 28345 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 365
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 365
+
+{"MtProyect":{"rfc":"629","name":"Modificar la capacidad de caracteres","description":"Modificar la capacidad de caracteres que permite agregar Conexi\u00f3n Bancaribe para el registro de nuevos beneficiarios al realizar transferencias clientes juridicos","username":"bc214574","ccs":"RFC 28345 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 18:26:18 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "374"
+    }
+}'
+###########################
+2014-12-22 18:26:54 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/629.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/629.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/629.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 18:26:54 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "374",
+        "mt_user_id": "2309",
+        "name": "Modificar la capacidad de caracteres",
+        "description": "Modificar la capacidad de caracteres que permite agregar Conexi\u00f3n Bancaribe para el registro de nuevos beneficiarios al realizar transferencias clientes juridicos",
+        "ccs": "RFC 28345 - 1",
+        "general_status": "0",
+        "rfc": "629",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214574"
+    }
+}'
+###########################
+2014-12-22 18:26:54 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/374.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"374","mt_user_id":"2309","name":"Modificar la capacidad de caracteres","description":"Modificar la capacidad de caracteres que permite agregar Conexi\u00f3n Bancaribe para el registro de nuevos beneficiarios al realizar transferencias clientes juridicos","ccs":"RFC 28345 - 1,RFC 28300 - 1","general_status":"0","rfc":"629","high_impact":false,"mt_status_proyect_id":"2","username":"bc214574"}}',
+	'line' => 'PUT /Methodology/mt_proyects/374.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 414
+',
+	'raw' => 'PUT /Methodology/mt_proyects/374.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 414
+
+{"MtProyect":{"id":"374","mt_user_id":"2309","name":"Modificar la capacidad de caracteres","description":"Modificar la capacidad de caracteres que permite agregar Conexi\u00f3n Bancaribe para el registro de nuevos beneficiarios al realizar transferencias clientes juridicos","ccs":"RFC 28345 - 1,RFC 28300 - 1","general_status":"0","rfc":"629","high_impact":false,"mt_status_proyect_id":"2","username":"bc214574"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-22 18:26:54 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "374"
+    }
+}'
+###########################
+2014-12-23 15:49:36 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/623.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/623.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/623.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-23 15:49:36 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "368",
+        "mt_user_id": "16",
+        "name": "Actualizaci\u00f3n de Centralbonox con nueva versi\u00f3n",
+        "description": "Se requiere un paquete en harvest para la nueva versi\u00f3n de Centralbonox (fase II) que contempla la actualizaci\u00f3n de Swift (tesoreria)",
+        "ccs": "RFC 28302 - 10",
+        "general_status": "0",
+        "rfc": "623",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc212173"
+    }
+}'
+###########################
+2014-12-23 15:49:36 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/368.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"368","mt_user_id":"16","name":"Actualizaci\u00f3n de Centralbonox con nueva versi\u00f3n","description":"Se requiere un paquete en harvest para la nueva versi\u00f3n de Centralbonox (fase II) que contempla la actualizaci\u00f3n de Swift (tesoreria)","ccs":"RFC 28304 - 10,RFC 28302 - 10","general_status":"0","rfc":"623","high_impact":false,"mt_status_proyect_id":"2","username":"bc212173"}}',
+	'line' => 'PUT /Methodology/mt_proyects/368.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 411
+',
+	'raw' => 'PUT /Methodology/mt_proyects/368.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 411
+
+{"MtProyect":{"id":"368","mt_user_id":"16","name":"Actualizaci\u00f3n de Centralbonox con nueva versi\u00f3n","description":"Se requiere un paquete en harvest para la nueva versi\u00f3n de Centralbonox (fase II) que contempla la actualizaci\u00f3n de Swift (tesoreria)","ccs":"RFC 28304 - 10,RFC 28302 - 10","general_status":"0","rfc":"623","high_impact":false,"mt_status_proyect_id":"2","username":"bc212173"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-23 15:49:36 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "368"
+    }
+}'
+###########################
+2014-12-30 09:27:51 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/630.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/630.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/630.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-30 09:27:52 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2014-12-30 09:27:52 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"630","name":"Agregar permisos al usuario user_adminfoto","description":"Agregar permisos al usuario user_adminfoto sobre las vistas en la BD cob_imagen_atm","username":"BC214263","ccs":"RFC 28392 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 288
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 288
+
+{"MtProyect":{"rfc":"630","name":"Agregar permisos al usuario user_adminfoto","description":"Agregar permisos al usuario user_adminfoto sobre las vistas en la BD cob_imagen_atm","username":"BC214263","ccs":"RFC 28392 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2014-12-30 09:27:52 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "375"
+    }
+}'
+###########################
+2015-01-08 09:55:11 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/631.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/631.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/631.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-08 09:55:11 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-08 09:55:12 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"631","name":"Optimizar el tiempo de ejecuci\u00f3n en la consulta inicial del ETL","description":"Optimizar el tiempo de ejecuci\u00f3n en la consulta inicial del ETL Status_Cobro_TDC","username":"bc214574","ccs":"RFC 28403 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 315
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 315
+
+{"MtProyect":{"rfc":"631","name":"Optimizar el tiempo de ejecuci\u00f3n en la consulta inicial del ETL","description":"Optimizar el tiempo de ejecuci\u00f3n en la consulta inicial del ETL Status_Cobro_TDC","username":"bc214574","ccs":"RFC 28403 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-08 09:55:12 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "376"
+    }
+}'
+###########################
+2015-01-08 09:57:05 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/632.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/632.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/632.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-08 09:57:05 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-08 09:57:05 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"632","name":"Aceptar Transacciones de depositos con TimeOut - ATM","description":"","username":"bc214574","ccs":"RFC 28409 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 215
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 215
+
+{"MtProyect":{"rfc":"632","name":"Aceptar Transacciones de depositos con TimeOut - ATM","description":"","username":"bc214574","ccs":"RFC 28409 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-08 09:57:05 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "377"
+    }
+}'
+###########################
+2015-01-12 11:18:52 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/633.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/633.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/633.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-12 11:19:13 Rest: 
+########## RESPONSE ##########
+''
+###########################
+2015-01-12 11:19:47 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"633","name":"Ctacte: Modificar el programa de env\u00edo de compensaci\u00f3n para que tome los cheques depositados en Bangente","description":"Actualmente en el proceso de la camara de compensacion de cheques de otros bancos las Agencias hacen su envio de remesas de los cheques que procesaron en el d\u00eda. Este env\u00edo de remesas hace un asiento contable en la cuenta de la Agencia 116.99.101 y en la ","username":"bc214186","ccs":"RFC 28450 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 542
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 542
+
+{"MtProyect":{"rfc":"633","name":"Ctacte: Modificar el programa de env\u00edo de compensaci\u00f3n para que tome los cheques depositados en Bangente","description":"Actualmente en el proceso de la camara de compensacion de cheques de otros bancos las Agencias hacen su envio de remesas de los cheques que procesaron en el d\u00eda. Este env\u00edo de remesas hace un asiento contable en la cuenta de la Agencia 116.99.101 y en la ","username":"bc214186","ccs":"RFC 28450 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-12 11:19:53 Rest: 
+########## RESPONSE ##########
+''
+###########################
+2015-01-12 12:06:19 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/634.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/634.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/634.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-12 12:06:19 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-12 12:06:20 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"634","name":"SICAD II - Incluir en el visor de diario electr\u00f3nico las operaciones realizadas a trav\u00e9s del m\u00f3dulo de SICAD 2","description":"SICAD II - Incluir en el visor de diario electr\u00f3nico las operaciones realizadas a trav\u00e9s del m\u00f3dulo de SICAD 2","username":"bc22193","ccs":"25565","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 403
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 403
+
+{"MtProyect":{"rfc":"634","name":"SICAD II - Incluir en el visor de diario electr\u00f3nico las operaciones realizadas a trav\u00e9s del m\u00f3dulo de SICAD 2","description":"SICAD II - Incluir en el visor de diario electr\u00f3nico las operaciones realizadas a trav\u00e9s del m\u00f3dulo de SICAD 2","username":"bc22193","ccs":"25565","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-12 12:06:20 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "379"
+    }
+}'
+###########################
+2015-01-12 13:54:44 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/635.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/635.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/635.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-12 13:54:44 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-12 13:54:44 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"635","name":"BancaribeWeb: Optimizaci\u00f3n de la consulta de la llave del PinPad","description":"BancaribeWeb: Optimizaci\u00f3n de la consulta de la llave del PinPad","username":"bc22193","ccs":"RFC 28397 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 299
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 299
+
+{"MtProyect":{"rfc":"635","name":"BancaribeWeb: Optimizaci\u00f3n de la consulta de la llave del PinPad","description":"BancaribeWeb: Optimizaci\u00f3n de la consulta de la llave del PinPad","username":"bc22193","ccs":"RFC 28397 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-12 13:54:44 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "380"
+    }
+}'
+###########################
+2015-01-12 15:09:35 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/636.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/636.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/636.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-12 15:09:35 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-12 15:09:36 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"636","name":"Cambio de Banner\u2019s - Conexi\u00f3n Bancaribe","description":"","username":"bc213078","ccs":"RFC 28347 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 211
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 211
+
+{"MtProyect":{"rfc":"636","name":"Cambio de Banner\u2019s - Conexi\u00f3n Bancaribe","description":"","username":"bc213078","ccs":"RFC 28347 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-12 15:09:36 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "381"
+    }
+}'
+###########################
+2015-01-13 13:36:51 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/529.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/529.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/529.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-13 13:36:51 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "272",
+        "mt_user_id": "5",
+        "name": "BancaribeWeb: Recuperaci\u00f3n de pl\u00e1sticos en blanco",
+        "description": "BancaribeWeb: Recuperaci\u00f3n de pl\u00e1sticos en blanco",
+        "ccs": "25585",
+        "general_status": "100",
+        "rfc": "529",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc22193"
+    }
+}'
+###########################
+2015-01-13 13:36:52 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/272.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"272","mt_user_id":"5","name":"BancaribeWeb: Recuperaci\u00f3n de pl\u00e1sticos en blanco","description":"BancaribeWeb: Recuperaci\u00f3n de pl\u00e1sticos en blanco","ccs":"25585,RFC 28482 - 2","general_status":"100","rfc":"529","high_impact":false,"mt_status_proyect_id":"2","username":"bc22193"}}',
+	'line' => 'PUT /Methodology/mt_proyects/272.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 319
+',
+	'raw' => 'PUT /Methodology/mt_proyects/272.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 319
+
+{"MtProyect":{"id":"272","mt_user_id":"5","name":"BancaribeWeb: Recuperaci\u00f3n de pl\u00e1sticos en blanco","description":"BancaribeWeb: Recuperaci\u00f3n de pl\u00e1sticos en blanco","ccs":"25585,RFC 28482 - 2","general_status":"100","rfc":"529","high_impact":false,"mt_status_proyect_id":"2","username":"bc22193"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-13 13:36:52 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "272"
+    }
+}'
+###########################
+2015-01-13 13:51:15 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/637.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/637.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/637.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-13 13:51:15 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-13 13:51:15 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"637","name":"SAD Morosos: Creaci\u00f3n de 2 reportes (Reporte Producto Por Estado y Reporte Pagos Generales)","description":"Reporte Producto Por Estado y \r\nReporte Pagos Generales\r\n","username":"bc214186","ccs":"RFC 28274 - 2","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 319
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 319
+
+{"MtProyect":{"rfc":"637","name":"SAD Morosos: Creaci\u00f3n de 2 reportes (Reporte Producto Por Estado y Reporte Pagos Generales)","description":"Reporte Producto Por Estado y \r\nReporte Pagos Generales\r\n","username":"bc214186","ccs":"RFC 28274 - 2","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-13 13:51:15 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "382"
+    }
+}'
+###########################
+2015-01-13 13:52:03 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/637.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/637.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/637.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-13 13:52:03 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "382",
+        "mt_user_id": "2047",
+        "name": "SAD Morosos: Creaci\u00f3n de 2 reportes (Reporte Producto Por Estado y Reporte Pagos Generales)",
+        "description": "Reporte Producto Por Estado y \r\nReporte Pagos Generales\r\n",
+        "ccs": "RFC 28274 - 2",
+        "general_status": "0",
+        "rfc": "637",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214186"
+    }
+}'
+###########################
+2015-01-13 13:52:03 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/382.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"382","mt_user_id":"2047","name":"SAD Morosos: Creaci\u00f3n de 2 reportes (Reporte Producto Por Estado y Reporte Pagos Generales)","description":"Reporte Producto Por Estado y \r\nReporte Pagos Generales\r\n","ccs":"RFC 28274 - 2,RFC 28274 - 1","general_status":"0","rfc":"637","high_impact":false,"mt_status_proyect_id":"2","username":"bc214186"}}',
+	'line' => 'PUT /Methodology/mt_proyects/382.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 368
+',
+	'raw' => 'PUT /Methodology/mt_proyects/382.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 368
+
+{"MtProyect":{"id":"382","mt_user_id":"2047","name":"SAD Morosos: Creaci\u00f3n de 2 reportes (Reporte Producto Por Estado y Reporte Pagos Generales)","description":"Reporte Producto Por Estado y \r\nReporte Pagos Generales\r\n","ccs":"RFC 28274 - 2,RFC 28274 - 1","general_status":"0","rfc":"637","high_impact":false,"mt_status_proyect_id":"2","username":"bc214186"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-13 13:52:03 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "382"
+    }
+}'
+###########################
+2015-01-13 18:47:42 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/638.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/638.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/638.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-13 18:47:42 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-13 18:47:42 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"638","name":"Cambiar el mensaje de Feliz Cumplea\u00f1os para los clientes en Mi Conexi\u00f3n Bancaribe\/Notificaciones","description":"Se requiere cambiar el mensaje de Feliz Cumplea\u00f1os para los clientes en Mi Conexi\u00f3n Bancaribe\/Notificaciones.","username":"bc212173","ccs":"RFC 28489 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 389
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 389
+
+{"MtProyect":{"rfc":"638","name":"Cambiar el mensaje de Feliz Cumplea\u00f1os para los clientes en Mi Conexi\u00f3n Bancaribe\/Notificaciones","description":"Se requiere cambiar el mensaje de Feliz Cumplea\u00f1os para los clientes en Mi Conexi\u00f3n Bancaribe\/Notificaciones.","username":"bc212173","ccs":"RFC 28489 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-13 18:47:42 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "383"
+    }
+}'
+###########################
+2015-01-14 14:58:39 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/639.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/639.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/639.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-14 14:58:39 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-14 14:58:41 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"639","name":"Incidencia en el proceso de afiliacion de cuentas terceros y otros bancos desde conexion Bancaribe","description":"Mejora de seguridad en el proceso de afiliaci\u00f3n de cuentas terceros y otros bancos desde conexi\u00f3n Bancaribe","username":"bc212173","ccs":"RFC 28492 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 377
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 377
+
+{"MtProyect":{"rfc":"639","name":"Incidencia en el proceso de afiliacion de cuentas terceros y otros bancos desde conexion Bancaribe","description":"Mejora de seguridad en el proceso de afiliaci\u00f3n de cuentas terceros y otros bancos desde conexi\u00f3n Bancaribe","username":"bc212173","ccs":"RFC 28492 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-14 14:58:41 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "384"
+    }
+}'
+###########################
+2015-01-14 15:06:24 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/640.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/640.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/640.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-14 15:06:24 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-14 15:06:25 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"640","name":"Incidencia en el proceso de b\u00fasqueda para la verificaci\u00f3n positiva ","description":"Modificar el proceso de b\u00fasqueda de respuestas para la verificaci\u00f3n positiva de clientes solo Cuenta Electr\u00f3nica tipo Ahorro","username":"bc212173","ccs":"RFC 28486 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 378
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 378
+
+{"MtProyect":{"rfc":"640","name":"Incidencia en el proceso de b\u00fasqueda para la verificaci\u00f3n positiva ","description":"Modificar el proceso de b\u00fasqueda de respuestas para la verificaci\u00f3n positiva de clientes solo Cuenta Electr\u00f3nica tipo Ahorro","username":"bc212173","ccs":"RFC 28486 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-14 15:06:25 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "385"
+    }
+}'
+###########################
+2015-01-14 15:08:07 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/641.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/641.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/641.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-14 15:08:07 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-14 15:08:08 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"641","name":"Aumentar montos de Recarga Movistar","description":"","username":"bc214574","ccs":"RFC 28497 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 198
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 198
+
+{"MtProyect":{"rfc":"641","name":"Aumentar montos de Recarga Movistar","description":"","username":"bc214574","ccs":"RFC 28497 - 10","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-14 15:08:08 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "386"
+    }
+}'
+###########################
+2015-01-15 18:15:09 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/643.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/643.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/643.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-15 18:15:09 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-15 18:15:10 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"643","name":"Actualizaci\u00f3n del Encriptador Keyman para Gentran Server","description":"","username":"bc213316","ccs":"RFC 28491 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 223
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 223
+
+{"MtProyect":{"rfc":"643","name":"Actualizaci\u00f3n del Encriptador Keyman para Gentran Server","description":"","username":"bc213316","ccs":"RFC 28491 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-15 18:15:10 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "387"
+    }
+}'
+###########################
+2015-01-15 18:21:01 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/643.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/643.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/643.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-15 18:21:01 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "387",
+        "mt_user_id": "25",
+        "name": "Actualizaci\u00f3n del Encriptador Keyman para Gentran Server",
+        "description": "",
+        "ccs": "RFC 28491 - 1",
+        "general_status": "0",
+        "rfc": "643",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc213316"
+    }
+}'
+###########################
+2015-01-15 18:21:01 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/387.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"387","mt_user_id":"25","name":"Actualizaci\u00f3n del Encriptador Keyman para Gentran Server","description":"","ccs":"RFC 28491 - 1","general_status":"0","rfc":"643","high_impact":false,"mt_status_proyect_id":"2","username":"bc214574"}}',
+	'line' => 'PUT /Methodology/mt_proyects/387.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 256
+',
+	'raw' => 'PUT /Methodology/mt_proyects/387.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 256
+
+{"MtProyect":{"id":"387","mt_user_id":"25","name":"Actualizaci\u00f3n del Encriptador Keyman para Gentran Server","description":"","ccs":"RFC 28491 - 1","general_status":"0","rfc":"643","high_impact":false,"mt_status_proyect_id":"2","username":"bc214574"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-15 18:21:01 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "387"
+    }
+}'
+###########################
+2015-01-15 18:21:37 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/643.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/643.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/643.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-15 18:21:37 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "387",
+        "mt_user_id": "2309",
+        "name": "Actualizaci\u00f3n del Encriptador Keyman para Gentran Server",
+        "description": "",
+        "ccs": "RFC 28491 - 1",
+        "general_status": "0",
+        "rfc": "643",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214574"
+    }
+}'
+###########################
+2015-01-15 18:21:37 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/387.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"387","mt_user_id":"2309","name":"Actualizaci\u00f3n del Encriptador Keyman para Gentran Server","description":"","ccs":"RFC 28491 - 1","general_status":"0","rfc":"643","high_impact":false,"mt_status_proyect_id":"2","username":"bc214574"}}',
+	'line' => 'PUT /Methodology/mt_proyects/387.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 258
+',
+	'raw' => 'PUT /Methodology/mt_proyects/387.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 258
+
+{"MtProyect":{"id":"387","mt_user_id":"2309","name":"Actualizaci\u00f3n del Encriptador Keyman para Gentran Server","description":"","ccs":"RFC 28491 - 1","general_status":"0","rfc":"643","high_impact":false,"mt_status_proyect_id":"2","username":"bc214574"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-15 18:21:37 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "387"
+    }
+}'
+###########################
+2015-01-15 18:24:17 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/644.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/644.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/644.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-15 18:24:17 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-15 18:24:17 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"644","name":"Inventario de Tarjetas de Cr\u00e9dito Grabadas - PostImplantaci\u00f3n II","description":"Ajuste de Carga Hist\u00f3rica para tomar la fecha de entrega o \u00faltimo movimiento, de igual forma las consultas de Fecha de Emisi\u00f3n para el modulo Banca Virtual Inventario de Tarjetas de Cr\u00e9dito","username":"bc212173","ccs":"RFC 28471 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 445
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 445
+
+{"MtProyect":{"rfc":"644","name":"Inventario de Tarjetas de Cr\u00e9dito Grabadas - PostImplantaci\u00f3n II","description":"Ajuste de Carga Hist\u00f3rica para tomar la fecha de entrega o \u00faltimo movimiento, de igual forma las consultas de Fecha de Emisi\u00f3n para el modulo Banca Virtual Inventario de Tarjetas de Cr\u00e9dito","username":"bc212173","ccs":"RFC 28471 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-15 18:24:17 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "388"
+    }
+}'
+###########################
+2015-01-21 08:42:42 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/645.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/645.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/645.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-21 08:42:42 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-21 08:42:42 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"645","name":"SAD Morosos: Regularizaci\u00f3n en Harvest del componente: ETL_Proceso_Pago.dtsx","description":"SAD Morosos: Regularizaci\u00f3n en Harvest del componente: ETL_Proceso_Pago.dtsx","username":"bc214186","ccs":"25594","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 316
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 316
+
+{"MtProyect":{"rfc":"645","name":"SAD Morosos: Regularizaci\u00f3n en Harvest del componente: ETL_Proceso_Pago.dtsx","description":"SAD Morosos: Regularizaci\u00f3n en Harvest del componente: ETL_Proceso_Pago.dtsx","username":"bc214186","ccs":"25594","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-21 08:42:42 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "389"
+    }
+}'
+###########################
+2015-01-21 14:18:32 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/633.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/633.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/633.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-21 14:18:32 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "378",
+        "mt_user_id": "2047",
+        "name": "Ctacte: Modificar el programa de env\u00edo de compensaci\u00f3n para que tome los cheques depositados en Bangente",
+        "description": "Actualmente en el proceso de la camara de compensacion de cheques de otros bancos las Agencias hacen su envio de remesas de los cheques que procesaron en el d\u00eda. Este env\u00edo de remesas hace un asiento contable en la cuenta de la Agencia 116.99.101 y en la ",
+        "ccs": "RFC 28450 - 10",
+        "general_status": "78.145161290323",
+        "rfc": "633",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214186"
+    }
+}'
+###########################
+2015-01-21 14:18:33 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/378.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"378","mt_user_id":"2047","name":"Ctacte: Modificar el programa de env\u00edo de compensaci\u00f3n para que tome los cheques depositados en Bangente","description":"Actualmente en el proceso de la camara de compensacion de cheques de otros bancos las Agencias hacen su envio de remesas de los cheques que procesaron en el d\u00eda. Este env\u00edo de remesas hace un asiento contable en la cuenta de la Agencia 116.99.101 y en la ","ccs":"RFC 28450 - 10,RFC 28498 - 10","general_status":"78.145161290323","rfc":"633","high_impact":false,"mt_status_proyect_id":"2","username":"bc214186"}}',
+	'line' => 'PUT /Methodology/mt_proyects/378.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 606
+',
+	'raw' => 'PUT /Methodology/mt_proyects/378.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 606
+
+{"MtProyect":{"id":"378","mt_user_id":"2047","name":"Ctacte: Modificar el programa de env\u00edo de compensaci\u00f3n para que tome los cheques depositados en Bangente","description":"Actualmente en el proceso de la camara de compensacion de cheques de otros bancos las Agencias hacen su envio de remesas de los cheques que procesaron en el d\u00eda. Este env\u00edo de remesas hace un asiento contable en la cuenta de la Agencia 116.99.101 y en la ","ccs":"RFC 28450 - 10,RFC 28498 - 10","general_status":"78.145161290323","rfc":"633","high_impact":false,"mt_status_proyect_id":"2","username":"bc214186"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-21 14:18:33 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "378"
+    }
+}'
+###########################
+2015-01-21 14:20:57 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/646.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/646.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/646.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-21 14:20:57 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-21 14:20:58 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"646","name":"IVSS: Modificaci\u00f3n de una direcci\u00f3n IP de conexi\u00f3n a la VPN de IVSS","description":"IVSS: Modificaci\u00f3n de una direcci\u00f3n IP de conexi\u00f3n a la VPN de IVSS","username":"bc214186","ccs":"RFC 28505 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 326
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 326
+
+{"MtProyect":{"rfc":"646","name":"IVSS: Modificaci\u00f3n de una direcci\u00f3n IP de conexi\u00f3n a la VPN de IVSS","description":"IVSS: Modificaci\u00f3n de una direcci\u00f3n IP de conexi\u00f3n a la VPN de IVSS","username":"bc214186","ccs":"RFC 28505 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-21 14:20:58 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "390"
+    }
+}'
+###########################
+2015-01-22 10:34:41 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/647.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/647.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/647.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 10:34:41 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-22 10:34:41 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"647","name":"Optimizar el tiempo de ejecuci\u00f3n en la consulta inicial del ETL - Postimplantaci\u00f3n","description":"Otorgar permiso de ejecuci\u00f3n de un store procedure que corresponde al ETL_ActualizaStatusTDC","username":"bc214574","ccs":"RFC 28556 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 351
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 351
+
+{"MtProyect":{"rfc":"647","name":"Optimizar el tiempo de ejecuci\u00f3n en la consulta inicial del ETL - Postimplantaci\u00f3n","description":"Otorgar permiso de ejecuci\u00f3n de un store procedure que corresponde al ETL_ActualizaStatusTDC","username":"bc214574","ccs":"RFC 28556 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 10:34:41 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "391"
+    }
+}'
+###########################
+2015-01-22 11:49:48 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/649.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/649.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/649.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 11:49:48 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-22 11:49:48 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"649","name":"Descarga Journal IP por DNS","description":"","username":"bc214574","ccs":"RFC 28548 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 189
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 189
+
+{"MtProyect":{"rfc":"649","name":"Descarga Journal IP por DNS","description":"","username":"bc214574","ccs":"RFC 28548 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 11:49:48 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "392"
+    }
+}'
+###########################
+2015-01-22 14:09:59 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/650.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/650.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/650.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 14:09:59 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "35",
+        "mt_user_id": "13",
+        "name": "Cr\u00e9dito: Realizar las adecuaciones para incluir mejoras en la generaci\u00f3n del archivo de Cartera Dirigida que se env\u00eda mensualmente a la SUDEBAN",
+        "description": "Cr\u00e9dito: Realizar las adecuaciones para incluir mejoras en la generaci\u00f3n del archivo de Cartera Dirigida que se env\u00eda mensualmente a la SUDEBAN",
+        "ccs": "25318 ",
+        "general_status": "100",
+        "rfc": "650",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "BC211430"
+    }
+}'
+###########################
+2015-01-22 14:10:00 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/35.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"35","mt_user_id":"13","name":"Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end","description":"Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end","ccs":"RFC 28470 - 10","general_status":"100","rfc":"650","high_impact":false,"mt_status_proyect_id":"2","username":"bc22193"}}',
+	'line' => 'PUT /Methodology/mt_proyects/35.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 462
+',
+	'raw' => 'PUT /Methodology/mt_proyects/35.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 462
+
+{"MtProyect":{"id":"35","mt_user_id":"13","name":"Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end","description":"Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end","ccs":"RFC 28470 - 10","general_status":"100","rfc":"650","high_impact":false,"mt_status_proyect_id":"2","username":"bc22193"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 14:10:00 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "35"
+    }
+}'
+###########################
+2015-01-22 15:35:41 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/651.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/651.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/651.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 15:35:41 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-22 15:35:41 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"651","name":"Quitar Mensaje Navide\u00f1o del IVR","description":"Quitar el Mensaje Navide\u00f1o en el IVR y sustituirlo por el mensaje de bienvenida","username":"bc213316","ccs":"RFC 28570 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 282
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 282
+
+{"MtProyect":{"rfc":"651","name":"Quitar Mensaje Navide\u00f1o del IVR","description":"Quitar el Mensaje Navide\u00f1o en el IVR y sustituirlo por el mensaje de bienvenida","username":"bc213316","ccs":"RFC 28570 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 15:35:41 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "393"
+    }
+}'
+###########################
+2015-01-22 18:03:24 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/652.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/652.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/652.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 18:03:24 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-22 18:03:24 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"652","name":"Env\u00edo de Notificaciones Conexi\u00f3n Empresas a trav\u00e9s de Bancar Virtual ","description":"Enviar mensajes de Notificaciones a clientes jur\u00eddicos en Conexi\u00f3n Bancaribe, a trav\u00e9s de la funcionalidad de Carga de Notificaciones en el modulo de Banca Virtual, el cual ser\u00e1 dirigido a los siguientes perfiles: Usuario Maestro y para clientes bajo el a","username":"bc214574","ccs":"RFC 28541 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 521
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 521
+
+{"MtProyect":{"rfc":"652","name":"Env\u00edo de Notificaciones Conexi\u00f3n Empresas a trav\u00e9s de Bancar Virtual ","description":"Enviar mensajes de Notificaciones a clientes jur\u00eddicos en Conexi\u00f3n Bancaribe, a trav\u00e9s de la funcionalidad de Carga de Notificaciones en el modulo de Banca Virtual, el cual ser\u00e1 dirigido a los siguientes perfiles: Usuario Maestro y para clientes bajo el a","username":"bc214574","ccs":"RFC 28541 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 18:03:24 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "394"
+    }
+}'
+###########################
+2015-01-22 18:04:31 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/652.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/652.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/652.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 18:04:31 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "394",
+        "mt_user_id": "2309",
+        "name": "Env\u00edo de Notificaciones Conexi\u00f3n Empresas a trav\u00e9s de Bancar Virtual ",
+        "description": "Enviar mensajes de Notificaciones a clientes jur\u00eddicos en Conexi\u00f3n Bancaribe, a trav\u00e9s de la funcionalidad de Carga de Notificaciones en el modulo de Banca Virtual, el cual ser\u00e1 dirigido a los siguientes perfiles: Usuario Maestro y para clientes bajo el a",
+        "ccs": "RFC 28541 - 1",
+        "general_status": "0",
+        "rfc": "652",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc214574"
+    }
+}'
+###########################
+2015-01-22 18:04:32 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/394.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"394","mt_user_id":"2309","name":"Env\u00edo de Notificaciones Conexi\u00f3n Empresas a trav\u00e9s de Bancar Virtual ","description":"Enviar mensajes de Notificaciones a clientes jur\u00eddicos en Conexi\u00f3n Bancaribe, a trav\u00e9s de la funcionalidad de Carga de Notificaciones en el modulo de Banca Virtual, el cual ser\u00e1 dirigido a los siguientes perfiles: Usuario Maestro y para clientes bajo el a","ccs":"RFC 28541 - 1,RFC 28540 - 1","general_status":"0","rfc":"652","high_impact":false,"mt_status_proyect_id":"2","username":"bc214574"}}',
+	'line' => 'PUT /Methodology/mt_proyects/394.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 570
+',
+	'raw' => 'PUT /Methodology/mt_proyects/394.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 570
+
+{"MtProyect":{"id":"394","mt_user_id":"2309","name":"Env\u00edo de Notificaciones Conexi\u00f3n Empresas a trav\u00e9s de Bancar Virtual ","description":"Enviar mensajes de Notificaciones a clientes jur\u00eddicos en Conexi\u00f3n Bancaribe, a trav\u00e9s de la funcionalidad de Carga de Notificaciones en el modulo de Banca Virtual, el cual ser\u00e1 dirigido a los siguientes perfiles: Usuario Maestro y para clientes bajo el a","ccs":"RFC 28541 - 1,RFC 28540 - 1","general_status":"0","rfc":"652","high_impact":false,"mt_status_proyect_id":"2","username":"bc214574"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 18:04:32 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "394"
+    }
+}'
+###########################
+2015-01-22 18:17:16 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/653.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/653.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/653.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 18:17:16 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-22 18:17:16 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"653","name":"Mi Factura \u201cPagador Externo\u201d","description":"El error se presenta al momento de afiliar un nuevo cliente, el cual su razon social excede la cantidad de caracteres establecidos en base de datos","username":"bc213316","ccs":"RFC 28507 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 347
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 347
+
+{"MtProyect":{"rfc":"653","name":"Mi Factura \u201cPagador Externo\u201d","description":"El error se presenta al momento de afiliar un nuevo cliente, el cual su razon social excede la cantidad de caracteres establecidos en base de datos","username":"bc213316","ccs":"RFC 28507 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-22 18:17:16 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "395"
+    }
+}'
+###########################
+2015-01-23 11:19:35 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/654.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/654.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/654.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-23 11:19:35 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-23 11:19:35 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"654","name":"Pago TDC Bangente Conexi\u00f3n Bancaribe","description":"Pago de TDC con cuentas BANGENTE desde Conexi\u00f3n Bancaribe","username":"bc213078","ccs":"RFC 28557 - 2","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 265
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 265
+
+{"MtProyect":{"rfc":"654","name":"Pago TDC Bangente Conexi\u00f3n Bancaribe","description":"Pago de TDC con cuentas BANGENTE desde Conexi\u00f3n Bancaribe","username":"bc213078","ccs":"RFC 28557 - 2","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-23 11:19:35 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "396"
+    }
+}'
+###########################
+2015-01-23 11:20:10 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/654.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/654.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/654.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-23 11:20:10 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "396",
+        "mt_user_id": "23",
+        "name": "Pago TDC Bangente Conexi\u00f3n Bancaribe",
+        "description": "Pago de TDC con cuentas BANGENTE desde Conexi\u00f3n Bancaribe",
+        "ccs": "RFC 28557 - 2",
+        "general_status": "0",
+        "rfc": "654",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc213078"
+    }
+}'
+###########################
+2015-01-23 11:20:10 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/396.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"396","mt_user_id":"23","name":"Pago TDC Bangente Conexi\u00f3n Bancaribe","description":"Pago de TDC con cuentas BANGENTE desde Conexi\u00f3n Bancaribe","ccs":"RFC 28557 - 2,RFC 28557 - 1","general_status":"0","rfc":"654","high_impact":false,"mt_status_proyect_id":"2","username":"bc213078"}}',
+	'line' => 'PUT /Methodology/mt_proyects/396.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 312
+',
+	'raw' => 'PUT /Methodology/mt_proyects/396.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 312
+
+{"MtProyect":{"id":"396","mt_user_id":"23","name":"Pago TDC Bangente Conexi\u00f3n Bancaribe","description":"Pago de TDC con cuentas BANGENTE desde Conexi\u00f3n Bancaribe","ccs":"RFC 28557 - 2,RFC 28557 - 1","general_status":"0","rfc":"654","high_impact":false,"mt_status_proyect_id":"2","username":"bc213078"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-23 11:20:10 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "396"
+    }
+}'
+###########################
+2015-01-26 17:47:03 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/655.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/655.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/655.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-26 17:47:03 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-26 17:47:03 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"655","name":"Mi Factura - Modificaci\u00f3n del par\u00e1metro de servidor de correo por defecto","description":"Modificaci\u00f3n del par\u00e1metro de servidor de correo por defecto, para habilitar el env\u00edo de notificaciones en cambio de claves, m\u00f3dulo Mi Factura \u2013 Mi Cobrador","username":"bc212463","ccs":"RFC 28571 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 426
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 426
+
+{"MtProyect":{"rfc":"655","name":"Mi Factura - Modificaci\u00f3n del par\u00e1metro de servidor de correo por defecto","description":"Modificaci\u00f3n del par\u00e1metro de servidor de correo por defecto, para habilitar el env\u00edo de notificaciones en cambio de claves, m\u00f3dulo Mi Factura \u2013 Mi Cobrador","username":"bc212463","ccs":"RFC 28571 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-26 17:47:03 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "397"
+    }
+}'
+###########################
+2015-01-26 18:17:26 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/650.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/650.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/650.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-26 18:17:26 Rest: 
+########## RESPONSE ##########
+'
+{
+    "MtProyect": {
+        "id": "35",
+        "mt_user_id": "5",
+        "name": "Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end",
+        "description": "Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end",
+        "ccs": "RFC 28470 - 10",
+        "general_status": "100",
+        "rfc": "650",
+        "high_impact": "0",
+        "mt_status_proyect_id": "2",
+        "username": "bc22193"
+    }
+}'
+###########################
+2015-01-26 18:17:26 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'PUT',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/35.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"id":"35","mt_user_id":"5","name":"Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end","description":"Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end","ccs":"RFC 28470 - 10","general_status":"100","rfc":"650","high_impact":false,"mt_status_proyect_id":"2","username":"bc214425"}}',
+	'line' => 'PUT /Methodology/mt_proyects/35.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 462
+',
+	'raw' => 'PUT /Methodology/mt_proyects/35.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 462
+
+{"MtProyect":{"id":"35","mt_user_id":"5","name":"Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end","description":"Cartera: Creaci\u00f3n de nuevos campos en el reporte de Reprecio y optimizaci\u00f3n del proceso de ajustes de detalle via front-end","ccs":"RFC 28470 - 10","general_status":"100","rfc":"650","high_impact":false,"mt_status_proyect_id":"2","username":"bc214425"}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-26 18:17:26 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The mt proyect has been saved.",
+    "MtProyect": {
+        "id": "35"
+    }
+}'
+###########################
+2015-01-28 20:58:03 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'GET',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects/viewRfc/656.json',
+		'query' => array(
+			'null' => ''
+		),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '',
+	'line' => 'GET /Methodology/mt_proyects/viewRfc/656.json?null HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+',
+	'raw' => 'GET /Methodology/mt_proyects/viewRfc/656.json?null HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+
+',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-28 20:58:03 Rest: 
+########## RESPONSE ##########
+'
+null'
+###########################
+2015-01-28 20:58:04 Rest: 
+########## REQUEST ##########
+array(
+	'method' => 'POST',
+	'uri' => array(
+		'host' => '*****',
+		'port' => '*****',
+		'scheme' => 'http',
+		'user' => 'rest',
+		'pass' => '123456',
+		'path' => '/Methodology/mt_proyects.json',
+		'query' => array(),
+		'fragment' => null
+	),
+	'version' => '1.1',
+	'body' => '{"MtProyect":{"rfc":"656","name":"Modificaci\u00f3n del Proceso en caso de cobro TDC","description":"Modificar el proceso que realiza actualizaci\u00f3n en los casos de clientes que presentan TDC con estatus vencidos.","username":"bc212463","ccs":"RFC 28636 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'line' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+',
+	'header' => 'Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 328
+',
+	'raw' => 'POST /Methodology/mt_proyects.json HTTP/1.1
+Host: saqawssh01.tpr.bancaribe:82
+Connection: close
+User-Agent: CakePHP
+Content-Type: application/json
+Authorization: Basic cmVzdDoxMjM0NTY=
+Content-Length: 328
+
+{"MtProyect":{"rfc":"656","name":"Modificaci\u00f3n del Proceso en caso de cobro TDC","description":"Modificar el proceso que realiza actualizaci\u00f3n en los casos de clientes que presentan TDC con estatus vencidos.","username":"bc212463","ccs":"RFC 28636 - 1","high_impact":false,"general_status":0,"mt_status_proyect_id":2}}',
+	'redirect' => false,
+	'cookies' => array(),
+	'proxy' => array()
+)
+###########################
+2015-01-28 20:58:04 Rest: 
+########## RESPONSE ##########
+'
+{
+    "message": "The proyect has been saved.",
+    "MtProyect": {
+        "id": "398"
+    }
+}'
+###########################
